@@ -1,0 +1,9 @@
+{
+  "subjects": [
+    {
+      "id": "philosophy",
+      "title": "哲学",
+      "file": "./data/philosophy.json"
+    }
+  ]
+}

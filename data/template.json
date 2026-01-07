@@ -1,0 +1,29 @@
+{
+  "subject": "Template",
+  "terms": [
+    {
+      "term": "用語A",
+      "definition": "用語Aの定義をここに書く。",
+      "example": "例文があればここに書く。",
+      "chapter": "第1回",
+      "source": "template"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "問題文をここに書く。",
+      "options": [
+        { "key": "a", "text": "選択肢A" },
+        { "key": "b", "text": "選択肢B" },
+        { "key": "c", "text": "選択肢C" },
+        { "key": "d", "text": "選択肢D" }
+      ],
+      "answer_text": "選択肢A",
+      "answer_key": "a",
+      "explanation": "正解理由をここに書く。",
+      "other_explanations": "他選択肢が誤りである理由を簡潔に書く。",
+      "chapter": "第1回",
+      "source": "template"
+    }
+  ]
+}
