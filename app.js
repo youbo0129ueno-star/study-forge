@@ -13,6 +13,7 @@ const state = {
   termIndex: 0,
   quizIndex: 0,
   page: 'main',
+  direction: 'en-ja',
   session: {
     queue: [],
     cursor: 0,
@@ -54,7 +55,15 @@ const els = {
   sessionReviewView: document.getElementById('sessionReviewView'),
   cardTitle: document.getElementById('cardTitle'),
   cardBody: document.getElementById('cardBody'),
-  cardExample: document.getElementById('cardExample'),
+  cardMeta: document.getElementById('cardMeta'),
+  cardSynonymsBlock: document.getElementById('cardSynonymsBlock'),
+  cardSynonyms: document.getElementById('cardSynonyms'),
+  cardDerivativesBlock: document.getElementById('cardDerivativesBlock'),
+  cardDerivatives: document.getElementById('cardDerivatives'),
+  cardPhrasesBlock: document.getElementById('cardPhrasesBlock'),
+  cardPhrases: document.getElementById('cardPhrases'),
+  cardExamplesBlock: document.getElementById('cardExamplesBlock'),
+  cardExamples: document.getElementById('cardExamples'),
   cardTag: document.getElementById('cardTag'),
   revealBtn: document.getElementById('revealBtn'),
   knownBtn: document.getElementById('knownBtn'),
@@ -82,6 +91,8 @@ const els = {
   reviewNextBtn: document.getElementById('reviewNextBtn'),
   reviewBackBtn: document.getElementById('reviewBackBtn'),
   netStatus: document.getElementById('netStatus'),
+  directionEnJa: document.getElementById('directionEnJa'),
+  directionJaEn: document.getElementById('directionJaEn'),
 };
 
 function updateNetStatus() {
@@ -211,28 +222,78 @@ function renderTerm() {
   if (!state.terms.length) {
     els.cardTitle.textContent = 'データがありません';
     els.cardBody.textContent = '用語データを追加してください。';
-    els.cardExample.textContent = '';
-    els.cardExample.classList.add('hidden');
+    els.cardMeta.classList.add('hidden');
+    els.cardSynonymsBlock.classList.add('hidden');
+    els.cardDerivativesBlock.classList.add('hidden');
+    els.cardPhrasesBlock.classList.add('hidden');
+    els.cardExamplesBlock.classList.add('hidden');
     return;
   }
   const term = state.terms[state.termIndex];
-  els.cardTitle.textContent = term.term;
+  const front = state.direction === 'en-ja'
+    ? (term.term || '用語が未設定です。')
+    : (term.definition || '定義が未設定です。');
+  const back = state.direction === 'en-ja'
+    ? (term.definition || '定義が未設定です。')
+    : (term.term || '用語が未設定です。');
+  els.cardTitle.textContent = front;
   els.cardTag.textContent = term.chapter || '';
   if (state.revealed) {
-    els.cardBody.textContent = term.definition || '定義が未設定です。';
+    els.cardBody.textContent = back;
     els.revealBtn.textContent = '答えを隠す';
-    if (term.example) {
-      els.cardExample.textContent = `例文: ${term.example}`;
-      els.cardExample.classList.remove('hidden');
-    } else {
-      els.cardExample.textContent = '';
-      els.cardExample.classList.add('hidden');
-    }
+    renderMeta(term);
   } else {
-    els.cardBody.textContent = 'クリックして定義を表示';
+    els.cardBody.textContent = state.direction === 'en-ja'
+      ? 'クリックして定義を表示'
+      : 'クリックして英語を表示';
     els.revealBtn.textContent = '答えを見る';
-    els.cardExample.textContent = '';
-    els.cardExample.classList.add('hidden');
+    els.cardMeta.classList.add('hidden');
+    els.cardSynonymsBlock.classList.add('hidden');
+    els.cardDerivativesBlock.classList.add('hidden');
+    els.cardPhrasesBlock.classList.add('hidden');
+    els.cardExamplesBlock.classList.add('hidden');
+  }
+}
+
+function formatMetaItem(item) {
+  if (!item) return '';
+  if (typeof item === 'string') return item;
+  const pieces = [];
+  if (item.term) pieces.push(item.term);
+  if (item.definition) pieces.push(item.definition);
+  return pieces.join(' - ');
+}
+
+function renderMetaList(blockEl, listEl, items) {
+  listEl.innerHTML = '';
+  const normalized = (Array.isArray(items) ? items : [])
+    .map(formatMetaItem)
+    .filter(Boolean);
+  if (!normalized.length) {
+    blockEl.classList.add('hidden');
+    return false;
+  }
+  normalized.forEach((text) => {
+    const li = document.createElement('li');
+    li.textContent = text;
+    listEl.appendChild(li);
+  });
+  blockEl.classList.remove('hidden');
+  return true;
+}
+
+function renderMeta(term) {
+  const examples = [];
+  if (term.example) examples.push(term.example);
+  if (Array.isArray(term.examples)) examples.push(...term.examples);
+  const hasSynonyms = renderMetaList(els.cardSynonymsBlock, els.cardSynonyms, term.synonyms);
+  const hasDerivatives = renderMetaList(els.cardDerivativesBlock, els.cardDerivatives, term.derivatives);
+  const hasPhrases = renderMetaList(els.cardPhrasesBlock, els.cardPhrases, term.phrases);
+  const hasExamples = renderMetaList(els.cardExamplesBlock, els.cardExamples, examples);
+  if (hasSynonyms || hasDerivatives || hasPhrases || hasExamples) {
+    els.cardMeta.classList.remove('hidden');
+  } else {
+    els.cardMeta.classList.add('hidden');
   }
 }
 
@@ -494,28 +555,46 @@ function buildTermQuizzes() {
   state.termQuizzes = state.terms.map((term) => {
     const candidates = state.terms.filter(t => t.term !== term.term);
     shuffleArray(candidates);
-    const distractors = candidates.slice(0, 3).map(t => t.definition || '定義が未設定です。');
+    const useJa = state.direction === 'en-ja';
+    const correctText = useJa
+      ? (term.definition || '定義が未設定です。')
+      : (term.term || '用語が未設定です。');
+    const distractors = candidates.slice(0, 3).map(t => (
+      useJa
+        ? (t.definition || '定義が未設定です。')
+        : (t.term || '用語が未設定です。')
+    ));
     const options = [
-      { key: 'a', text: term.definition || '定義が未設定です。' },
+      { key: 'a', text: correctText },
       { key: 'b', text: distractors[0] || '定義が未設定です。' },
       { key: 'c', text: distractors[1] || '定義が未設定です。' },
       { key: 'd', text: distractors[2] || '定義が未設定です。' },
     ];
     shuffleArray(options);
-    const answer = options.find(opt => opt.text === (term.definition || '定義が未設定です。'));
+    const answer = options.find(opt => opt.text === correctText);
     return {
-      question: `「${term.term}」の定義として最も適切なものを選びなさい。`,
+      question: useJa
+        ? `「${term.term}」の定義として最も適切なものを選びなさい。`
+        : `「${term.definition || '定義が未設定です。'}」の英語として最も適切なものを選びなさい。`,
       options,
       answer_text: answer.text,
       answer_key: answer.key,
-      explanation: term.example
-        ? `${term.definition || '定義が未設定です。'} 例文: ${term.example}`
-        : (term.definition || '定義が未設定です。'),
+      explanation: buildTermExplanation(term),
       other_explanations: '用語の意味は用語整理を参照して確認する。',
       chapter: term.chapter,
       source: term.source,
     };
   });
+}
+
+function buildTermExplanation(term) {
+  const pieces = [];
+  if (term.definition) pieces.push(term.definition);
+  if (term.example) pieces.push(`例文: ${term.example}`);
+  if (Array.isArray(term.examples) && term.examples.length) {
+    pieces.push(`例文: ${term.examples.join(' / ')}`);
+  }
+  return pieces.join(' ');
 }
 
 function applyFilters() {
@@ -603,6 +682,19 @@ function setupListeners() {
     els.modeTerms.classList.remove('is-active');
     state.page = 'main';
     render();
+  });
+  els.directionEnJa.addEventListener('click', () => {
+    state.direction = 'en-ja';
+    els.directionEnJa.classList.add('is-active');
+    els.directionJaEn.classList.remove('is-active');
+    applyFilters();
+  });
+
+  els.directionJaEn.addEventListener('click', () => {
+    state.direction = 'ja-en';
+    els.directionJaEn.classList.add('is-active');
+    els.directionEnJa.classList.remove('is-active');
+    applyFilters();
   });
   els.startQuizBtn.addEventListener('click', () => {
     startSession();

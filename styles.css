@@ -262,13 +262,34 @@ button.primary {
   line-height: 1.6;
 }
 
-.card-example {
-  font-size: 15px;
-  line-height: 1.6;
-  margin-top: 12px;
-  color: rgba(31, 42, 36, 0.78);
-  padding-left: 10px;
-  border-left: 2px solid rgba(31, 42, 36, 0.2);
+.card-meta {
+  display: grid;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: rgba(31, 42, 36, 0.04);
+}
+
+.meta-block {
+  display: grid;
+  gap: 6px;
+}
+
+.meta-title {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(31, 42, 36, 0.6);
+}
+
+.meta-list {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 4px;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .tag {

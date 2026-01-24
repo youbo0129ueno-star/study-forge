@@ -1,0 +1,930 @@
+{
+  "subject": "TOEIC Supplement1",
+  "terms": [
+    {
+      "term": "face",
+      "definition": "〜の方を向く",
+      "example": "向かい合う/向く。例: They are facing each other.（彼らは向かい合っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "wear",
+      "definition": "着用する/着る",
+      "example": "身につける。例: A man is wearing headphones.（男性がヘッドホンを着用している）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "point",
+      "definition": "指す",
+      "example": "指で示す。例: A man is pointing at a screen.（男性が画面を指している）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "shelf",
+      "definition": "棚",
+      "example": "例: The shelves are full of books.（棚が本でいっぱいだ）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "ladder",
+      "definition": "はしご",
+      "example": "例: A man is standing on a ladder.（男性がはしごに立っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "trim",
+      "definition": "刈りそろえる",
+      "example": "植物などを刈る。例: A man is trimming some bushes.（男性が茂みを刈りそろえている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "examine",
+      "definition": "詳しく調べる/チェックする",
+      "example": "例: A woman is examining a document.（女性が書類を詳しく調べている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "greet",
+      "definition": "挨拶する",
+      "example": "例: They're greeting each other.（彼らは互いに挨拶している）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "sweep",
+      "definition": "掃く",
+      "example": "例: A man is sweeping the floor.（男性が床を掃いている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "adjust",
+      "definition": "調節する/調整する",
+      "example": "例: He's adjusting some equipment.（彼は機器を調節している）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "head",
+      "definition": "向かう",
+      "example": "head toward。例: Some people are heading toward a plane.（数名が飛行機に向かっている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "handle",
+      "definition": "手で扱う/扱う",
+      "example": "例: She's handling some luggage.（彼女は荷物を扱っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "lean",
+      "definition": "寄りかかる/もたれる",
+      "example": "例: A ladder is leaning against a building.（はしごが建物にもたれている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "cashier",
+      "definition": "レジ係",
+      "example": "例: A woman is paying a cashier.（女性がレジ係に支払っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "polish",
+      "definition": "磨く",
+      "example": "例: The floor is being polished.（床が磨かれている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "lid",
+      "definition": "ふた",
+      "example": "例: A man is holding a lid open.（男性がふたを開けて持っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "stool",
+      "definition": "スツール（背もたれのない椅子）",
+      "example": "例: A woman is sitting on a stool.（女性がスツールに座っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "crosswalk",
+      "definition": "横断歩道",
+      "example": "例: They're walking on a crosswalk.（彼らは横断歩道を歩いている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "brick",
+      "definition": "レンガ",
+      "example": "例: He's working beside a brick wall.（レンガの壁のそばで作業している）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "hang",
+      "definition": "（絵などが）かかる",
+      "example": "例: Some pictures are hanging on the wall.（絵が壁にかかっている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "kneel",
+      "definition": "ひざをつく",
+      "example": "例: A man is kneeling on the floor.（男性が床にひざをついている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "sew",
+      "definition": "縫う",
+      "example": "例: A woman is sewing an item.（女性が何かを縫っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "be propped up against",
+      "definition": "〜に立てかけられる",
+      "example": "例: Ladders are propped up against a wall.（はしごが壁に立てかけられている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "walkway",
+      "definition": "歩道",
+      "example": "例: A man is standing on a walkway.（男性が歩道に立っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "side by side",
+      "definition": "並んで",
+      "example": "例: They're walking side by side.（彼らは並んで歩いている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "applaud",
+      "definition": "拍手を送る",
+      "example": "例: Some people are applauding the presenter.（数名が発表者に拍手を送っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "water",
+      "definition": "水をかける",
+      "example": "例: A woman is watering some plants.（女性が植物に水をやっている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "fasten",
+      "definition": "結ぶ/留める",
+      "example": "例: A woman is fastening an apron.（女性がエプロンを結んでいる）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "hallway",
+      "definition": "廊下",
+      "example": "例: There are some boxes in the hallway.（廊下に箱がある）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "microscope",
+      "definition": "顕微鏡",
+      "example": "例: The man is using a microscope.（男性が顕微鏡を使っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "mount",
+      "definition": "（上に）据える/固定する",
+      "example": "例: Some paintings are mounted on a wall.（絵が壁に据え付けられている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "audience",
+      "definition": "観衆",
+      "example": "例: A band is performing for the audience.（バンドが観衆に向けて演奏している）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "plaza",
+      "definition": "広場",
+      "example": "例: Some people are walking through a plaza.（人々が広場を通っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "glove",
+      "definition": "手袋",
+      "example": "例: A woman is wearing gloves.（女性が手袋をしている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "place",
+      "definition": "置く",
+      "example": "例: Printers have been placed against the wall.（プリンターが壁際に置かれている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "protective",
+      "definition": "防護用の",
+      "example": "例: A woman is wearing protective clothing.（女性が防護服を着ている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "scattered",
+      "definition": "散らばっている",
+      "example": "例: Some papers are scattered on a table.（書類が机に散らばっている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "artwork",
+      "definition": "芸術作品",
+      "example": "例: People are gathered near an artwork.（人々が芸術作品の近くに集まっている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "cast a shadow",
+      "definition": "影を落とす",
+      "example": "例: A ladder is casting a shadow.（はしごが影を落としている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "page through",
+      "definition": "（ページを）めくる",
+      "example": "例: He's paging through reading material.（読み物のページをめくっている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "row",
+      "definition": "列",
+      "example": "例: Cars are parked in a row.（車が一列に止まっている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "reach",
+      "definition": "手を伸ばす",
+      "example": "例: She's reaching into her bag.（彼女がバッグの中に手を伸ばしている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "diner",
+      "definition": "食事客",
+      "example": "例: Diners are seated inside.（食事客が屋内で座っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "pour",
+      "definition": "注ぐ",
+      "example": "例: A woman is pouring some juice.（女性がジュースを注いでいる）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "load",
+      "definition": "積み込む",
+      "example": "例: They're loading some boxes onto the truck.（箱をトラックに積み込んでいる）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "board",
+      "definition": "乗り込む",
+      "example": "例: Passengers are boarding a train.（乗客が列車に乗り込んでいる）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "pot",
+      "definition": "鍋/鉢",
+      "example": "例: There are pots on the table.（テーブルの上に鍋がある）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "garbage can",
+      "definition": "ごみ箱",
+      "example": "例: He's walking by a garbage can.（彼はごみ箱のそばを歩いている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "stack",
+      "definition": "積み重ねる",
+      "example": "例: Some dishes are stacked on a table.（皿がテーブルに積み重なっている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "drawer",
+      "definition": "引き出し",
+      "example": "例: She's opening a drawer.（彼女が引き出しを開けている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "instrument",
+      "definition": "楽器",
+      "example": "例: He's playing an instrument.（彼は楽器を演奏している）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "remove",
+      "definition": "取り出す/取り外す",
+      "example": "例: She's removing a book from her handbag.（彼女がバッグから本を取り出している）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "cargo",
+      "definition": "貨物/積み荷",
+      "example": "例: They're loading some cargo onto a ship.（彼らは貨物を船に積み込んでいる）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "auditorium",
+      "definition": "講堂/ホール",
+      "example": "例: Some people are seated in an auditorium.（人々が講堂に座っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "railing",
+      "definition": "手すり",
+      "example": "例: He's leaning on a railing.（彼は手すりにもたれている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "sit opposite",
+      "definition": "向き合って座る",
+      "example": "例: They're sitting opposite each other.（彼らは向き合って座っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "in the distance",
+      "definition": "遠くに",
+      "example": "例: There are some mountains in the distance.（遠くに山が見える）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "mow",
+      "definition": "芝を刈る",
+      "example": "例: A man is mowing the lawn.（男性が芝生を刈っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "vase",
+      "definition": "花瓶",
+      "example": "例: The vase is filled with flowers.（花瓶に花がいっぱいだ）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "fountain",
+      "definition": "噴水",
+      "example": "例: A fountain is spraying water.（噴水が水を噴射している）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "intersection",
+      "definition": "交差点",
+      "example": "例: Some people are waiting at the intersection.（人々が交差点で待っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "platform",
+      "definition": "台/プラットフォーム",
+      "example": "例: There are some chairs on the platform.（台の上に椅子がある）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "dock",
+      "definition": "波止場/埠頭",
+      "example": "例: Some boats are tied to the dock.（ボートが波止場につながれている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "glance",
+      "definition": "ちらっと見る",
+      "example": "例: He's glancing at a magazine.（彼は雑誌をちらっと見ている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "cupboard",
+      "definition": "食器棚",
+      "example": "例: There are some dishes in the cupboard.（食器棚に皿がある）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "exit",
+      "definition": "出る/出口",
+      "example": "例: A woman is exiting a vehicle.（女性が車から出ようとしている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "workstation",
+      "definition": "作業場/仕事場",
+      "example": "例: Some people are sitting at their workstations.（人々が仕事場に座っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "gaze",
+      "definition": "じっと見る",
+      "example": "例: He is gazing out the window.（彼は窓の外をじっと見ている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "curb",
+      "definition": "縁石",
+      "example": "例: A car is parked at a curb.（車が縁石に止まっている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "slanted",
+      "definition": "傾斜した/斜めの",
+      "example": "例: The roof of the house is slanted.（家の屋根が斜めになっている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "staircase",
+      "definition": "階段（手すり付き）",
+      "example": "例: A man is climbing a staircase.（男性が階段を上っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "spectator",
+      "definition": "観客",
+      "example": "例: There are spectators in the stadium.（スタジアムに観客がいる）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "courtyard",
+      "definition": "中庭",
+      "example": "例: A woman is standing in a courtyard.（女性が中庭に立っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "pottery",
+      "definition": "陶器/焼き物",
+      "example": "例: Some pottery is being displayed.（陶器が展示されている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "cookware",
+      "definition": "調理器具",
+      "example": "例: Some cookware is arranged on the counter.（調理器具がカウンターに並んでいる）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "overlook",
+      "definition": "見下ろす",
+      "example": "例: High-rise buildings overlook the water.（高層ビルが水面を見下ろしている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "pier",
+      "definition": "桟橋",
+      "example": "例: A boat is sailing past a pier.（ボートが桟橋のそばを通っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "lighthouse",
+      "definition": "灯台",
+      "example": "例: Some people are gathered near a lighthouse.（人々が灯台の近くに集まっている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "portrait",
+      "definition": "肖像画",
+      "example": "例: A man is drawing a portrait.（男性が肖像画を描いている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "unattended",
+      "definition": "担当者がいない",
+      "example": "例: The reception desk is unattended.（受付に人がいない）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "awning",
+      "definition": "日よけ",
+      "example": "例: Some people are standing under an awning.（人々が日よけの下に立っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "patio",
+      "definition": "テラス",
+      "example": "例: A patio overlooks a river.（テラスから川が見下ろせる）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "unoccupied",
+      "definition": "使われていない/空いている",
+      "example": "例: The chairs are unoccupied.（椅子が使われていない）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "pedestrian",
+      "definition": "歩行者",
+      "example": "例: Pedestrians are crossing the street.（歩行者が道路を渡っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "crate",
+      "definition": "木箱/ケース",
+      "example": "例: Some crates are being transported.（木箱が輸送されている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "utensil",
+      "definition": "調理器具/器具",
+      "example": "例: She's arranging utensils on a table.（調理器具をテーブルに並べている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "station",
+      "definition": "配置する/駅",
+      "example": "be stationed（配置される）。例: Some people are stationed at a counter.（カウンターに配置されている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "window pane",
+      "definition": "窓ガラス",
+      "example": "例: Workers are cleaning the window panes.（作業員が窓ガラスを掃除している）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "stroll",
+      "definition": "ぶらぶら歩く",
+      "example": "例: She's strolling along the shore.（海辺をぶらぶら歩いている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "lamppost",
+      "definition": "街灯柱",
+      "example": "例: Some lampposts line the street.（街灯が通りに並んでいる）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "wheelbarrow",
+      "definition": "一輪車（手押し）",
+      "example": "例: A man is pushing a wheelbarrow.（男性が一輪車を押している）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "canopy",
+      "definition": "天蓋/日よけ",
+      "example": "例: A canopy is shading some merchandise.（天蓋が商品を日陰にしている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "refrigerator",
+      "definition": "冷蔵庫",
+      "example": "例: The refrigerator is running.（冷蔵庫が動いている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "microwave oven",
+      "definition": "電子レンジ",
+      "example": "例: Heat it in the microwave oven.（電子レンジで温めて）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "stove",
+      "definition": "コンロ/ストーブ",
+      "example": "例: Turn off the stove.（コンロを消して）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "air conditioner",
+      "definition": "エアコン",
+      "example": "例: The air conditioner is on.（エアコンがついている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "heater",
+      "definition": "暖房/ヒーター",
+      "example": "例: The heater is broken.（ヒーターが壊れている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "vacuum cleaner",
+      "definition": "掃除機",
+      "example": "例: The vacuum cleaner is in the closet.（掃除機はクローゼットにある）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "washing machine",
+      "definition": "洗濯機",
+      "example": "例: The washing machine is running.（洗濯機が動いている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "(light) bulb",
+      "definition": "電球",
+      "example": "例: The bulb needs to be replaced.（電球を交換する必要がある）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "bookcase / bookshelf",
+      "definition": "本棚",
+      "example": "例: The bookcase is full.（本棚がいっぱいだ）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "(laundry) detergent",
+      "definition": "洗剤",
+      "example": "例: Add detergent to the washer.（洗剤を洗濯機に入れる）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "light fixture",
+      "definition": "照明器具",
+      "example": "例: The light fixture is new.（照明器具が新しい）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "stapler",
+      "definition": "ホチキス",
+      "example": "例: Use a stapler to bind papers.（書類をホチキスで留める）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "sunscreen",
+      "definition": "日焼け止め",
+      "example": "例: Apply sunscreen.（日焼け止めを塗る）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "envelope",
+      "definition": "封筒",
+      "example": "例: Put the letter in an envelope.（手紙を封筒に入れる）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "scale",
+      "definition": "はかり",
+      "example": "例: The scale is on the counter.（はかりがカウンターにある）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "cupboard",
+      "definition": "食器棚",
+      "example": "例: Plates are in the cupboard.（皿は食器棚にある）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "scissors",
+      "definition": "はさみ",
+      "example": "例: The scissors are in the drawer.（はさみは引き出しにある）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "stationery",
+      "definition": "文房具",
+      "example": "例: Office stationery is in the cabinet.（文房具はキャビネットにある）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "plastic bag",
+      "definition": "ビニール袋",
+      "example": "例: Put it in a plastic bag.（ビニール袋に入れて）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "folding chair",
+      "definition": "折りたたみ椅子",
+      "example": "例: Set up a folding chair.（折りたたみ椅子を広げる）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "cardboard box",
+      "definition": "段ボール箱",
+      "example": "例: The cardboard box is heavy.（段ボール箱が重い）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "rug",
+      "definition": "じゅうたん",
+      "example": "例: The rug is on the floor.（じゅうたんが床にある）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "drape",
+      "definition": "カーテン",
+      "example": "例: The drapes are closed.（カーテンが閉まっている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "scarf",
+      "definition": "マフラー/スカーフ",
+      "example": "例: She is wearing a scarf.（彼女はスカーフをしている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "laptop",
+      "definition": "ノートPC",
+      "example": "例: The laptop is on the desk.（ノートPCが机にある）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "mobile phone / cell phone",
+      "definition": "携帯電話",
+      "example": "例: His cell phone is ringing.（携帯電話が鳴っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "photocopier / copy machine",
+      "definition": "コピー機",
+      "example": "例: The copy machine is out of paper.（コピー機の紙が切れている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "rechargeable battery",
+      "definition": "充電池",
+      "example": "例: Use a rechargeable battery.（充電池を使う）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "briefcase",
+      "definition": "書類かばん",
+      "example": "例: He is carrying a briefcase.（彼は書類かばんを持っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "revolving door",
+      "definition": "回転ドア",
+      "example": "例: The entrance has a revolving door.（入口に回転ドアがある）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "freight elevator",
+      "definition": "貨物用エレベーター",
+      "example": "例: Use the freight elevator for deliveries.（搬入は貨物用エレベーターを使う）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "treadmill",
+      "definition": "ランニングマシン",
+      "example": "例: He is running on a treadmill.（彼はランニングマシンで走っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "potted plant",
+      "definition": "鉢植え",
+      "example": "例: Potted plants have been arranged in rows.（鉢植えが列に並べられている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "position",
+      "definition": "位置に置く/位置を合わせる",
+      "example": "例: A desk is positioned between chairs.（机が椅子の間に置かれている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "browse",
+      "definition": "見て回る/閲覧する",
+      "example": "例: People are browsing some items.（人々が商品を見て回っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "reflect",
+      "definition": "映る/反映する",
+      "example": "例: Buildings are reflected in the water.（建物が水面に映っている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "lay out",
+      "definition": "広げる/配置する",
+      "example": "例: A map is laid out on the table.（地図がテーブルの上に広げられている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "doorway",
+      "definition": "戸口",
+      "example": "例: They're talking near a doorway.（彼らは戸口の近くで話している）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "wheel",
+      "definition": "（車輪の付いたものを）動かす",
+      "example": "例: She's wheeling a cart.（彼女はカートを動かしている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    },
+    {
+      "term": "lead to",
+      "definition": "〜に通じる/つながる",
+      "example": "例: Some steps lead to a building.（階段が建物へ通じている）",
+      "chapter": "Supplement1",
+      "source": "Supplement1.csv"
+    }
+  ],
+  "quizzes": []
+}

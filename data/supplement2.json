@@ -1,0 +1,664 @@
+{
+  "subject": "TOEIC Supplement2",
+  "terms": [
+    {
+      "term": "board of directors",
+      "definition": "役員（会）",
+      "example": "部署名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "accounting department",
+      "definition": "経理部",
+      "example": "部署名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "marketing department",
+      "definition": "マーケティング部",
+      "example": "部署名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "human resources department",
+      "definition": "人事部",
+      "example": "部署名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "personnel department",
+      "definition": "人事部",
+      "example": "部署名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "administrative department",
+      "definition": "管理部",
+      "example": "部署名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "legal department",
+      "definition": "法務部",
+      "example": "部署名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "sales department",
+      "definition": "営業部",
+      "example": "部署名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "technology department",
+      "definition": "技術部",
+      "example": "部署名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "security department",
+      "definition": "保安部",
+      "example": "部署名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "purchasing department",
+      "definition": "購買部",
+      "example": "部署名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "payroll department",
+      "definition": "給与部",
+      "example": "部署名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "public relations department",
+      "definition": "広報部",
+      "example": "部署名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "advertising department",
+      "definition": "広告部",
+      "example": "部署名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "general affairs department",
+      "definition": "総務部",
+      "example": "部署名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "plumber",
+      "definition": "配管工",
+      "example": "職業（技術系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "mechanic",
+      "definition": "機械工",
+      "example": "職業（技術系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "carpenter",
+      "definition": "大工",
+      "example": "職業（技術系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "welder",
+      "definition": "溶接工",
+      "example": "職業（技術系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "electrician",
+      "definition": "電気工",
+      "example": "職業（技術系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "civil engineer",
+      "definition": "土木技師",
+      "example": "職業（技術系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "dentist",
+      "definition": "歯科医",
+      "example": "職業（医療系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "surgeon",
+      "definition": "外科医",
+      "example": "職業（医療系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "pharmacist",
+      "definition": "薬剤師",
+      "example": "職業（医療系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "veterinarian",
+      "definition": "獣医",
+      "example": "職業（医療系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "bakery",
+      "definition": "パン屋",
+      "example": "職業（店）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "florist",
+      "definition": "花屋",
+      "example": "職業（店）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "cleaner's",
+      "definition": "クリーニング店",
+      "example": "職業（店）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "locksmith",
+      "definition": "鍵屋",
+      "example": "職業（店）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "moving company",
+      "definition": "引っ越し業者",
+      "example": "職業（店）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "hardware store",
+      "definition": "ホームセンター",
+      "example": "職業（店）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "printer",
+      "definition": "印刷業者",
+      "example": "職業（店）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "courier",
+      "definition": "宅配業者",
+      "example": "職業（店）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "real estate agency",
+      "definition": "不動産屋",
+      "example": "職業（店）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "accounting",
+      "definition": "会計学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "architecture",
+      "definition": "建築学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "astronomy",
+      "definition": "天文学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "biology",
+      "definition": "生物学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "chemistry",
+      "definition": "化学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "ecology",
+      "definition": "生態学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "economics",
+      "definition": "経済学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "education",
+      "definition": "教育学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "engineering",
+      "definition": "工学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "fine arts",
+      "definition": "芸術",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "history",
+      "definition": "歴史学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "journalism",
+      "definition": "ジャーナリズム",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "law",
+      "definition": "法学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "linguistics",
+      "definition": "言語学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "literature",
+      "definition": "文学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "mathematics",
+      "definition": "数学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "medicine",
+      "definition": "医学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "philosophy",
+      "definition": "哲学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "physics",
+      "definition": "物理学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "psychology",
+      "definition": "心理学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "robotics",
+      "definition": "ロボット工学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "sociology",
+      "definition": "社会学",
+      "example": "専攻名",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "accountant",
+      "definition": "会計士",
+      "example": "職業（学者系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "auditor",
+      "definition": "会計監査官",
+      "example": "職業（学者系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "anthropologist",
+      "definition": "人類学者",
+      "example": "職業（学者系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "biologist",
+      "definition": "生物学者",
+      "example": "職業（学者系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "botanist",
+      "definition": "植物学者",
+      "example": "職業（学者系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "scientist",
+      "definition": "科学者",
+      "example": "職業（学者系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "chemist",
+      "definition": "化学者",
+      "example": "職業（学者系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "historian",
+      "definition": "歴史学者",
+      "example": "職業（学者系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "lawyer/attorney",
+      "definition": "弁護士",
+      "example": "職業（学者系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "professor",
+      "definition": "教授",
+      "example": "職業（学者系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "paralegal",
+      "definition": "弁護士補助員",
+      "example": "職業（学者系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "journalist",
+      "definition": "ジャーナリスト",
+      "example": "職業（マスコミ系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "announcer",
+      "definition": "アナウンサー",
+      "example": "職業（マスコミ系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "host",
+      "definition": "司会者",
+      "example": "職業（マスコミ系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "correspondent",
+      "definition": "特派員",
+      "example": "職業（マスコミ系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "editor",
+      "definition": "編集者",
+      "example": "職業（マスコミ系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "proofreader",
+      "definition": "校正者",
+      "example": "職業（マスコミ系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "novelist",
+      "definition": "小説家",
+      "example": "職業（旅行系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "librarian",
+      "definition": "図書館員",
+      "example": "職業（旅行系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "flight attendant",
+      "definition": "フライトアテンダント",
+      "example": "職業（旅行系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "travel agent",
+      "definition": "旅行業者",
+      "example": "職業（旅行系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "tour guide",
+      "definition": "ツアーガイド",
+      "example": "職業（旅行系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "concierge",
+      "definition": "コンシェルジュ",
+      "example": "職業（旅行系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "housekeeping",
+      "definition": "客室係",
+      "example": "職業（旅行系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "conductor",
+      "definition": "車掌・指揮者",
+      "example": "職業（旅行系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "operator",
+      "definition": "オペレーター",
+      "example": "職業（旅行系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "architect",
+      "definition": "建築家",
+      "example": "職業（芸術系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "photographer",
+      "definition": "写真家",
+      "example": "職業（芸術系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "choreographer",
+      "definition": "振付師",
+      "example": "職業（芸術系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "actor",
+      "definition": "俳優",
+      "example": "職業（芸術系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "actress",
+      "definition": "女優",
+      "example": "職業（芸術系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "curator",
+      "definition": "学芸員",
+      "example": "職業（芸術系）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "receptionist",
+      "definition": "受付",
+      "example": "職業（その他）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "secretary",
+      "definition": "秘書",
+      "example": "職業（その他）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "spokesperson",
+      "definition": "広報担当者",
+      "example": "職業（その他）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "ambassador",
+      "definition": "大使",
+      "example": "職業（その他）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "security guard",
+      "definition": "警備員",
+      "example": "職業（その他）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    },
+    {
+      "term": "cashier",
+      "definition": "レジ係",
+      "example": "職業（その他）",
+      "chapter": "Supplement2",
+      "source": "Supplement2.csv"
+    }
+  ],
+  "quizzes": []
+}

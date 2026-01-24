@@ -1,0 +1,286 @@
+{
+  "subject": "TOEIC Supplement3",
+  "terms": [
+    {
+      "term": "due to",
+      "definition": "〜が理由で",
+      "example": "前置詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "owing to",
+      "definition": "〜が理由で",
+      "example": "前置詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "despite",
+      "definition": "〜にもかかわらず",
+      "example": "前置詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "in spite of",
+      "definition": "〜にもかかわらず",
+      "example": "前置詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "notwithstanding",
+      "definition": "〜にもかかわらず",
+      "example": "前置詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "given",
+      "definition": "〜を考慮すると",
+      "example": "前置詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "in light of",
+      "definition": "〜を考慮に入れると",
+      "example": "前置詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "in the event of",
+      "definition": "〜の場合",
+      "example": "前置詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "in addition to",
+      "definition": "〜に加えて",
+      "example": "前置詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "except for",
+      "definition": "〜を除いて",
+      "example": "前置詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "regardless of",
+      "definition": "〜とは無関係に",
+      "example": "前置詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "instead of",
+      "definition": "〜の代わりに",
+      "example": "前置詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "whereas",
+      "definition": "一方で",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "whether",
+      "definition": "〜であろうと/〜かどうか",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "as soon as",
+      "definition": "〜するとすぐに",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "once",
+      "definition": "いったん〜したら",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "unless",
+      "definition": "〜しない限り",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "now that",
+      "definition": "今はもう〜なので",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "so that",
+      "definition": "〜するように",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "in order that",
+      "definition": "〜するように",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "although",
+      "definition": "〜にもかかわらず",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "though",
+      "definition": "〜にもかかわらず",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "even though",
+      "definition": "〜にもかかわらず",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "even if",
+      "definition": "たとえ〜でも",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "provided that",
+      "definition": "〜するという条件でのみ",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "as long as",
+      "definition": "〜する限り",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "in case",
+      "definition": "〜するといけないので",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "given that",
+      "definition": "〜を考慮すると",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "in the event that",
+      "definition": "〜した場合",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "insofar as",
+      "definition": "〜する限りにおいて",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "inasmuch as",
+      "definition": "〜する限りにおいて/〜するので",
+      "example": "接続詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "therefore",
+      "definition": "したがって",
+      "example": "接続副詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "however",
+      "definition": "しかしながら",
+      "example": "接続副詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "nevertheless",
+      "definition": "それにもかかわらず",
+      "example": "接続副詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "moreover",
+      "definition": "その上",
+      "example": "接続副詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "furthermore",
+      "definition": "さらに",
+      "example": "接続副詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "consequently",
+      "definition": "結果として",
+      "example": "接続副詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "thereby",
+      "definition": "そうすることで",
+      "example": "接続副詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "thus",
+      "definition": "このようにして",
+      "example": "接続副詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    },
+    {
+      "term": "meanwhile",
+      "definition": "その間",
+      "example": "接続副詞",
+      "chapter": "Supplement3",
+      "source": "Supplement3.csv"
+    }
+  ],
+  "quizzes": []
+}

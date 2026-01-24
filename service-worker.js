@@ -1,4 +1,4 @@
-const CACHE_NAME = 'study-forge-v12';
+const CACHE_NAME = 'study-forge-v14';
 const ASSETS = [
   './index.html',
   './styles.css',
@@ -7,6 +7,14 @@ const ASSETS = [
   './assets/icon.svg',
   './data/index.json',
   './data/philosophy.json',
+  './data/supplement1.json',
+  './data/supplement2.json',
+  './data/supplement3.json',
+  './data/toeic-600.json',
+  './data/words1-400.json',
+  './data/words401-700.json',
+  './data/words701-900.json',
+  './data/words901-1000.json',
   './data/template.json'
 ];
 

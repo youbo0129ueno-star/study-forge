@@ -1,0 +1,2218 @@
+{
+  "subject": "TOEIC words701-900",
+  "terms": [
+    {
+      "term": "lumber",
+      "definition": "木材、製材",
+      "example": "lumber は、建物や家具の材料にするために加工された木のことで、それを扱うビジネスもパート7にときどき登場する。timber（材木、製材）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "reverse",
+      "definition": "裏側の",
+      "example": "パート7で、back（裏側）との言い換えに注意。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "voluntary",
+      "definition": "自主的な、任意の",
+      "example": "volunteer（ボランティア、志願する、自主的に申し出る） voluntarily（自主的に） voluntarily leave a company（自主的に会社を辞める）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "contractor",
+      "definition": "請負業者、契約業者",
+      "example": "contractor は、契約（contract）を結んで業務を請け負う業者のこと。カタカナ語にもなっている「ゼネコン」は general contractor（総合建設請負業者）の略。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "on-site",
+      "definition": "社内の、現場の/その場で",
+      "example": "その場所（site）の上にある、という意味。off-site（社外の、現場から離れた） in-house（社内の）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "comprehensive",
+      "definition": "総合的な、包括的な",
+      "example": "「必要なものがすべて入った」イメージ。comprehensive review（徹底的な検討）、a comprehensive guide（総合ガイド）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "confidential",
+      "definition": "機密の、秘密の",
+      "example": "日本語の「マル秘資料」のこと。confidentiality（機密） confidentiality agreement（機密保持契約：仕事で得た情報を第三者に漏らさないことを記した契約書のこと）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "expertise",
+      "definition": "専門知識",
+      "example": "expert（専門家）が持つスキルや知識のこと。パート5での出題例もある重要ビジネス語彙。expertly（上手に） professionalism（プロ意識、プロの手腕）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "premier",
+      "definition": "最高の、第一位の",
+      "example": "つづりの似た premiere（初演、初上映、初演する）もパート7の正解根拠となったことのある重要語。the world premiere（世界初公演、世界初上映）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "souvenir",
+      "definition": "土産物",
+      "example": "パート4のトークでは、ツアーガイドがツアーの最後にお土産物店を案内するのが定番。その際、ツアーの参加者にはしばしば割引の特典が付いている。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "rafting",
+      "definition": "川下り/ラフティング",
+      "example": "TOEIC の世界では、川下りは人気のレジャーの一つで、パッケージ旅行のスケジュールにはしばしば組み込まれている。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "compartment",
+      "definition": "区画",
+      "example": "区切られたスペースのことで、電車や飛行機の頭上にある荷物の収納スペースを指す表現として主にパート4に登場する。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "fabric",
+      "definition": "布地、織物",
+      "example": "textile（織物） textile industry（繊維業界）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "spacious",
+      "definition": "広々とした、ゆったりした",
+      "example": "たくさんの space（スペース）がある、の意味。cramped（窮屈な）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "upgrade",
+      "definition": "改善する、アップグレードする",
+      "example": "動詞でも出る。upgrade a system（システムを改良する） an upgraded computer（改良されたコンピュータ）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "showcase",
+      "definition": "展示する/ショーケース",
+      "example": "名詞より動詞で頻出する。ショーケースに入れて展示するイメージで覚えよう。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "commuter",
+      "definition": "通勤者",
+      "example": "commute（通勤する、通勤） telecommuter（在宅勤務者）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "enhance",
+      "definition": "向上させる、強化する",
+      "example": "enhance の hance の語源は high で、「高める」イメージの単語。他動詞で直接目的語を取る語法も押さえておこう。enhancement（改良、強化） bolster/strengthen（強める）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "freight",
+      "definition": "貨物、輸送",
+      "example": "「輸送」の意味でも出る。ship by air freight（航空便で出荷する） cargo（貨物）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "nominate",
+      "definition": "推薦して指名する/ノミネートする",
+      "example": "TOEIC の世界では、従業員表彰のイベントが盛んで、社員にホメや賞の候補者を推薦する呼びかけがしばしば行われる。nomination（推薦、賞の候補者）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "discontinued",
+      "definition": "（製造・販売が）終了した",
+      "example": "dis（not）continue（継続）で「生産や販売の継続を止める」の意味。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "mentoring",
+      "definition": "メンター制度",
+      "example": "主に職場で、先輩が mentor（メンター・指導・相談役）となり、新人や後輩をサポートする制度のこと。TOEIC の世界でも普及しつつある。mentee（指導を受ける人）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "personalized",
+      "definition": "個人に合わせた、各自向けの",
+      "example": "個人（person）の要望に合うように提供するサービス内容を変えること。customized（特別仕様の、特注の） customizable（特別仕様にできる）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "pharmacy",
+      "definition": "薬局",
+      "example": "pharmacist（薬剤師） pharmaceutical（製薬の） pharmaceutical company（製薬会社）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "excerpt",
+      "definition": "抜粋、引用",
+      "example": "パート4の設問文で、「問題71-73は次の会話の抜粋に関してです」という形で使われる単語。その後には会議冒頭や締めのトークが流れる。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "publicize",
+      "definition": "宣伝する",
+      "example": "「the public（一般の人）に情報を伝えて知ってもらう」という意味のパート7頻出語。publicity（宣伝、注目） gain publicity（注目を集める）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "tuition",
+      "definition": "授業料",
+      "example": "基本的に学生同士の会話や、学生に向けたトークや文書は出ない。TOEIC の世界では、社員が大学で仕事に関連したコースを取ると、補助金を出してくれる気前の良い会社が多く、しばしばこの単語が話題に上る。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "compliance",
+      "definition": "（法律・規則等）の順守",
+      "example": "派生語を用いた問題表現も押さえる。comply（守る） comply with the law（法律を守る） compliant（準拠した） be compliant with industry standards（業界の標準に準拠）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "clarify",
+      "definition": "はっきりさせる、明確にする",
+      "example": "形容詞の clear（はっきりした）の動詞で「クリアにする」こと。clarity（明確さ）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "municipal",
+      "definition": "市の、市営の",
+      "example": "文脈によって「市の」「町の」「市営の」「町営の」といった意味になる。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "respectively",
+      "definition": "それぞれ",
+      "example": "パート7では「それぞれ」が何を指しているのかを必ずチェックすること。ここでは、Tex=16、Masaya=18。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "durable",
+      "definition": "耐久性がある、丈夫な",
+      "example": "yet はここでは but（〜だけれど）の意味。durability（耐久性、丈夫さ）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "landmark",
+      "definition": "名所、（場所の）目印、重要な出来事",
+      "example": "その土地（land）の目印（mark）となるような建物やモノのこと。重要な出来事や決定などを表す際にも用いられる。a landmark decision（画期的な決定）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "portfolio",
+      "definition": "作品集、有価証券一覧",
+      "example": "portfolio には「有価証券一覧」や「製品ラインの一覧」などの意味もあるが、TOEIC ではこの意味が最頻出。求人への応募条件の一つで出てくる。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "recipient",
+      "definition": "受取人、受賞者",
+      "example": "receive（受け取る）人のこと。「文書や荷物の受取人」の意味でも出る。receipt（領収書）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "prototype",
+      "definition": "試作品、原型",
+      "example": "量産品のベースとなるモデルのこと。aircraft は、飛行機、ヘリコプター、気球等、空を飛ぶもの全般を指す。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "transit",
+      "definition": "輸送",
+      "example": "TOEIC の世界では、通販で注文した品物が1カ月後に届き、箱を開けたら品物が輸送中に破損していたというありえない事が発生したことがある。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "verify",
+      "definition": "確認する、検証する、認証する",
+      "example": "間違いがないか確認すること。verification（確認、検証） verification of age（年齢確認）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "managerial",
+      "definition": "管理職の、経営上の",
+      "example": "「マネージャーの」の意味。主にパート7の求人条件で出るが、パート5で manageable（管理可能な）との意味の違いが問われたこともある。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "culinary",
+      "definition": "料理の",
+      "example": "でも、学校の宣伝や人物紹介で出るので、発音も押さえておこう。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "attire",
+      "definition": "服装",
+      "example": "clothes（服）よりフォーマルな単語。dress code（服装規定）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "reimburse",
+      "definition": "払い戻す",
+      "example": "出張等で自分で払ったお金を会社から後で払い戻してもらう、という頻出語。reimbursement（払い戻し） apply for travel reimbursement（出張旅費の払い戻しを申請する）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "courteous",
+      "definition": "礼儀正しい",
+      "example": "パート7で、本文中の courteous が、選択肢で friendly に言い換えられたことがある。courteously（礼儀正しく） courtesy（礼儀正しさ） polite（礼儀正しい）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "furnished",
+      "definition": "家具付きの",
+      "example": "furniture（家具）が付いたアパートのこと。不動産の広告で出る。furnishings（カーテンやカーペットを含む家具類）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "knowledgeable",
+      "definition": "知識が豊富な",
+      "example": "knowledge（知識）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "craftspeople",
+      "definition": "職人",
+      "example": "TOEIC の世界では、騒音苦情の難しいスタジオに対し、石材加工で大きな音が出ます、と作業内容を記して使用を申請した職人がいる。artisan（職人）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "delete",
+      "definition": "削除する",
+      "example": "omit（省く） omit details（詳細を省く）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "emerging",
+      "definition": "新たに現れた、新興の",
+      "example": "「今後伸びそうな、頭角を現しつつある」といったニュアンスの単語で、人にも用いられる。emerging young designers（新進気鋭の若手デザイナー） emerge（現れる）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "enroll",
+      "definition": "登録する、入会する、入学する",
+      "example": "学校やコースに正式に入ること。enrollment（入会、登録者数） high enrollment（多数の登録者数） enrollment fee（入会金）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "proficiency",
+      "definition": "熟達、スキルの高さ、高い能力",
+      "example": "何かにおいて高いスキルや能力を持っていること。proficient（堪能な、熟達した）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "scenic",
+      "definition": "眺めがいい、景色の",
+      "example": "scenery（風景） picturesque（絵のように美しい）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "state-of-the-art",
+      "definition": "最新式の、最先端の",
+      "example": "up-to-date（最新式の） latest（最新の） cutting-edge（最先端の）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "cuisine",
+      "definition": "料理",
+      "example": "特定の国や地域の料理スタイルを主に表す。ちなみに、TOEIC で「Hibachi Restaurant」が登場したことがあるが、「火鉢」の意味ではなく、鉄板焼きレストランのこと。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "acclaimed",
+      "definition": "絶賛されている",
+      "example": "critically acclaimed（評論家絶賛の）のフレーズで覚えるべき表現。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "certified",
+      "definition": "資格の、公認の",
+      "example": "certify（認定する、認証する） certificate（認定証、修了証） certification",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "medication",
+      "definition": "薬",
+      "example": "TOEIC の世界では、複雑な病名や、生死にかかわる病気は存在しない。あるのは「風邪」「発熱」「運動不足」程度である。medicine/drug（薬）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "overview",
+      "definition": "概要、概況",
+      "example": "重要なポイントだけを簡潔に説明すること。outline（概要、概要を説明する） summary（要約） abstract（摘要）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "resistant",
+      "definition": "耐えられる、抵抗力のある",
+      "example": "resistant to X（Xに抵抗力がある）の形も押さえよう。resist（抵抗する） resistance（抵抗） heatproof（耐熱の） water-resistant/waterproof（防水の）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "superb",
+      "definition": "素晴らしい",
+      "example": "super と語源が同じなので、「スーパー素晴らしい」と覚える。a superbly written book（非常にうまく書かれた本） excellent（素晴らしい）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "array",
+      "definition": "大量、多数",
+      "example": "an array of は、特定のタイプのものがずらりと並んでいる様子を示す表現。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "informative",
+      "definition": "有益な",
+      "example": "有益な information（情報）が詰まった、の意味。beneficial（有益な） useful/helpful（役立つ）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "nationwide",
+      "definition": "全国的に",
+      "example": "国全体に渡る、全国津々浦々まで、という意味。副詞も出る。broadcast nationwide（全国で放送する）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "outdated",
+      "definition": "時代遅れの",
+      "example": "この本がそうならないことを著者として祈っております。obsolete（すたれた、時代遅れの）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "shareholder",
+      "definition": "株主",
+      "example": "share（株）を hold（保有している）人のこと。stockholder（株主）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "voucher",
+      "definition": "商品券",
+      "example": "お金の代わりに商品やサービスと交換できる券のこと。文脈によって、「宿泊券、食事券、商品券」といった意味になる。coupon（クーポン） gift certificate（商品券）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "adjacent",
+      "definition": "隣接した",
+      "example": "next to X（Xの隣に）のより堅い単語。adjoining（隣の）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "correspondence",
+      "definition": "（手紙やメールでの）やり取り",
+      "example": "correspond（一致する、手紙でやり取りする） corresponding（〜に対応する、付随する） correspondingly（〜に応じて、付随して） correspondent（特派員）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "detergent",
+      "definition": "洗剤",
+      "example": "TOEIC の世界には、オフィスの引っ越し当日までトラックを手配していない社員や、バケーションで1カ月閉店する書店主など、かなりのんびりした人物がしばしば登場する。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "duration",
+      "definition": "継続期間",
+      "example": "for the duration of（〜が続いている間）のフレーズで押さえる。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "functional",
+      "definition": "機能を果たせる、機能的な",
+      "example": "「機能的な（デザインよりも機能を重視した）」の意味も重要。a functional printer（機能的なプリンター） operational（運転可能な、業務可能な）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "hands-on",
+      "definition": "実地の、実用的な",
+      "example": "見たり話を聞くだけではなく、実際に自分の手を動かしてやってみる、という意味。firsthand（直接の、現場の） firsthand experience（現場の経験）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "intensive",
+      "definition": "集中的な",
+      "example": "新入社員向けの集中研修や、集中セミナーといった文脈で主にパート7に出る。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "last-minute",
+      "definition": "土壇場の、間際になっての",
+      "example": "TOEIC の世界では、フライトやイベントの予約を直前になって変更するケースが多発するが、それに文句を言う旅行代理店の担当者やアシスタントはいない。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "thrilled",
+      "definition": "とてもわくわくして、とても興奮して",
+      "example": "very excited の意味。「スリルがある〜怖い」の意味ではないことに注意。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "spectacular",
+      "definition": "壮観な、目を見張るほどの",
+      "example": "amazing/stunning（驚くべき） extraordinary（途方もない）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "entrepreneur",
+      "definition": "起業家",
+      "example": "「アントレプレナー」とカタカナ語にもなっている。entrepreneurial（起業家の） venture（新事業）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "introductory",
+      "definition": "入門の、最初の、お試しの",
+      "example": "introductory price（お試し価格）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "minimize",
+      "definition": "最小限に抑える、最小化する",
+      "example": "minimum（最小限、最小の） a minimum of ten years（最低10年） maximize（最大化する） maximum（最大限）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "prestigious",
+      "definition": "権威のある、著名な",
+      "example": "パート4の受賞スピーチの冒頭でしばしば登場する単語。パート5の品詞問題での出題例もある。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "screening",
+      "definition": "試映、検査",
+      "example": "「検査」の意味でも出る。security screening（保安検査） preview（試写会） ちなみに、TOEIC の世界では、映画の上映中に音響機器が故障して、出演者のセリフが聞こえなくなった映画館が存在する。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "amenity",
+      "definition": "快適性に役立つもの",
+      "example": "文脈によってさまざまな意味になるが、TOEIC では主に、お客様の宿泊を快適にするためのホテル内の施設や設備用品の意味で出る。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "lengthy",
+      "definition": "長くかかる、冗長な",
+      "example": "lengthen（伸ばす） length（長さ）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "compensate",
+      "definition": "補償する",
+      "example": "名詞の compensation は、「補償」以外に「給与」の意味も重要。compensation package（報酬パッケージ：給与、ボーナス、手当、年金、保険、休暇、従業員に与えられるものなど）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "misplace",
+      "definition": "紛失する、置き忘れる",
+      "example": "TOEIC の世界では、コンサート用の楽器をタクシーに忘れた音楽家や、貴重資料を紛失した入居者など、豪快な物忘れをする人が珍しくない。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "notable",
+      "definition": "注目すべき、有名な",
+      "example": "be notable for（〜で有名な）も重要表現。notably（特に） noteworthy（注目に値する） noted（著名な）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "subsidiary",
+      "definition": "子会社",
+      "example": "大きな会社（親会社）の sub（下）にある会社のこと。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "authentic",
+      "definition": "本物の",
+      "example": "「伝統に従った本格的な」の意味もある。authentic Japanese food（本物の日本料理） authenticity（信ぴょう性）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "designated",
+      "definition": "定められた、指名された",
+      "example": "「駐車場が工事中なので、社員は隣のビルの指定の駐車スペースに車を止めてください」といったパート4のアナウンス等で出る。ちなみに、野球の DH（指名打者）は designated hitter の略。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "disruption",
+      "definition": "中断、妨げ",
+      "example": "disrupt（混乱させる、妨げる） disruptive（妨げになる） disturbance（邪魔、中断） interruption（中断）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "fragile",
+      "definition": "壊れやすい、はかない",
+      "example": "日本語の「こわれもの」のラベルは英語では「FRAGILE」。breakable（壊れやすい） vulnerable（弱い、傷つきやすい） susceptible（影響を受けやすい）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "ongoing",
+      "definition": "進行中の、続いている",
+      "example": "going on（続いている）こと。ongoing negotiations（進行中の交渉）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "periodical",
+      "definition": "定期刊行物",
+      "example": "一定の period（期間）ごとに発行される専門誌のこと。periodic（定期的な） periodically（定期的に） weekly（週刊誌） monthly（月刊誌）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "plumber",
+      "definition": "配管工",
+      "example": "TOEIC の世界では、なぜかしばしば水道管から水漏れが発生し、その際必ず plumber が登場する。なお、plumber の b は発音しないので、発音に注意。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "incur",
+      "definition": "（損失や罰金等を）受ける",
+      "example": "駐車違反で罰金を受ける等、自らの行為によって好ましくない事態を招くこと。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "oversee",
+      "definition": "監督する",
+      "example": "over（上）から see（見る）が語源。「グループの責任者として、仕事がちゃんと行われているかをチェックする」こと。supervise（監督する）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "retrieve",
+      "definition": "（PCから情報を）取り戻す",
+      "example": "TOEIC では、故障したPCからデータを取り戻す、といった文脈で出る。ちなみに、「ゴールデン・レトリバー（Golden Retriever）」は、元々、撃ち落とされた獲物を取って来る犬種だった。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "reunion",
+      "definition": "同窓会、再会",
+      "example": "パート7で、二人が同じ学校に通っていたことの根拠になる単語。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "rigorous",
+      "definition": "厳格な、厳密な",
+      "example": "rigorously（厳格に）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "specification",
+      "definition": "仕様（書）",
+      "example": "「納期、予算、内容等、細かい条件を記した指示書」のこと。製品の価格や機能等の詳細を示す時にも使われ、「製品スペック」とカタカナ表記にもなっている。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "tentative",
+      "definition": "仮の",
+      "example": "暫定的な、の意味。tentatively（仮に） interim（暫定、中間の） an interim report（中間報告）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "timber",
+      "definition": "材木、製材",
+      "example": "関連語: lumber",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "back",
+      "definition": "裏側",
+      "example": "関連語: reverse",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "volunteer",
+      "definition": "ボランティア、志願する、自主的に申し出る",
+      "example": "関連語: voluntary",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "voluntarily",
+      "definition": "自主的に",
+      "example": "関連語: voluntary",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "general contractor",
+      "definition": "総合建設請負業者",
+      "example": "関連語: contractor",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "off-site",
+      "definition": "社外の、現場から離れた",
+      "example": "関連語: on-site",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "in-house",
+      "definition": "社内の",
+      "example": "関連語: on-site",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "comprehensive review",
+      "definition": "徹底的な検討",
+      "example": "関連語: comprehensive",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "confidentiality",
+      "definition": "機密",
+      "example": "関連語: confidential",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "confidentiality agreement",
+      "definition": "機密保持契約：仕事で得た情報を第三者に漏らさないことを記した契約書のこと",
+      "example": "関連語: confidential",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "expert",
+      "definition": "専門家",
+      "example": "関連語: expertise",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "expertly",
+      "definition": "上手に",
+      "example": "関連語: expertise",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "professionalism",
+      "definition": "プロ意識、プロの手腕",
+      "example": "関連語: expertise",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "premiere",
+      "definition": "初演、初上映、初演する",
+      "example": "関連語: premier",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "textile",
+      "definition": "織物",
+      "example": "関連語: fabric",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "textile industry",
+      "definition": "繊維業界",
+      "example": "関連語: fabric",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "cramped",
+      "definition": "窮屈な",
+      "example": "関連語: spacious",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "commute",
+      "definition": "通勤する、通勤",
+      "example": "関連語: commuter",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "telecommuter",
+      "definition": "在宅勤務者",
+      "example": "関連語: commuter",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "enhancement",
+      "definition": "改良、強化",
+      "example": "関連語: enhance",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "bolster/strengthen",
+      "definition": "強める",
+      "example": "関連語: enhance",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "cargo",
+      "definition": "貨物",
+      "example": "関連語: freight",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "nomination",
+      "definition": "推薦、賞の候補者",
+      "example": "関連語: nominate",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "mentor",
+      "definition": "メンター・指導・相談役",
+      "example": "関連語: mentoring",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "mentee",
+      "definition": "指導を受ける人",
+      "example": "関連語: mentoring",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "customized",
+      "definition": "特別仕様の、特注の",
+      "example": "関連語: personalized",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "customizable",
+      "definition": "特別仕様にできる",
+      "example": "関連語: personalized",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "pharmacist",
+      "definition": "薬剤師",
+      "example": "関連語: pharmacy",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "pharmaceutical",
+      "definition": "製薬の",
+      "example": "関連語: pharmacy",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "pharmaceutical company",
+      "definition": "製薬会社",
+      "example": "関連語: pharmacy",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "publicity",
+      "definition": "宣伝、注目",
+      "example": "関連語: publicize",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "comply",
+      "definition": "守る",
+      "example": "関連語: compliance",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "compliant",
+      "definition": "準拠した",
+      "example": "関連語: compliance",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "clear",
+      "definition": "はっきりした",
+      "example": "関連語: clarify",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "clarity",
+      "definition": "明確さ",
+      "example": "関連語: clarify",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "durability",
+      "definition": "耐久性、丈夫さ",
+      "example": "関連語: durable",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "receipt",
+      "definition": "領収書",
+      "example": "関連語: recipient",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "verification",
+      "definition": "確認、検証",
+      "example": "関連語: verify",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "manageable",
+      "definition": "管理可能な",
+      "example": "関連語: managerial",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "clothes",
+      "definition": "服",
+      "example": "関連語: attire",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "dress code",
+      "definition": "服装規定",
+      "example": "関連語: attire",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "reimbursement",
+      "definition": "払い戻し",
+      "example": "関連語: reimburse",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "courteously",
+      "definition": "礼儀正しく",
+      "example": "関連語: courteous",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "courtesy",
+      "definition": "礼儀正しさ",
+      "example": "関連語: courteous",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "polite",
+      "definition": "礼儀正しい",
+      "example": "関連語: courteous",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "furniture",
+      "definition": "家具",
+      "example": "関連語: furnished",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "furnishings",
+      "definition": "カーテンやカーペットを含む家具類",
+      "example": "関連語: furnished",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "knowledge",
+      "definition": "知識",
+      "example": "関連語: knowledgeable",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "artisan",
+      "definition": "職人",
+      "example": "関連語: craftspeople",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "omit",
+      "definition": "省く",
+      "example": "関連語: delete",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "emerge",
+      "definition": "現れる",
+      "example": "関連語: emerging",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "enrollment",
+      "definition": "入会、登録者数",
+      "example": "関連語: enroll",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "enrollment fee",
+      "definition": "入会金",
+      "example": "関連語: enroll",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "proficient",
+      "definition": "堪能な、熟達した",
+      "example": "関連語: proficiency",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "scenery",
+      "definition": "風景",
+      "example": "関連語: scenic",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "picturesque",
+      "definition": "絵のように美しい",
+      "example": "関連語: scenic",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "up-to-date",
+      "definition": "最新式の",
+      "example": "関連語: state-of-the-art",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "latest",
+      "definition": "最新の",
+      "example": "関連語: state-of-the-art",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "cutting-edge",
+      "definition": "最先端の",
+      "example": "関連語: state-of-the-art",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "critically acclaimed",
+      "definition": "評論家絶賛の",
+      "example": "関連語: acclaimed",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "certify",
+      "definition": "認定する、認証する",
+      "example": "関連語: certified",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "certificate",
+      "definition": "認定証、修了証",
+      "example": "関連語: certified",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "medicine/drug",
+      "definition": "薬",
+      "example": "関連語: medication",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "outline",
+      "definition": "概要、概要を説明する",
+      "example": "関連語: overview",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "summary",
+      "definition": "要約",
+      "example": "関連語: overview",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "abstract",
+      "definition": "摘要",
+      "example": "関連語: overview",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "resist",
+      "definition": "抵抗する",
+      "example": "関連語: resistant",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "resistance",
+      "definition": "抵抗",
+      "example": "関連語: resistant",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "heatproof",
+      "definition": "耐熱の",
+      "example": "関連語: resistant",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "water-resistant/waterproof",
+      "definition": "防水の",
+      "example": "関連語: resistant",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "excellent",
+      "definition": "素晴らしい",
+      "example": "関連語: superb",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "beneficial",
+      "definition": "有益な",
+      "example": "関連語: informative",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "useful/helpful",
+      "definition": "役立つ",
+      "example": "関連語: informative",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "obsolete",
+      "definition": "すたれた、時代遅れの",
+      "example": "関連語: outdated",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "stockholder",
+      "definition": "株主",
+      "example": "関連語: shareholder",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "coupon",
+      "definition": "クーポン",
+      "example": "関連語: voucher",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "gift certificate",
+      "definition": "商品券",
+      "example": "関連語: voucher",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "adjoining",
+      "definition": "隣の",
+      "example": "関連語: adjacent",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "correspond",
+      "definition": "一致する、手紙でやり取りする",
+      "example": "関連語: correspondence",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "corresponding",
+      "definition": "〜に対応する、付随する",
+      "example": "関連語: correspondence",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "correspondingly",
+      "definition": "〜に応じて、付随して",
+      "example": "関連語: correspondence",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "correspondent",
+      "definition": "特派員",
+      "example": "関連語: correspondence",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "operational",
+      "definition": "運転可能な、業務可能な",
+      "example": "関連語: functional",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "firsthand",
+      "definition": "直接の、現場の",
+      "example": "関連語: hands-on",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "amazing/stunning",
+      "definition": "驚くべき",
+      "example": "関連語: spectacular",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "extraordinary",
+      "definition": "途方もない",
+      "example": "関連語: spectacular",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "entrepreneurial",
+      "definition": "起業家の",
+      "example": "関連語: entrepreneur",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "venture",
+      "definition": "新事業",
+      "example": "関連語: entrepreneur",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "minimum",
+      "definition": "最小限、最小の",
+      "example": "関連語: minimize",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "maximize",
+      "definition": "最大化する",
+      "example": "関連語: minimize",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "maximum",
+      "definition": "最大限",
+      "example": "関連語: minimize",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "security screening",
+      "definition": "保安検査",
+      "example": "関連語: screening",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "preview",
+      "definition": "試写会",
+      "example": "関連語: screening",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "lengthen",
+      "definition": "伸ばす",
+      "example": "関連語: lengthy",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "length",
+      "definition": "長さ",
+      "example": "関連語: lengthy",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "compensation package",
+      "definition": "報酬パッケージ：給与、ボーナス、手当、年金、保険、休暇、従業員に与えられるものなど",
+      "example": "関連語: compensate",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "notably",
+      "definition": "特に",
+      "example": "関連語: notable",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "noteworthy",
+      "definition": "注目に値する",
+      "example": "関連語: notable",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "noted",
+      "definition": "著名な",
+      "example": "関連語: notable",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "authenticity",
+      "definition": "信ぴょう性",
+      "example": "関連語: authentic",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "DH",
+      "definition": "指名打者",
+      "example": "関連語: designated",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "disrupt",
+      "definition": "混乱させる、妨げる",
+      "example": "関連語: disruption",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "disruptive",
+      "definition": "妨げになる",
+      "example": "関連語: disruption",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "disturbance",
+      "definition": "邪魔、中断",
+      "example": "関連語: disruption",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "interruption",
+      "definition": "中断",
+      "example": "関連語: disruption",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "breakable",
+      "definition": "壊れやすい",
+      "example": "関連語: fragile",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "vulnerable",
+      "definition": "弱い、傷つきやすい",
+      "example": "関連語: fragile",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "susceptible",
+      "definition": "影響を受けやすい",
+      "example": "関連語: fragile",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "periodic",
+      "definition": "定期的な",
+      "example": "関連語: periodical",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "periodically",
+      "definition": "定期的に",
+      "example": "関連語: periodical",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "weekly",
+      "definition": "週刊誌",
+      "example": "関連語: periodical",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "monthly",
+      "definition": "月刊誌",
+      "example": "関連語: periodical",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "supervise",
+      "definition": "監督する",
+      "example": "関連語: oversee",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "rigorously",
+      "definition": "厳格に",
+      "example": "関連語: rigorous",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "tentatively",
+      "definition": "仮に",
+      "example": "関連語: tentative",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "interim",
+      "definition": "暫定、中間の",
+      "example": "関連語: tentative",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "tutorial",
+      "definition": "チュートリアル、指導書",
+      "example": "基本的な操作や知識を学ぶためのコンピュータプログラムや少人数での個別指導のこと。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "apprentice",
+      "definition": "見習い、実習生",
+      "example": "「見習いの技術者でスタートし、役員まで上り詰めた」のような人物紹介で出る。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "bid",
+      "definition": "入札する",
+      "example": "公共工事で数社が見積もりを出し最も条件の良い会社が仕事を請け負う方法。オークションの入札も bid。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "discard",
+      "definition": "捨てる、廃棄する",
+      "example": "ペーパーレス化で紙の削減目標を達成できたら全社午後半休を提案した例がある。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "outing",
+      "definition": "外出、お出かけ",
+      "example": "観光やスポーツ、買い物などレジャーの外出を指す。関連語: excursion（小旅行） getaway（短期休暇）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "overwhelmingly",
+      "definition": "圧倒的に",
+      "example": "関連語: overwhelming（圧倒的な） overwhelm（圧倒する）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "proceeds",
+      "definition": "収益、収入",
+      "example": "チャリティーイベントの文書で頻出。関連語: proceedings（議事録）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "refrain",
+      "definition": "控える",
+      "example": "refrain from doing の形で押さえる。自動詞なので直後に名詞は置けない。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "inclement",
+      "definition": "荒れた、悪天候の",
+      "example": "悪天候や道路工事などで道路が封鎖されるアナウンスで出る。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "novice",
+      "definition": "初心者",
+      "example": "初心者向け教室やイベント案内、初心者向け本の紹介などで出る。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "activate",
+      "definition": "有効にする、使えるようにする",
+      "example": "カードの使用方法の説明文書で出る。関連語: active（活動的な、有効な）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "anecdote",
+      "definition": "逸話",
+      "example": "個人の逸話を盛り込んだ書評や講演内容の説明で出る。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "collaboration",
+      "definition": "協力、共同作業",
+      "example": "関連語: collaborate（協力する） collaborative（協力の） collaboratively（協力で） cooperation（協力）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "commemorate",
+      "definition": "記念する",
+      "example": "関連語: commemoration（記念） commemorative（記念の）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "duplicate",
+      "definition": "複製の、複写",
+      "example": "関連語: a duplicate copy（写し） reproduce（コピーする）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "intermission",
+      "definition": "休憩時間",
+      "example": "劇やコンサートの間の休憩時間のこと。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "fertilizer",
+      "definition": "肥料",
+      "example": "食品廃棄物をリサイクルして肥料にする話題で出る。関連語: compost（堆肥）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "proofread",
+      "definition": "校正する",
+      "example": "スペルや文法、事実関係の間違いがないかをチェックする作業。関連語: proofreader（校正者）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "solicit",
+      "definition": "募る、懇願する",
+      "example": "募金や署名活動で協力を求めること。関連語: solicitation（嘆願） request（求める）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "unveil",
+      "definition": "発表する、披露する",
+      "example": "新製品の発表の文脈で出る。関連語: reveal（明かす） disclose（開示する）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "applicable",
+      "definition": "適用できる",
+      "example": "関連語: application（適用、応募） apply（応募）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "commend",
+      "definition": "褒める",
+      "example": "上司や顧客が従業員を褒める手紙やメールで使われる。関連語: commendable（称賛に値する） commendation（称賛）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "complement",
+      "definition": "補う、補完する",
+      "example": "compliment（ほめ言葉）との混同に注意。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "incentive",
+      "definition": "動機付け、奨励策",
+      "example": "割引や特典、ボーナスなどでやる気を起こさせるもの。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "incorporate",
+      "definition": "取り入れる、組み込む",
+      "example": "incorporate A into B の形で使う。関連語: include integrate embrace",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "lapse",
+      "definition": "失効する",
+      "example": "免許や会員資格が失効すること。ダイエット中のやけ食いや申し込み忘れも lapse。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "picturesque",
+      "definition": "絵のように美しい",
+      "example": "picture のように美しいという意味。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "prospective",
+      "definition": "見込みのある",
+      "example": "関連語: prospect（見通し） the prospect of success（成功の見込み）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "simplify",
+      "definition": "簡素化する",
+      "example": "関連語: simplification（簡素化） simplified version（簡易版）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "surpass",
+      "definition": "超える",
+      "example": "関連語: exceed（超える）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "surplus",
+      "definition": "余分な、余剰",
+      "example": "budget surplus（予算の余り）。関連語: excessive（過度の） excess（余分なもの）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "withstand",
+      "definition": "耐える",
+      "example": "製品は過酷な状況でも高温に耐えなければならない。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "advocate",
+      "definition": "提唱者、支持者",
+      "example": "動詞でも出る。The CEO advocates for energy efficiency のように使う。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "aspiring",
+      "definition": "志望の、向上心のある",
+      "example": "関連語: aspire（〜を志す） ambitious（意欲的な）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "assorted",
+      "definition": "詰め合わせの",
+      "example": "関連語: assortment（詰め合わせ）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "credentials",
+      "definition": "資格、経歴",
+      "example": "関連語: qualification（資格） ability（能力）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "interoffice",
+      "definition": "社内の、オフィス間の",
+      "example": "オフィスとオフィスの間という意味。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "malfunction",
+      "definition": "故障",
+      "example": "mal の語源は bad。悪い状態との語感で覚える。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "mutually",
+      "definition": "互いに",
+      "example": "関連語: mutual benefit（互いの利益）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "periodically",
+      "definition": "定期的に",
+      "example": "関連語: periodic（定期的な） regularly（定期的に）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "copyright",
+      "definition": "著作権",
+      "example": "関連語: patent（特許） copyright infringement（著作権侵害）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "nutritious",
+      "definition": "栄養のある",
+      "example": "関連語: nutrition（栄養）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "obstruct",
+      "definition": "遮る、妨げる",
+      "example": "関連語: obstruction（遮るもの） All fire exits are clear of obstructions.",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "abundant",
+      "definition": "豊富な、十分な",
+      "example": "abundant natural resources（豊富な天然資源）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "agreeable",
+      "definition": "快適な、感じの良い",
+      "example": "agreeable person（感じの良い人） agreeable price（合意できる価格）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "compromise",
+      "definition": "妥協、妥協点",
+      "example": "reach a compromise（妥協点に達する）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "continuous",
+      "definition": "連続的な、絶え間ない",
+      "example": "関連語: continuously（継続的に）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "dominant",
+      "definition": "支配的な、圧倒的な",
+      "example": "関連語: dominate（支配する）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "exhausted",
+      "definition": "疲れ切った",
+      "example": "tired（疲れた）と違い人を疲れさせる仕事の意味にもなる。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "fierce",
+      "definition": "激しい",
+      "example": "関連語: intense（激しい）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "prosperous",
+      "definition": "繁栄している、裕福な",
+      "example": "関連語: prosperity（繁栄） thriving（栄えている）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "quote",
+      "definition": "引用、見積もり",
+      "example": "a quote from an interview（インタビューからの引用） a quoted price（提示された価格）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "reluctant",
+      "definition": "気乗りしない",
+      "example": "reluctantly（しぶしぶ）も押さえる。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "remedy",
+      "definition": "改善策、治療法",
+      "example": "remedy the situation（状況を改善する） remedial（改善の、治療の）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "solely",
+      "definition": "単独で、もっぱら",
+      "example": "be solely responsible for（単独で責任を負う）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "vital",
+      "definition": "不可欠な、非常に重要な",
+      "example": "vital to SV の形で使う。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "revitalize",
+      "definition": "再活性化する、復興する",
+      "example": "vital と同語源で re が付いた語。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "commence",
+      "definition": "開始する",
+      "example": "begin や start と同義。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "countless",
+      "definition": "数えきれない",
+      "example": "count（数える）では数えられないの意。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "devise",
+      "definition": "考案する、立案する",
+      "example": "invent a new system（新システムを考案する） invention（発明） inventor（発明家）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "execute",
+      "definition": "実行する",
+      "example": "関連語: implement（実行する） enforce（施行する）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "foster",
+      "definition": "促進する、育成する",
+      "example": "関連語: promote（促進する）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "initiate",
+      "definition": "開始する",
+      "example": "関連語: initiative（主導権、新計画）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "insight",
+      "definition": "洞察",
+      "example": "関連語: insightful（洞察力のある） an insightful article（洞察に富んだ記事）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "misleading",
+      "definition": "誤解を招く",
+      "example": "時折、広告や新聞記事に誤りがあり訂正記事が出る。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "precaution",
+      "definition": "予防措置",
+      "example": "take precautions（予防策を講じる）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "transparent",
+      "definition": "透明な",
+      "example": "パート1でも狙われる可能性がある。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "coincide",
+      "definition": "一致する、同時に起こる",
+      "example": "関連語: coincidence（偶然） simultaneously（同時に）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "concise",
+      "definition": "簡潔な",
+      "example": "関連語: concisely（簡潔に） succinct（簡潔な）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "delegation",
+      "definition": "代表団",
+      "example": "関連語: delegate（代表）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "diagnosis",
+      "definition": "診断",
+      "example": "関連語: diagnostic（診断の）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "enforce",
+      "definition": "施行する、強制する",
+      "example": "規則や法律に force（力）で従わせるイメージ。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "hypothesis",
+      "definition": "仮説",
+      "example": "関連語: theory（理論） assumption（仮定） premise（前提）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "predecessor",
+      "definition": "前任者、前のモデル",
+      "example": "関連語: precede（先行する） successor（後任者）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "prominently",
+      "definition": "目立って",
+      "example": "関連語: prominent（著名な、目立つ）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "adoption",
+      "definition": "採用",
+      "example": "adopt a plan（計画を採用する）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "accelerate",
+      "definition": "加速させる",
+      "example": "関連語: acceleration（加速）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "adhere",
+      "definition": "忠実に従う、くっつく",
+      "example": "adhere to a procedure（手順に従う） adhesive（接着剤）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "allocate",
+      "definition": "割り当てる",
+      "example": "関連語: allocation（割り当て）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "appraisal",
+      "definition": "評価、査定",
+      "example": "関連語: assessment（査定、評価） performance appraisal（勤務評価）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "compile",
+      "definition": "取りまとめる、編集する",
+      "example": "関連語: compilation（編集、選集）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "conform",
+      "definition": "従う、適合する",
+      "example": "conform to international standards（国際基準に合わせる）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "constraint",
+      "definition": "制約",
+      "example": "関連語: budget constraints（予算の制約）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "distraction",
+      "definition": "気を散らすもの",
+      "example": "関連語: distract（気を散らす） disturbance（妨害） distractor（誤答）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "facilitate",
+      "definition": "促進する、容易にする",
+      "example": "関連語: facilitator（進行役）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "integral",
+      "definition": "不可欠な",
+      "example": "an integral part of（不可欠な一部） integrate（統合する）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "interact",
+      "definition": "交流する",
+      "example": "関連語: interactive（双方向の） interaction（交流）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "persistence",
+      "definition": "粘り強さ",
+      "example": "関連語: persistent（粘り強い） perseverance（粘り強さ）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "quota",
+      "definition": "ノルマ、割り当て",
+      "example": "a production quota（生産ノルマ）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "congested",
+      "definition": "混雑した",
+      "example": "関連語: congestion（渋滞、混雑） crowded（混雑した）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "deduct",
+      "definition": "控除する",
+      "example": "関連語: deduction（控除、控除額）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "embrace",
+      "definition": "受け入れる",
+      "example": "TOEIC の世界では「抱擁する」の意味では出ない。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "synthetic",
+      "definition": "合成の、人工の",
+      "example": "natural（天然）ではなく人工的に作られた素材。",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "terminate",
+      "definition": "終了させる",
+      "example": "関連語: termination（終了）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "detect",
+      "definition": "見つける、検知する",
+      "example": "undetected（見つからない） detector（検知器）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "patiently",
+      "definition": "根気よく",
+      "example": "関連語: patience（我慢強さ）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "ratio",
+      "definition": "比率",
+      "example": "関連語: proportion（比率）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "dietary",
+      "definition": "食事の",
+      "example": "関連語: diet（食事、食事制限）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "intentionally",
+      "definition": "意図的に",
+      "example": "関連語: intention（意図） intentional（意図的な） deliberately（意図的に）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    },
+    {
+      "term": "persuasive",
+      "definition": "説得力のある",
+      "example": "関連語: persuade（説得する） persuasively（説得力をもって） convincing（説得力のある）",
+      "chapter": "words701-900",
+      "source": "words701-900.csv"
+    }
+  ],
+  "quizzes": []
+}

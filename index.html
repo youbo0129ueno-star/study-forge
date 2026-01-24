@@ -35,6 +35,13 @@
           </div>
         </label>
         <label class="field">
+          <span>出題方向</span>
+          <div class="segmented" role="group">
+            <button type="button" id="directionEnJa" class="segmented-btn is-active">英→日</button>
+            <button type="button" id="directionJaEn" class="segmented-btn">日→英</button>
+          </div>
+        </label>
+        <label class="field">
           <span>章フィルタ</span>
           <select id="chapterSelect"></select>
         </label>
@@ -67,7 +74,24 @@
             <span id="cardTag" class="tag"></span>
           </div>
           <p id="cardBody" class="card-body"></p>
-          <p id="cardExample" class="card-example hidden"></p>
+          <div id="cardMeta" class="card-meta hidden">
+            <div class="meta-block hidden" id="cardSynonymsBlock">
+              <p class="meta-title">類義語</p>
+              <ul id="cardSynonyms" class="meta-list"></ul>
+            </div>
+            <div class="meta-block hidden" id="cardDerivativesBlock">
+              <p class="meta-title">派生語</p>
+              <ul id="cardDerivatives" class="meta-list"></ul>
+            </div>
+            <div class="meta-block hidden" id="cardPhrasesBlock">
+              <p class="meta-title">熟語・語句</p>
+              <ul id="cardPhrases" class="meta-list"></ul>
+            </div>
+            <div class="meta-block hidden" id="cardExamplesBlock">
+              <p class="meta-title">例文</p>
+              <ul id="cardExamples" class="meta-list"></ul>
+            </div>
+          </div>
           <div class="card-actions" id="cardActions">
             <button type="button" id="revealBtn">答えを見る</button>
             <button type="button" id="knownBtn" class="good">理解した</button>
