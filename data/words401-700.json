@@ -1,0 +1,3513 @@
+{
+  "subject": "TOEIC words401-700",
+  "terms": [
+    {
+      "term": "lately",
+      "definition": "最近/この頃",
+      "example": "例: I haven't seen Tex lately.（最近テックスを見ていない）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "profession",
+      "definition": "専門職/職業",
+      "example": "例: Why did you choose this profession?（なぜこの職業を選んだのですか）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "occupation",
+      "definition": "職業",
+      "example": "profession の類義語。例: name, address, and occupation（氏名・住所・職業）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "supervisor",
+      "definition": "上司/監督者",
+      "example": "permission from a supervisor（上司の許可）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "supervise",
+      "definition": "監督する",
+      "example": "動詞。例: supervise a team（チームを監督する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "supervisory",
+      "definition": "監督の/管理の",
+      "example": "形容詞。例: supervisory role（管理職の役割）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "supervision",
+      "definition": "監督",
+      "example": "名詞。例: under supervision（監督下で）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "ensure",
+      "definition": "確実にする/保証する",
+      "example": "ensure that the products are safe（製品の安全を確実にする）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "make sure",
+      "definition": "確実にする",
+      "example": "ensure の言い換え。例: make sure that...（〜を確実にする）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "insure",
+      "definition": "保険をかける",
+      "example": "ensure と混同注意。例: insure the shipment（輸送品に保険をかける）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "submission",
+      "definition": "提出物/提出",
+      "example": "hundreds of submissions from readers（読者からの多数の投稿）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "submit",
+      "definition": "提出する",
+      "example": "動詞。例: submit a report（報告書を提出する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "notify",
+      "definition": "知らせる",
+      "example": "notify employees of the change（従業員に変更を知らせる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "notify A of B",
+      "definition": "AにBを知らせる",
+      "example": "表現。例: notify customers of a delay（顧客に遅延を知らせる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "notify X that S V",
+      "definition": "XにSVを知らせる",
+      "example": "表現。例: notify him that the meeting is canceled（会議中止を伝える）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "definitely",
+      "definition": "絶対に/間違いなく",
+      "example": "例: I definitely need the item.（私は絶対にその品が必要だ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "eligible",
+      "definition": "資格がある",
+      "example": "be eligible to do / for。例: Employees are eligible to receive paid holidays.（社員は有給取得の資格がある）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "eligibility",
+      "definition": "資格",
+      "example": "名詞。例: eligibility requirements（資格要件）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "be entitled to",
+      "definition": "〜を受ける権利がある",
+      "example": "例: be entitled to paid leave（有給を受ける権利がある）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "paperwork",
+      "definition": "書類/書類作業",
+      "example": "All the paperwork is ready.（書類の準備はできている）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "document",
+      "definition": "書類",
+      "example": "paperwork の関連語。例: submit documents（書類を提出する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "complimentary",
+      "definition": "無料の/招待の",
+      "example": "a complimentary breakfast（無料の朝食）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "compliment",
+      "definition": "褒め言葉/称賛",
+      "example": "名詞。例: receive a compliment（褒め言葉をもらう）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "revise",
+      "definition": "修正する/見直す",
+      "example": "revise a plan（計画を修正する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "revision",
+      "definition": "修正/改訂",
+      "example": "名詞。例: a revision of the plan（計画の改訂）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "track",
+      "definition": "追跡する/線路",
+      "example": "track an order（注文を追跡する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "administrative",
+      "definition": "管理の/事務の",
+      "example": "administrative assistant（管理アシスタント）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "administration",
+      "definition": "運営/管理",
+      "example": "名詞。例: office administration（事務管理）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "retail",
+      "definition": "小売りの",
+      "example": "retail stores（小売店）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "retailer",
+      "definition": "小売業者",
+      "example": "名詞。例: local retailers（地元の小売業者）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "wholesaler",
+      "definition": "卸売業者",
+      "example": "小売との対。例: buy from a wholesaler（卸売から仕入れる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "inventory",
+      "definition": "在庫",
+      "example": "reduce inventory（在庫を減らす）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "stock",
+      "definition": "在庫/株",
+      "example": "inventory の類義語。例: out of stock（在庫切れ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "extensive",
+      "definition": "広範な/大規模な",
+      "example": "extensive analysis（詳細な分析）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "extensively",
+      "definition": "広範に/大規模に",
+      "example": "副詞。例: renovated extensively（大規模に改装）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "promotional",
+      "definition": "販売促進の",
+      "example": "promotional materials（販促物）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "promotion",
+      "definition": "販促/昇進",
+      "example": "名詞。例: sales promotion（販促）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "catering",
+      "definition": "仕出し/ケータリング",
+      "example": "catering service（仕出しサービス）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "cater",
+      "definition": "仕出しをする",
+      "example": "動詞。例: cater for an event（イベントに仕出しする）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "cater to",
+      "definition": "（要求に）応える",
+      "example": "表現。例: cater to customer needs（顧客ニーズに応える）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "wildlife",
+      "definition": "野生動物",
+      "example": "wildlife photographer（野生動物の写真家）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "assign",
+      "definition": "割り当てる/任命する",
+      "example": "assign the work（仕事を割り当てる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "assignment",
+      "definition": "割り当て/任務",
+      "example": "名詞。例: work assignment（仕事の割り当て）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "imply",
+      "definition": "ほのめかす/暗示する",
+      "example": "例: What is implied about the hotel?（ホテルについて何がほのめかされているか）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "banquet",
+      "definition": "宴会",
+      "example": "例: I am looking forward to the banquet.（晩餐会を楽しみにしている）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "luncheon",
+      "definition": "昼食会",
+      "example": "banquet の関連語。例: a business luncheon（ビジネス昼食会）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "valid",
+      "definition": "有効な",
+      "example": "valid until the end of May（5月末まで有効）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "validate",
+      "definition": "有効にする/認証する",
+      "example": "validate a ticket（チケットを有効にする）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "expire",
+      "definition": "期限が切れる",
+      "example": "valid の反対。例: The coupon expires tomorrow.（クーポンは明日で期限切れ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "affordable",
+      "definition": "手ごろな",
+      "example": "affordable prices（手ごろな価格）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "affordably",
+      "definition": "手ごろに",
+      "example": "副詞。例: affordably priced（手ごろな価格の）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "afford",
+      "definition": "（金銭的に）余裕がある",
+      "example": "動詞。例: We can't afford it.（それを買う余裕がない）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "affordability",
+      "definition": "手ごろさ",
+      "example": "名詞。例: improve affordability（手ごろさを高める）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "renovate",
+      "definition": "改装する",
+      "example": "a newly renovated library（新しく改装された図書館）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "renovation",
+      "definition": "改装",
+      "example": "名詞。例: renovation work（改装工事）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "repair",
+      "definition": "修理する",
+      "example": "renovate の関連語。例: repair the roof（屋根を修理する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "remodel",
+      "definition": "改築する",
+      "example": "renovate の関連語。例: remodel a kitchen（キッチンを改装する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "restore",
+      "definition": "修復する",
+      "example": "renovate の関連語。例: restore the building（建物を修復する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "refurbish",
+      "definition": "改装する/磨き直す",
+      "example": "renovate の関連語。例: refurbish an office（オフィスを改装する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "guidelines",
+      "definition": "指針/ガイドライン",
+      "example": "follow industry guidelines（業界の指針に従う）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "instruction",
+      "definition": "指示/説明",
+      "example": "guidelines の関連語。例: follow the instructions（説明に従う）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "direction",
+      "definition": "指示/方向",
+      "example": "guidelines の関連語。例: follow directions（指示に従う）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "certificate",
+      "definition": "証明書/認定証",
+      "example": "a copy of the certificate（証明書の写し）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "certify",
+      "definition": "認証する",
+      "example": "動詞。例: certify a document（書類を認証する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "certified",
+      "definition": "認定された",
+      "example": "形容詞。例: certified technician（認定技術者）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "gift certificate",
+      "definition": "ギフト券",
+      "example": "例: a gift certificate（ギフト券）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "innovative",
+      "definition": "革新的な",
+      "example": "innovative technology（革新的な技術）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "innovation",
+      "definition": "革新",
+      "example": "名詞。例: drive innovation（革新を促進する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "revolutionary",
+      "definition": "画期的な",
+      "example": "innovative の類義語。例: a revolutionary product（画期的な製品）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "agenda",
+      "definition": "議題/議事予定",
+      "example": "the first item on the agenda（議題の最初の項目）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "assembly",
+      "definition": "組み立て/組立ライン",
+      "example": "assembly line workers（組立ラインの作業員）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "assemble",
+      "definition": "組み立てる",
+      "example": "動詞。例: assemble bikes（自転車を組み立てる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "install",
+      "definition": "設置する/インストールする",
+      "example": "install a new printer（新しいプリンターを設置する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "installation",
+      "definition": "設置/インストール",
+      "example": "名詞。例: installation of equipment（機器の設置）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "orientation",
+      "definition": "説明会/オリエンテーション",
+      "example": "new employee orientation（新入社員向け説明会）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "renowned",
+      "definition": "名高い",
+      "example": "a renowned scientist（名高い科学者）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "famous",
+      "definition": "有名な",
+      "example": "renowned の類義語。例: a famous artist（有名な芸術家）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "well-known",
+      "definition": "よく知られた",
+      "example": "renowned の類義語。例: a well-known brand（有名ブランド）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "eminent",
+      "definition": "著名な",
+      "example": "renowned の類義語。例: an eminent professor（著名な教授）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "prominent",
+      "definition": "著名な/重要な",
+      "example": "renowned の類義語。例: a prominent figure（著名人物）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "celebrated",
+      "definition": "著名な",
+      "example": "renowned の類義語。例: a celebrated author（著名な作家）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "noted",
+      "definition": "有名な",
+      "example": "renowned の類義語。例: a noted architect（有名な建築家）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "notable",
+      "definition": "注目すべき",
+      "example": "renowned の類義語。例: a notable achievement（注目すべき成果）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "appropriate",
+      "definition": "適切な",
+      "example": "appropriate clothes for a job interview（面接に適した服装）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "appropriately",
+      "definition": "適切に",
+      "example": "副詞。例: dress appropriately（適切に服を着る）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "proper",
+      "definition": "適切な",
+      "example": "appropriate の類義語。例: proper attire（適切な服装）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "inappropriate",
+      "definition": "不適切な",
+      "example": "appropriate の反対。例: inappropriate behavior（不適切な行動）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "ingredient",
+      "definition": "材料/食材",
+      "example": "use fresh ingredients（新鮮な材料を使う）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "storage",
+      "definition": "保管/貯蔵",
+      "example": "a storage facility（貯蔵施設）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "store",
+      "definition": "保管する/店",
+      "example": "store food in the refrigerator（食品を冷蔵庫に保管する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "beverage",
+      "definition": "飲料",
+      "example": "serve food and beverages to guests（客に飲食物を提供する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "prior",
+      "definition": "前の/事前の",
+      "example": "prior to the meeting（会議の前に）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "prior to",
+      "definition": "〜の前に",
+      "example": "句。例: prior to arrival（到着前に）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "merger",
+      "definition": "合併",
+      "example": "the upcoming merger（今度の合併）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "inn",
+      "definition": "宿/小さなホテル",
+      "example": "a seaside inn（海辺の宿）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "equip",
+      "definition": "装備する/備え付ける",
+      "example": "be equipped with Internet access（インターネットが備わっている）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "equipment",
+      "definition": "設備/機器",
+      "example": "名詞。例: laboratory equipment（実験機器）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "summary",
+      "definition": "要約",
+      "example": "a brief summary（短い要約）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "summarize",
+      "definition": "要約する",
+      "example": "動詞。例: summarize a speech（スピーチを要約する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "lease",
+      "definition": "賃貸契約/賃貸する",
+      "example": "a two-year lease（2年契約）; lease an apartment（アパートを借りる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "defective",
+      "definition": "欠陥のある/不良の",
+      "example": "a defective product（欠陥品）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "defect",
+      "definition": "欠陥",
+      "example": "名詞。例: a defect in the product（製品の欠陥）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "quarterly",
+      "definition": "四半期ごとの/年4回の",
+      "example": "a quarterly magazine（季刊誌）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "quarter",
+      "definition": "四半期",
+      "example": "quarterly の関連語。例: the first quarter（第1四半期）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "extended",
+      "definition": "延長された/長期の",
+      "example": "an extended warranty（長期保証）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "long-term",
+      "definition": "長期の",
+      "example": "extended の関連語。例: a long-term plan（長期計画）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "architect",
+      "definition": "建築家",
+      "example": "a famous architect（有名な建築家）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "architecture",
+      "definition": "建築",
+      "example": "architect の関連語。例: study architecture（建築を学ぶ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "grocery",
+      "definition": "食料品/食料品店",
+      "example": "a local grocery store（地元の食料品店）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "grocery store",
+      "definition": "食料品店",
+      "example": "例: a grocery store（食料品店）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "sculpture",
+      "definition": "彫刻/彫刻作品",
+      "example": "a sculpture exhibition（彫刻展）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "statue",
+      "definition": "像/彫像",
+      "example": "sculpture の関連語。例: a statue in the park（公園の像）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "itinerary",
+      "definition": "旅程表/行程",
+      "example": "send an itinerary（旅程表を送る）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "directory",
+      "definition": "名簿/電話帳",
+      "example": "the company directory（社員名簿）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "telephone directory",
+      "definition": "電話帳",
+      "example": "例: a telephone directory（電話帳）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "business directory",
+      "definition": "企業名簿",
+      "example": "例: a business directory（企業名簿）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "expire",
+      "definition": "期限が切れる",
+      "example": "My driver's license expires in April.（運転免許証は4月に期限切れ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "expiration",
+      "definition": "期限切れ/失効",
+      "example": "名詞。例: expiration date（有効期限）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "expiration date",
+      "definition": "有効期限",
+      "example": "例: check the expiration date（有効期限を確認する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "lapse",
+      "definition": "失効する",
+      "example": "expire の類義語。例: The contract lapsed.（契約が失効した）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "vendor",
+      "definition": "業者/売り手",
+      "example": "negotiate with vendors（業者と交渉する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "colleague",
+      "definition": "同僚",
+      "example": "talk with a colleague（同僚と話す）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "coworker",
+      "definition": "同僚",
+      "example": "colleague の類義語。例: a coworker（同僚）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "patron",
+      "definition": "利用者/常連客",
+      "example": "library patrons（図書館の利用者）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "patronage",
+      "definition": "利用/ご愛顧",
+      "example": "名詞。例: Thank you for your patronage.（ご利用ありがとうございます）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "relocate",
+      "definition": "移転する",
+      "example": "relocate an office（オフィスを移転する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "relocation",
+      "definition": "移転",
+      "example": "名詞。例: office relocation（オフィス移転）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "move",
+      "definition": "移動する/引っ越す",
+      "example": "relocate の関連語。例: move to a new office（新しいオフィスに移る）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "tourism",
+      "definition": "観光業",
+      "example": "tourism industry（観光産業）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "tourist",
+      "definition": "観光客",
+      "example": "名詞。例: many tourists（多くの観光客）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "travel agency",
+      "definition": "旅行代理店",
+      "example": "tourism の関連語。例: a travel agency（旅行代理店）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "remodel",
+      "definition": "改装する/改築する",
+      "example": "My office is being remodeled.（オフィスが改装中だ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "renovate",
+      "definition": "改装する",
+      "example": "remodel の類義語。例: renovate the lobby（ロビーを改装する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "consumer",
+      "definition": "消費者",
+      "example": "consumer reports（消費者レポート）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "consume",
+      "definition": "消費する",
+      "example": "動詞。例: consume energy（エネルギーを消費する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "consumption",
+      "definition": "消費",
+      "example": "名詞。例: energy consumption（エネルギー消費）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "inspect",
+      "definition": "検査する",
+      "example": "inspect a building（建物を検査する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "inspection",
+      "definition": "検査",
+      "example": "名詞。例: perform a safety inspection（安全検査を行う）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "inspector",
+      "definition": "検査官",
+      "example": "名詞。例: an inspector（検査官）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "numerous",
+      "definition": "多数の",
+      "example": "例: I have eaten at numerous local restaurants.（地元の多くのレストランで食べたことがある）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "payroll",
+      "definition": "給与管理/給与名簿",
+      "example": "a new payroll system（新しい給与管理システム）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "qualified",
+      "definition": "資格がある/適任の",
+      "example": "I am qualified for the position.（その職に適任だ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "qualification",
+      "definition": "資格/適性",
+      "example": "名詞。例: job qualifications（職の資格）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "qualify",
+      "definition": "資格を得る/適任である",
+      "example": "動詞。例: qualify for the job（その仕事の資格がある）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "appliance",
+      "definition": "家電/機器",
+      "example": "kitchen appliances（台所用電化製品）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "competitive",
+      "definition": "競争力のある",
+      "example": "competitive prices（競争力のある価格）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "competitively",
+      "definition": "競争力のある形で",
+      "example": "副詞。例: competitively priced items（競争力ある価格の商品）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "specialize",
+      "definition": "専門にする",
+      "example": "specialize in Web design（Webデザインを専門にする）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "specialization",
+      "definition": "専門分野",
+      "example": "名詞。例: his specialization（彼の専門分野）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "specialist",
+      "definition": "専門家",
+      "example": "名詞。例: a design specialist（デザインの専門家）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "specialty store",
+      "definition": "専門店",
+      "example": "例: a specialty store（専門店）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "questionnaire",
+      "definition": "質問票/アンケート用紙",
+      "example": "fill out a questionnaire（アンケート用紙に記入する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "approximately",
+      "definition": "おおよそ",
+      "example": "approximately two hours（約2時間）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "roughly",
+      "definition": "おおよそ",
+      "example": "副詞。例: roughly the same（だいたい同じ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "approximate",
+      "definition": "おおよその",
+      "example": "形容詞。例: an approximate number（おおよその数）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "contribute",
+      "definition": "貢献する/寄付する",
+      "example": "contribute to a team（チームに貢献する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "contribution",
+      "definition": "貢献/寄付",
+      "example": "名詞。例: a valuable contribution（貴重な貢献）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "productivity",
+      "definition": "生産性",
+      "example": "improve productivity（生産性を改善する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "productive",
+      "definition": "生産的な",
+      "example": "形容詞。例: a productive meeting（生産的な会議）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "production",
+      "definition": "生産",
+      "example": "名詞。例: increase production（生産を増やす）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "promptly",
+      "definition": "すばやく/即座に",
+      "example": "The meeting starts promptly at 1 P.M.（会議は1時ちょうどに始まる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "respond promptly",
+      "definition": "すばやく対応する",
+      "example": "例: respond promptly to requests（要請にすばやく対応する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "prompt",
+      "definition": "促す/迅速な",
+      "example": "名詞・形容詞。例: a prompt response（迅速な返答）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "strategy",
+      "definition": "戦略",
+      "example": "a marketing strategy（マーケティング戦略）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "strategic",
+      "definition": "戦略的な",
+      "example": "形容詞。例: a strategic plan（戦略的計画）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "strategically",
+      "definition": "戦略的に",
+      "example": "副詞。例: positioned strategically（戦略的に配置された）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "dedicated",
+      "definition": "献身的な/専用の",
+      "example": "experienced and dedicated staff（経験豊富で献身的なスタッフ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "dedicate",
+      "definition": "捧げる/専念する",
+      "example": "動詞。例: dedicate resources（資源を注ぐ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "dedication",
+      "definition": "献身/専用",
+      "example": "名詞。例: dedication to quality（品質への献身）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "exceptional",
+      "definition": "例外的に優れた",
+      "example": "exceptional customer service（非常に優れた顧客サービス）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "exceptionally",
+      "definition": "非常に/並外れて",
+      "example": "副詞。例: exceptionally good（非常に良い）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "remarkable",
+      "definition": "注目すべき",
+      "example": "exceptional の類義語。例: a remarkable result（注目すべき結果）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "extraordinary",
+      "definition": "並外れた",
+      "example": "exceptional の類義語。例: extraordinary growth（並外れた成長）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "luncheon",
+      "definition": "昼食会",
+      "example": "hold a luncheon（昼食会を開く）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "banquet",
+      "definition": "宴会",
+      "example": "luncheon の関連語。例: a banquet（宴会）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "exceed",
+      "definition": "超える",
+      "example": "exceed expectations（期待を超える）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "multiple",
+      "definition": "複数の",
+      "example": "operate in multiple countries（複数の国で営業する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "specify",
+      "definition": "明記する",
+      "example": "regulations clearly specify that...（規則が〜を明記している）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "specific",
+      "definition": "具体的な/特定の",
+      "example": "specify の関連語。例: specific details（具体的な詳細）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "specification",
+      "definition": "仕様/明細",
+      "example": "名詞。例: product specifications（製品仕様）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "stipulate",
+      "definition": "規定する/明記する",
+      "example": "specify の類義語。例: contract stipulates（契約に規定されている）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "venue",
+      "definition": "会場",
+      "example": "a convention venue（会議の会場）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "site",
+      "definition": "場所/現場",
+      "example": "venue の関連語。例: construction site（工事現場）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "household",
+      "definition": "家庭の/家庭用品",
+      "example": "household products（家庭用品）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "evaluate",
+      "definition": "評価する",
+      "example": "evaluate a product（製品を評価する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "evaluation",
+      "definition": "評価",
+      "example": "名詞。例: performance evaluation（業績評価）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "assess",
+      "definition": "評価する/査定する",
+      "example": "evaluate の類義語。例: assess the risks（リスクを評価する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "negotiate",
+      "definition": "交渉する",
+      "example": "negotiate with a client（顧客と交渉する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "negotiation",
+      "definition": "交渉",
+      "example": "名詞。例: contract negotiation（契約交渉）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "negotiable",
+      "definition": "交渉可能な",
+      "example": "形容詞。例: prices are negotiable（価格は交渉可能）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "booking",
+      "definition": "予約",
+      "example": "make a booking（予約をする）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "reservation",
+      "definition": "予約",
+      "example": "booking の類義語。例: make a reservation（予約する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "circulation",
+      "definition": "発行部数/流通",
+      "example": "a daily circulation of 30,000（1日3万部の発行部数）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "in circulation",
+      "definition": "流通している",
+      "example": "例: coins in circulation（流通している硬貨）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "circulation desk",
+      "definition": "貸出カウンター",
+      "example": "図書館。例: at the circulation desk（貸出カウンターで）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "completion",
+      "definition": "完了",
+      "example": "the completion of the project（プロジェクトの完了）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "complete",
+      "definition": "完了する/完全な",
+      "example": "形容詞・動詞。例: complete the project（プロジェクトを完了する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "relevant",
+      "definition": "関連した",
+      "example": "relevant work experience（関連した職務経験）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "related",
+      "definition": "関連した",
+      "example": "relevant の類義語。例: a related field（関連分野）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "irrelevant",
+      "definition": "無関係な",
+      "example": "relevant の反対。例: irrelevant details（無関係な詳細）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "thorough",
+      "definition": "徹底的な",
+      "example": "a thorough review（徹底的な検討）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "thoroughly",
+      "definition": "徹底的に",
+      "example": "副詞。例: thoroughly reviewed（徹底的に見直された）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "via",
+      "definition": "〜経由で",
+      "example": "fly to Seattle via Denver（デンバー経由でシアトルへ飛ぶ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "workplace",
+      "definition": "職場",
+      "example": "relationships in the workplace（職場での人間関係）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "accommodations",
+      "definition": "宿泊施設",
+      "example": "The price includes flights and accommodations.（料金には航空券と宿泊が含まれる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "lodge",
+      "definition": "宿泊施設",
+      "example": "accommodations の関連語。例: a mountain lodge（山の宿）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "flexible",
+      "definition": "柔軟な/フレックスタイムの",
+      "example": "flexible work hours（フレックスの勤務時間）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "predict",
+      "definition": "予測する",
+      "example": "some experts predict that...（専門家が〜と予測する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "prediction",
+      "definition": "予測",
+      "example": "名詞。例: a prediction about sales（売上の予測）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "predictable",
+      "definition": "予測可能な",
+      "example": "形容詞。例: a predictable pattern（予測可能なパターン）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "foresee",
+      "definition": "予見する",
+      "example": "predict の類義語。例: foresee problems（問題を予見する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "preference",
+      "definition": "好み/希望",
+      "example": "seat and meal preferences（座席と食事の希望）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "substantial",
+      "definition": "かなりの/相当な",
+      "example": "reduce costs by a substantial amount（かなりの額のコストを削減する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "significant",
+      "definition": "かなりの/重要な",
+      "example": "substantial の類義語。例: a significant reduction（大幅な削減）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "considerable",
+      "definition": "かなりの",
+      "example": "substantial の類義語。例: considerable savings（かなりの節約）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "accessible",
+      "definition": "利用可能な/アクセス可能な",
+      "example": "easily accessible by train（電車で簡単に行ける）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "coverage",
+      "definition": "報道/補償範囲",
+      "example": "media coverage（メディアの報道）; insurance coverage（保険の補償範囲）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "cover",
+      "definition": "覆う/取材する",
+      "example": "coverage の動詞。例: cover an event（イベントを取材する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "generate",
+      "definition": "生み出す",
+      "example": "generate profits（利益を生み出す）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "yield",
+      "definition": "生み出す/収穫量",
+      "example": "generate の類義語。例: yield positive results（良い結果を生む）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "refreshment",
+      "definition": "軽食/飲み物",
+      "example": "refreshments will be served（軽食が出ます）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "snack",
+      "definition": "軽食",
+      "example": "refreshment の関連語。例: a light snack（軽い軽食）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "reliable",
+      "definition": "頼りになる/信頼できる",
+      "example": "a reliable secretary（頼りになる秘書）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "dependable",
+      "definition": "信頼できる",
+      "example": "reliable の類義語。例: a dependable worker（信頼できる働き手）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "trusted",
+      "definition": "信頼された",
+      "example": "reliable の類義語。例: a trusted adviser（信頼される助言者）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "reliability",
+      "definition": "信頼性",
+      "example": "名詞。例: improve reliability（信頼性を高める）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "reliably",
+      "definition": "確実に",
+      "example": "副詞。例: operates reliably（確実に作動する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "revenue",
+      "definition": "収益/売上",
+      "example": "advertising revenue（広告収入）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "income",
+      "definition": "収入",
+      "example": "revenue の関連語。例: personal income（個人収入）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "fund-raising",
+      "definition": "資金集め/募金の",
+      "example": "fund-raising dinner（資金集めの夕食会）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "fund-raiser",
+      "definition": "資金集めのイベント",
+      "example": "名詞。例: attend a fund-raiser（募金イベントに参加する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "accomplished",
+      "definition": "熟練した/優れた",
+      "example": "an accomplished designer（熟練したデザイナー）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "accomplish",
+      "definition": "成し遂げる",
+      "example": "動詞。例: accomplish a task（仕事を成し遂げる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "accomplishment",
+      "definition": "達成/成果",
+      "example": "名詞。例: a major accomplishment（大きな成果）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "acquire",
+      "definition": "取得する/買収する",
+      "example": "acquire a company（会社を買収する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "acquisition",
+      "definition": "取得/買収",
+      "example": "名詞。例: an acquisition deal（買収案件）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "merge",
+      "definition": "合併する",
+      "example": "動詞。例: Company A merges with B.（A社がB社と合併する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "accordingly",
+      "definition": "それに応じて/したがって",
+      "example": "The weather is cold, so dress accordingly.（寒いのでそれに応じた服装を）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "consequently",
+      "definition": "その結果",
+      "example": "accordingly の類義語。例: Consequently, sales fell.（その結果売上が下がった）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "therefore",
+      "definition": "したがって",
+      "example": "accordingly の類義語。例: Therefore, we postponed.（したがって延期した）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "thus",
+      "definition": "それゆえに",
+      "example": "accordingly の類義語。例: Thus, the plan changed.（それゆえ計画が変わった）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "as a result",
+      "definition": "その結果",
+      "example": "表現。例: As a result, delays occurred.（その結果遅延が起きた）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "in consequence",
+      "definition": "結果として",
+      "example": "表現。例: in consequence of delays（遅延の結果として）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "critic",
+      "definition": "批評家/評論家",
+      "example": "positive reviews from critics（評論家からの好意的なレビュー）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "criticize",
+      "definition": "批判する",
+      "example": "動詞。例: criticize the plan（計画を批判する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "critically",
+      "definition": "批判的に/重大に",
+      "example": "副詞。例: critically important（極めて重要）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "critical",
+      "definition": "批判的な/重大な",
+      "example": "形容詞。例: a critical issue（重大な問題）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "highlight",
+      "definition": "強調する/目立たせる",
+      "example": "highlight differences（違いを強調する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "profile",
+      "definition": "プロフィール/人物紹介",
+      "example": "a profile of a businessperson（ビジネスパーソンの人物紹介）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "high-profile",
+      "definition": "注目度の高い",
+      "example": "形容詞。例: a high-profile figure（注目人物）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "motivate",
+      "definition": "やる気にさせる",
+      "example": "motivate employees（社員をやる気にさせる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "motivated",
+      "definition": "やる気に満ちた",
+      "example": "形容詞。例: motivated staff（やる気のあるスタッフ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "motivation",
+      "definition": "やる気/動機",
+      "example": "名詞。例: boost motivation（やる気を高める）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "subscription",
+      "definition": "購読/加入",
+      "example": "a magazine subscription（雑誌の購読）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "subscribe",
+      "definition": "購読する/加入する",
+      "example": "subscribe to a magazine（雑誌を購読する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "encounter",
+      "definition": "直面する/遭遇する",
+      "example": "encounter a serious problem（重大な問題に直面する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "luxury",
+      "definition": "高級な/ぜいたく",
+      "example": "a luxury sedan（高級セダン）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "luxurious",
+      "definition": "豪華な",
+      "example": "luxury の形容詞。例: a luxurious hotel（豪華なホテル）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "prohibit",
+      "definition": "禁止する",
+      "example": "Street parking is prohibited.（路上駐車は禁止）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "prohibitive",
+      "definition": "禁止的な/法外に高い",
+      "example": "形容詞。例: prohibitive costs（法外な費用）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "resolve",
+      "definition": "解決する",
+      "example": "The problem was resolved.（問題は解決された）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "settle",
+      "definition": "解決する/落ち着かせる",
+      "example": "resolve の類義語。例: settle the issue（問題を解決する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "restore",
+      "definition": "復旧する/元に戻す",
+      "example": "Telephone service was restored this morning.（電話サービスが復旧した）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "restoration",
+      "definition": "復旧/修復",
+      "example": "名詞。例: power restoration（電力の復旧）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "surrounding",
+      "definition": "周辺の",
+      "example": "surrounding areas（周辺地域）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "surround",
+      "definition": "取り囲む",
+      "example": "動詞。例: parks surround the lake（公園が湖を囲む）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "alert",
+      "definition": "知らせる/警報",
+      "example": "alert Tex to the problem（テックスに問題を知らせる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "anticipate",
+      "definition": "予期する",
+      "example": "the highly anticipated new book（非常に期待されている新刊）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "anticipated",
+      "definition": "予期された/期待された",
+      "example": "形容詞。例: anticipated demand（予想される需要）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "anticipation",
+      "definition": "期待/予想",
+      "example": "名詞。例: in anticipation of（〜を見越して）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "consistently",
+      "definition": "一貫して/常に",
+      "example": "consistently rank among...（常に〜に入る）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "consistent",
+      "definition": "一貫した",
+      "example": "形容詞。例: consistent quality（一貫した品質）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "consistency",
+      "definition": "一貫性",
+      "example": "名詞。例: ensure consistency（一貫性を確保する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "dairy",
+      "definition": "乳製品/乳業",
+      "example": "fat-free dairy products（無脂肪の乳製品）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "phase",
+      "definition": "段階",
+      "example": "the first phase（第一段階）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "step",
+      "definition": "段階/手順",
+      "example": "phase の関連語。例: the next step（次の段階）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "manuscript",
+      "definition": "原稿/草稿",
+      "example": "edit a manuscript（原稿を編集する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "draft",
+      "definition": "草稿/下書き",
+      "example": "manuscript の関連語。例: a draft version（下書き版）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "overtime",
+      "definition": "残業",
+      "example": "work a lot of overtime（長時間残業する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "premises",
+      "definition": "敷地/施設内",
+      "example": "on the premises（敷地内で）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "utility",
+      "definition": "公共料金/公共サービス",
+      "example": "The rent includes all utilities.（家賃に光熱費が含まれる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "utility company",
+      "definition": "公共事業会社",
+      "example": "例: a utility company（電力・ガス会社）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "laundry",
+      "definition": "洗濯/洗濯物",
+      "example": "a laundry room（洗濯部屋）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "do the laundry",
+      "definition": "洗濯をする",
+      "example": "表現。例: do the laundry（洗濯する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "enthusiastic",
+      "definition": "熱心な/乗り気な",
+      "example": "I am enthusiastic about the project.（そのプロジェクトに乗り気だ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "enthusiastically",
+      "definition": "熱心に",
+      "example": "副詞。例: respond enthusiastically（熱心に反応する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "enthusiasm",
+      "definition": "熱意",
+      "example": "名詞。例: show enthusiasm（熱意を示す）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "outline",
+      "definition": "概要/概略を述べる",
+      "example": "outline a policy（方針の概要を説明する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "overview",
+      "definition": "概要",
+      "example": "outline の関連語。例: an overview of the plan（計画の概要）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "packet",
+      "definition": "資料一式/小包",
+      "example": "a packet of materials（資料一式）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "retain",
+      "definition": "保持する/保管する",
+      "example": "retain a receipt（レシートを保管する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "retention",
+      "definition": "保持/定着",
+      "example": "名詞。例: employee retention（従業員定着）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "belongings",
+      "definition": "持ち物/所持品",
+      "example": "Make sure you have all your belongings.（所持品を確認してください）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "belong",
+      "definition": "属する/〜の所有物である",
+      "example": "動詞。例: This book belongs to Tex.（この本はテックスのもの）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "conservation",
+      "definition": "節約/環境保護",
+      "example": "energy conservation（エネルギーの節約）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "conserve",
+      "definition": "節約する/保存する",
+      "example": "conserve water（水を節約する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "routine",
+      "definition": "日常的な/通常の",
+      "example": "routine maintenance work（日常のメンテナンス作業）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "routinely",
+      "definition": "日常的に",
+      "example": "副詞。例: inspections are routinely performed（定期的に検査される）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "urban",
+      "definition": "都市の",
+      "example": "urban areas（都市部）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "rural",
+      "definition": "田舎の",
+      "example": "urban の反対。例: rural areas（地方）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "suburban",
+      "definition": "郊外の",
+      "example": "urban の関連語。例: suburban neighborhood（郊外の地域）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "workforce",
+      "definition": "労働力/全従業員",
+      "example": "50 percent of the workforce（労働力の50%）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "biography",
+      "definition": "伝記/人物紹介",
+      "example": "a brief biography of the author（著者の簡単な人物紹介）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "autobiography",
+      "definition": "自伝",
+      "example": "biography の関連語。例: an autobiography（自伝）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "ownership",
+      "definition": "所有権",
+      "example": "change ownership（所有権が移る）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "own",
+      "definition": "所有する",
+      "example": "ownership の関連語。例: own a company（会社を所有する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "owner",
+      "definition": "所有者/オーナー",
+      "example": "ownership の関連語。例: the owner of the shop（店のオーナー）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "pastry",
+      "definition": "焼き菓子/ペストリー",
+      "example": "a pastry chef（焼き菓子のシェフ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "baked goods",
+      "definition": "焼き菓子",
+      "example": "pastry の関連語。例: baked goods（焼き菓子）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "tenant",
+      "definition": "入居者/借り手",
+      "example": "both building managers and tenants（管理人と入居者）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "landlord",
+      "definition": "大家/地主",
+      "example": "tenant の関連語。例: the landlord（大家）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "workload",
+      "definition": "仕事量",
+      "example": "reduce the workload（仕事量を減らす）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "sufficient",
+      "definition": "十分な",
+      "example": "sufficient time（十分な時間）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "sufficiency",
+      "definition": "十分さ",
+      "example": "名詞。例: ensure sufficiency（十分さを確保する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "sufficiently",
+      "definition": "十分に",
+      "example": "副詞。例: sufficiently prepared（十分に準備された）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "enough",
+      "definition": "十分な/十分に",
+      "example": "sufficient の類義語。例: enough time（十分な時間）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "insufficient",
+      "definition": "不十分な",
+      "example": "sufficient の反対。例: insufficient funds（資金不足）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "characteristic",
+      "definition": "特徴/特性",
+      "example": "main characteristics of the product（製品の主な特徴）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "feature",
+      "definition": "特徴",
+      "example": "characteristic の類義語。例: key features（主要な特徴）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "combined",
+      "definition": "共同の/結合された",
+      "example": "a combined effort（共同の努力）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "combine",
+      "definition": "組み合わせる",
+      "example": "動詞。例: combine ideas（アイデアを組み合わせる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "combination",
+      "definition": "組み合わせ",
+      "example": "名詞。例: a winning combination（勝てる組み合わせ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "conclude",
+      "definition": "終える/結論づける",
+      "example": "The event will conclude with a concert.（イベントはコンサートで締めくくられる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "conclusion",
+      "definition": "結論/締めくくり",
+      "example": "名詞。例: reach a conclusion（結論に達する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "associate",
+      "definition": "関連付ける/関連する",
+      "example": "costs associated with buying a house（家購入に関連した費用）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "be associated with",
+      "definition": "〜に関連している",
+      "example": "表現。例: be associated with risks（リスクに関連する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "associate editor",
+      "definition": "副編集者",
+      "example": "関連語。例: associate editor（副編集者）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "association",
+      "definition": "関連/協会",
+      "example": "名詞。例: professional association（職能団体）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "conflict",
+      "definition": "衝突/対立",
+      "example": "a scheduling conflict（予定の衝突）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "investment",
+      "definition": "投資",
+      "example": "real estate investment（不動産投資）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "invest",
+      "definition": "投資する",
+      "example": "動詞。例: invest in a new plant（新工場に投資する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "physician",
+      "definition": "医師",
+      "example": "see a physician（医師に診てもらう）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "doctor",
+      "definition": "医師",
+      "example": "physician の類義語。例: see a doctor（医者に診てもらう）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "dentist",
+      "definition": "歯科医",
+      "example": "関連語。例: visit a dentist（歯科に行く）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "surgeon",
+      "definition": "外科医",
+      "example": "関連語。例: consult a surgeon（外科医に相談する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "veterinarian",
+      "definition": "獣医",
+      "example": "関連語。例: take a pet to a veterinarian（ペットを獣医に連れて行く）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "token",
+      "definition": "印/しるし",
+      "example": "as a token of our appreciation（感謝のしるしとして）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "partial",
+      "definition": "部分的な",
+      "example": "a partial refund（部分返金）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "resume",
+      "definition": "再開する",
+      "example": "resume operations（操業を再開する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "dealership",
+      "definition": "販売特約店/ディーラー",
+      "example": "car dealerships（車の販売特約店）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "dealer",
+      "definition": "販売業者/ディーラー",
+      "example": "dealership の関連語。例: an authorized dealer（公認の販売店）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "garment",
+      "definition": "衣料品",
+      "example": "The garment is made of cotton.（その衣料品は綿製だ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "implement",
+      "definition": "実行する/実施する",
+      "example": "Security measures were implemented.（安全対策が実施された）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "implementation",
+      "definition": "実施/導入",
+      "example": "名詞。例: implementation of a plan（計画の実施）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "institute",
+      "definition": "制定する/設ける",
+      "example": "implement の関連語。例: institute new rules（新規則を制定する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "enforce",
+      "definition": "施行する/強制する",
+      "example": "implement の関連語。例: enforce regulations（規制を施行する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "paycheck",
+      "definition": "給料（小切手）",
+      "example": "receive a paycheck（給料を受け取る）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "recruit",
+      "definition": "採用する/新入社員",
+      "example": "recruit new staff（新しいスタッフを採用する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "recruitment",
+      "definition": "採用",
+      "example": "名詞。例: recruitment process（採用プロセス）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "recruiter",
+      "definition": "採用担当者",
+      "example": "名詞。例: a recruiter（採用担当者）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "substitute",
+      "definition": "代わりの/代用する",
+      "example": "substitute new for old（古い物の代わりに新しい物を使う）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "typically",
+      "definition": "通常/典型的に",
+      "example": "Our tours typically take an hour.（ツアーは通常1時間かかる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "usually",
+      "definition": "通常",
+      "example": "typically の類義語。例: usually open at 9（通常9時開店）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "generally",
+      "definition": "一般的に",
+      "example": "typically の類義語。例: generally accepted（一般的に受け入れられる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "normally",
+      "definition": "通常",
+      "example": "typically の類義語。例: normally closed（通常は閉まっている）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "authorize",
+      "definition": "公認する/権限を与える",
+      "example": "an authorized dealer（公認の販売店）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "authorization",
+      "definition": "許可/認可",
+      "example": "名詞。例: obtain authorization（許可を得る）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "comparable",
+      "definition": "同等の/比較可能な",
+      "example": "comparable products（同等の製品）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "similar",
+      "definition": "似た/同様の",
+      "example": "comparable の類義語。例: similar features（似た特徴）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "faculty",
+      "definition": "大学の教員/学部",
+      "example": "a faculty member（大学の教員）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "dean",
+      "definition": "学部長",
+      "example": "faculty の関連語。例: the dean of the college（学部長）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "initiative",
+      "definition": "新しい計画/主導権",
+      "example": "自ら先頭に立って引っ張っていくイメージの単語。ここでは「会社を引っ張っていくような新しい計画」の意味。文脈によっては「リーダーシップ」「主導権」となる。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "postage",
+      "definition": "郵便料金",
+      "example": "by (postal) mail は通常「郵送で」の意味で、by e-mail（メールで）の意味ではないことに注意。postage stamps（切手）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "afterwards",
+      "definition": "その後で",
+      "example": "類義語の after が前置詞・接続詞・副詞として用いられるのに対し、afterwards は副詞であることにも注意。subsequently（その後）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "aim",
+      "definition": "目指す/狙う/目標/狙い",
+      "example": "to 不定詞を取る形も重要。名詞でも出る。the aim of the research（調査の目標）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "generally",
+      "definition": "おおむね/通常/一般的に",
+      "example": "general（一般的な、全般的な） the general public（一般の人） usually/ normally/ ordinarily/ commonly/ mostly（おおむね）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "occupied",
+      "definition": "（部屋、座席、ベッド等が）使われている",
+      "example": "「オカピーど」と勘違いしている学生をしばしば見かけるが、正しくは「オキュパイド」（なお動詞 occupy はアクセントがある）。occupy（占める） occupancy（占有）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "solid",
+      "definition": "確かな/信頼できる",
+      "example": "「固体の」「頑丈な」という意味もあるが、TOEIC ではこの意味が頻出。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "attempt",
+      "definition": "試みる/試み",
+      "example": "動詞でも出る。例: Tex attempted to become a singer.（テックスは歌手になろうと試みた）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "authority",
+      "definition": "権限/権力/権威/当局",
+      "example": "「権威、権力、当局」の意味でも出る。an authority on French literature（フランス文学の権威）, the transit authority（交通局）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "domestic",
+      "definition": "国内の",
+      "example": "一つの国の中の意味。「海外ではビジネスをしていない」といったパートナーの背景の根拠としても重要な単語。international（国際的な）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "permission",
+      "definition": "許可",
+      "example": "permit（許可する、許可証） weather permitting（天気が良ければ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "presence",
+      "definition": "存在感/出席",
+      "example": "「出席」の意味も重要。Your presence is required at the meeting.（会議にあなたの出席が必要です）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "rapidly",
+      "definition": "急速に",
+      "example": "形容詞の rapid（急速な）も出る。rapid growth（急速な成長）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "relief",
+      "definition": "安心感/苦痛・悩み等の緩和",
+      "example": "不安や痛みなどを和らげること。形容詞の relieved（ほっとする）も重要。Why is the man relieved?（男性はなぜほっとしていますか） relieve（和らげる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "reward",
+      "definition": "報い/ほうびを与える",
+      "example": "名詞も重要。membership rewards（会員特典）, customer rewards program（顧客還元プログラム） rewarding（やりがいのある、実りの多い）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "translate",
+      "definition": "翻訳する",
+      "example": "translation（翻訳） rephrase（言い換える）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "circumstance",
+      "definition": "状況",
+      "example": "慣用表現の under no circumstances（いかなる状況下でも〜ない）も合わせて押さえる。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "contrary",
+      "definition": "反対の/正反対",
+      "example": "on the contrary（それどころか）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "eventually",
+      "definition": "最終的に/結局",
+      "example": "finally（最終的に） ultimately（最終的に）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "expose",
+      "definition": "さらす/触れさせる/暴露する",
+      "example": "ex（外に）pose（置く）が語源。exposure（さらすこと、露出）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "panel",
+      "definition": "グループ/パネル",
+      "example": "panel は「特定のテーマについての討論や、コンテストの審査等のために集まった専門家（panelist）のグループ」のこと。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "portion",
+      "definition": "部分/一人分の食事",
+      "example": "TOEIC の世界では、半券さえ保管しておけば「店頭は無条件に返品・交換に応じてくれる」という重要単語。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "primary",
+      "definition": "主な",
+      "example": "primarily（主に） For whom is the notice primarily intended?（このお知らせは主に誰向けですか） main（主な） principal（主要な）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "remark",
+      "definition": "一言のコメント/意見",
+      "example": "「コメント」の意味をイメージしやすい。remarkable（注目に値する） remarkably（非常に）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "timely",
+      "definition": "タイミングの良い/タイムリーな",
+      "example": "ly を伴う形は通常副詞だが、以下の単語は形容詞にもなる。nightly/daily/weekly/monthly/yearly（毎晩・日・週・月・年の） timely（タイムリーな） costly（高価な） leisurely（のんびりした）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "commonly",
+      "definition": "一般に/通常/普通に",
+      "example": "common（一般的な、普通の、共通の） usually/ normally/ generally（普通は、一般的に）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "consult",
+      "definition": "（医者、弁護士等の専門家に）相談する",
+      "example": "「本や地図などを参考にする」の意味も重要。consult a manual（マニュアルを参考にする） consultation（相談） consultant（コンサルタント、相談役）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "convert",
+      "definition": "改造する/変える",
+      "example": "あるモノを別の形や用途に変えるの意味。「内野から外野へのコンバート」と野球用語でも使われている。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "obligation",
+      "definition": "義務",
+      "example": "obligate（義務を負わせる） be obliged/obligated to do X（X する義務がある）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "resign",
+      "definition": "辞職する/辞任する",
+      "example": "名詞の resignation（辞職、辞任）も重要。submit a resignation（辞表を提出する） step down（辞任する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "securely",
+      "definition": "しっかりと/安全に",
+      "example": "「危険がないようにしっかりと」という意味。「安全に」の意味でも出る。pay securely online（オンラインで安全に支払う） security（安全）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "strive",
+      "definition": "懸命に努力する",
+      "example": "TOEIC の世界では、困難に直面するとすぐに投げ出してしまうような会社や個人は存在しない。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "timeline",
+      "definition": "予定表",
+      "example": "パート7で schedule との言い換えに注意。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "urge",
+      "definition": "強く促す",
+      "example": "urge X to do の「目的語+to 不定詞」が続く用法も重要。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "acknowledge",
+      "definition": "（受け取ったことを）知らせる/認める",
+      "example": "「認める」の意味も重要。acknowledge the need（必要性を認める） acknowledgment（受取通知、同意、本の謝辞）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "diverse",
+      "definition": "多種多様な/たくさんの種類の",
+      "example": "文法問題での出題があるので派生語も合わせて押さえる。diversity（多様性） diversify（多様化する） diversify into new business areas（新規ビジネス分野に進出する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "transaction",
+      "definition": "取引",
+      "example": "銀行であればお金の入出金や振り込み、お店であれば商品の購入等、個別の取引のことを指す。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "lack",
+      "definition": "不足",
+      "example": "動詞でも出る。people who lack confidence（自信に欠ける人） shortage（不足）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "essential",
+      "definition": "重要な/必要不可欠な/本質的な",
+      "example": "essence（本質、最重要点） essentially（本質的に、基本的に） indispensable/integral（不可欠な）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "majority",
+      "definition": "大多数/大部分",
+      "example": "major（主要な、重大な、大きな） a major reason（主な理由）, major repairs（大規模な修理）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "observe",
+      "definition": "気付く/順守する/観察する",
+      "example": "「順守する、観察する」の意味でも出る。observe a procedure（手順を守る） observation（観察） observance（法律や信仰の順守） in observance of the national holiday（祝日に敬意を表して）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "possess",
+      "definition": "（財産、所有物を）持つ/所有する",
+      "example": "possession（所有、保持） have/own（所有する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "sharply",
+      "definition": "急激に/はっきりと",
+      "example": "折れ線グラフが鋭い山を描くイメージ。形容詞の sharp（急激な）も重要。a sharp increase in sales（売り上げの急増）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "adjustment",
+      "definition": "調整/調節",
+      "example": "just（ちょうど）と関係あることが分かる。adjust（調節する、適応する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "aisle",
+      "definition": "通路",
+      "example": "TOEIC の世界では喫煙者は存在しないので、喫煙席か禁煙席を尋ねられることはない。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "capture",
+      "definition": "（映像や写真に）記録する/とらえる",
+      "example": "TOEIC では「逮捕する、捕獲する」ではなく、この「写真、映像、文章等を形あるものに記録する」の意味が重要。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "consist",
+      "definition": "〜から成る",
+      "example": "of とセットで覚える。be composed of（〜から成る）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "desirable",
+      "definition": "望ましい",
+      "example": "類義語の preferred/preferable（望ましい）と合わせて覚える。「あれば尚可」の意味でパート7に出るので注意。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "heavily",
+      "definition": "大量に/非常に頻繁に",
+      "example": "日本語で「ヘビーユーザー」のイメージで使われる。程度や頻度が大きいことを示す副詞。a heavily promoted item（大量に宣伝された品物）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "investigate",
+      "definition": "調査する",
+      "example": "組織からあるいは科学的に調査を行うこと。investigation（調査） look into（調べる）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "measurement",
+      "definition": "寸法/測定",
+      "example": "measure（測定する） dimension（寸法） What are the dimensions of the room?（その部屋の寸法はいくつですか）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "urgent",
+      "definition": "緊急の",
+      "example": "urgently（緊急に）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "checkout",
+      "definition": "レジ/（ホテルの）チェックアウト",
+      "example": "図書館だと「貸出カウンター」の意味になることに注意。cashier（レジ係）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "dispose",
+      "definition": "処分する",
+      "example": "discard（捨てる） disposal（処分） disposable（使い捨ての）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "modify",
+      "definition": "修正する",
+      "example": "modification（修正） change/alter（変える） adapt（適応させる） transform（変える） convert（改造する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "outlet",
+      "definition": "店舗/コンセント",
+      "example": "電源を取る「コンセント」や「感情のはけ口」の意味もあるが、TOEIC では「店舗」の意味が頻出。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "prescription",
+      "definition": "処方せん",
+      "example": "パート3-4の薬局での会話や、医院・薬局からの留守電で出る。ちなみにTOEICの世界では、どんなに長い留守電でも絶対に途中で切れることはない。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "situated",
+      "definition": "位置している",
+      "example": "situated や同義語の located は、広告等でこのように書面で使われるケースがある。また、パート7での出題例もあり注意したい。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "surprisingly",
+      "definition": "驚いたことに",
+      "example": "文修飾の用法があるので形容詞も修飾する。a surprisingly difficult task（驚くほど難しい作業） surprisingly（驚くべきことに）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "transform",
+      "definition": "（変形、性質等を）変える",
+      "example": "前置詞 into と相性が良い。ちなみに、乗り物や地球がロボットに変わるトランスフォーマー。transformation（変化） turn A into B（AをBに変える）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "undergo",
+      "definition": "（検査、修理等を）受ける",
+      "example": "検査や研修、改善等、必要なものの under（下）に go（行く）イメージの単語。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "blueprint",
+      "definition": "設計図/青写真",
+      "example": "パート3-4では「設計図の修正」や「設計図の提出」がトピックとして頻出。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "boost",
+      "definition": "押し上げる",
+      "example": "名詞でも出る。a major boost to the economy（経済への大きな後押し）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "considerably",
+      "definition": "かなり",
+      "example": "程度が大きいことを示す類義語の significantly/substantially/markedly が押さえるべき。considerable（かなりの）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "eliminate",
+      "definition": "取り除く/排除する",
+      "example": "一対一で戦い、敗者が eliminate される勝ち残り式のトーナメントは elimination tournament と呼ばれる。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "exclusively",
+      "definition": "限定で/独占的に",
+      "example": "ex（外）を close（閉め出す）が語源。形容詞 exclusive（限定の）も重要。an exclusive fitness club（高級クラブ）, the exclusive right（独占権）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "leak",
+      "definition": "漏れる/漏らす",
+      "example": "TOEIC の世界では、台所の水漏れや、車や工場のオイル漏れ、といった事故が多発するが、情報を漏らす人はいない。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "preliminary",
+      "definition": "予備の/前の/本番前の",
+      "example": "「本番前」のイメージの単語。スポーツの予選ラウンドは preliminary round。シーズン前の試合は preliminary match。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "sophisticated",
+      "definition": "洗練された/高性能の",
+      "example": "「機械やシステムが高度で操作が複雑な」の意味もある。sophisticated equipment（高性能の機器）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "statistics",
+      "definition": "統計/統計学",
+      "example": "「統計」の意味では複数扱い。statistics show that SV（SがVすることを示している） statistically（統計的に）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "vacant",
+      "definition": "空の/空いた/欠員の",
+      "example": "vac- の語源は「空（から）」。名詞の vacancy は「仕事の空き、空室、欠員」。動詞 vacate は「場所を空ける、立ちのく」の意味。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "evidence",
+      "definition": "証拠/証明",
+      "example": "evident（明らかな） proof（証明）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "excursion",
+      "definition": "お出かけ/小旅行",
+      "example": "TOEIC の世界では、平日に社内ピクニックを開催し、顧客からの電話に留守電対応する会社が実在する。getaway（短期休暇） outing（お出かけ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "influence",
+      "definition": "影響を与える",
+      "example": "influential（影響力のある） an influential newspaper（影響力のある新聞）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "ordinary",
+      "definition": "普通の/通常の",
+      "example": "ordinarily（通常、普通に） common（一般的な、普通の） extraordinary（並外れた、驚くべき）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "reject",
+      "definition": "却下する/拒否する",
+      "example": "turn down（却下する） deny（否定する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "tailor",
+      "definition": "〜に合わせる/仕立てる",
+      "example": "「テーラーメイド」の商品は、個人の希望に合わせて作られた特注の商品のこと。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "assume",
+      "definition": "引き受ける/思い込む/仮定する",
+      "example": "「思い込む」の意味でも出る。I assumed that Tex was out.（テックスは外出していると思い込んでいた） take on（引き受ける）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "engagement",
+      "definition": "契約",
+      "example": "ある時間にある場所で何かをする約束や契約のこと。engage in X（Xに参加する、関わる） engaging（魅力的な）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "fame",
+      "definition": "名声",
+      "example": "famous（有名な） renown（名声）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "modest",
+      "definition": "少しの/高価ではない/謙虚な",
+      "example": "not large, not expensive の意味。a modest hotel（中価格帯のホテル）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "patent",
+      "definition": "特許",
+      "example": "TOEIC の世界では、特許や著作権をめぐる裁判沙汰は起こらない。copyright（著作権）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "pursue",
+      "definition": "追及する/追い求める",
+      "example": "「何かを時間をかけて追い求めること」。pursuit（追及）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "remote",
+      "definition": "人里離れた/可能性が低い/遠隔の",
+      "example": "「非常に遠い」が基本イメージ。遠くから本体をコントロールするのが remote control（リモコン）。「可能性が低い」の意味でも出る。a remote chance（わずかなチャンス）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "reveal",
+      "definition": "明らかにする",
+      "example": "以前は知られていなかったことを明らかにすること。reveal that SV（SがVすることが明らかになる）の形を取ることにも注意。unveil（披露する） disclose（明かす）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "allowance",
+      "definition": "手当/小遣い/許容量",
+      "example": "relocation allowance（転勤手当） travel allowance（出張手当） baggage allowance（手荷物許容量）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "crucial",
+      "definition": "非常に重要な",
+      "example": "critical/essential/pivotal/vital（非常に重要な）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "distinguished",
+      "definition": "目立って優れた/傑出した",
+      "example": "優れた業績や評判で人々の尊敬を得ている様子を表す。distinguish（区別する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "disturb",
+      "definition": "邪魔する/妨害する",
+      "example": "何かの途中で邪魔をすること。disturbance（邪魔、中断） interfere（邪魔する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "fluent",
+      "definition": "流ちょうな/堪能な",
+      "example": "ある話を滞らずに話したり書いたりできること。fluency（流ちょうさ） fluently（流ちょうに）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "fulfill",
+      "definition": "満たす/果たす",
+      "example": "パート5-6のほか、パート7の言い換え問題でも出題例のある重要語。accommodate/meet（満たす）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "objective",
+      "definition": "目的/目標",
+      "example": "goal/target/purpose/object（目標、目的）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "restrict",
+      "definition": "制限する",
+      "example": "restrict X from doing の形を取ることも押さえる。restriction（制限） size restrictions（サイズ制限）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "steadily",
+      "definition": "着実に",
+      "example": "形容詞の steady（安定した）も頻出。steady economic growth（安定した経済成長）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "adequate",
+      "definition": "十分な/適切な",
+      "example": "adequately（適切に、十分に） satisfactory（満足のいく）, acceptable（受け入れ可能な）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "assessment",
+      "definition": "評価/見積もり",
+      "example": "evaluation（評価）, appraisal（査定）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "attribute",
+      "definition": "帰する/属性",
+      "example": "attribute A（結果）to B（原因）（AはBに起因する）の形で押さえる。類義表現の credit A to B（Aの功績はBにある）も重要。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "beforehand",
+      "definition": "あらかじめ/事前に",
+      "example": "同じ意味の in advance も頻出。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "challenging",
+      "definition": "（問題だが）やりがいのある",
+      "example": "TOEIC の世界では、challenging な仕事に就いて意欲のある社員しか存在しない。challenge（課題、挑戦、挑戦を促す） challenge the conventional wisdom（従来の常識に異議を唱える）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "endeavor",
+      "definition": "努力/試み/努力する",
+      "example": "著者として、心からそう願っています。がんばってください。effort（努力）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "inspiring",
+      "definition": "やる気が出るような/勇気づける",
+      "example": "inspire（やる気を起こさせる、鼓舞する） inspiration（ひらめき、やる気の源）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "remarkable",
+      "definition": "驚くべき/注目すべき",
+      "example": "語彙問題で出題例がある。surprising/amazing（驚くべき） extraordinary/phenomenal（並外れた）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "measure",
+      "definition": "対策/手段/測定する/評価する",
+      "example": "動詞でも出る。measure employee performance（従業員の成績を評価する） cost-cutting measures（コスト削減策）, preventive measures（予防策）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "struggle",
+      "definition": "奮闘する",
+      "example": "困難を解決しようと懸命に努力すること。自動詞で、to不定詞の他、struggle with X（Xに苦闘する）, struggle for X（Xのために奮闘する）の形を取ることも押さえたい。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "wage",
+      "definition": "賃金",
+      "example": "主に、工場やお店での、時間給や日給、週給に用いられる単語。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "adapt",
+      "definition": "適応する/適応させる/改作する",
+      "example": "adapt A to B（AをBに適応させる）の形の他慣用表現。「本や映画をTV番組に改作する」の意味も押さえたい。The film is adapted from a novel.（その映画は小説を元にしたもの）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "ambitious",
+      "definition": "意欲的な/野心的な",
+      "example": "達成するには多大な努力が必要な難しい目標のこと。「富や名声を得たい」という大きな欲望という意味で人に用いられる。ambitious young people（大志を抱いた若者） aspiring（野心的な）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "capable",
+      "definition": "能力がある",
+      "example": "be capable of doing（〜する能力がある）のフレーズで押さえる。capability（能力） competent（有能な、能力がある） a competent manager（有能なマネージャー）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "consequence",
+      "definition": "（〜が招いた）結果",
+      "example": "副詞の consequently（結果として）はパート6-7で頻出。result/outcome（結果）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "impose",
+      "definition": "課す/負わせる/強制する",
+      "example": "上に置くイメージで、重荷になるようなものを押し付けるイメージの単語。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "latter",
+      "definition": "後者",
+      "example": "パート7で、それぞれが何を指すのかが問われる場合がある。respectively（それぞれ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "output",
+      "definition": "生産高/生産量",
+      "example": "人や機械、工場が生み出す生産量のこと。production volume（生産量）, production capacity（生産能力）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "proudly",
+      "definition": "誇らしげに/堂々と",
+      "example": "新商品の発売の冒頭等で使われる表現。形容詞の proud（誇りに思う）も頻出。We are proud of our services.（当社のサービスを誇りに思います） pride（誇り、誇りに思う）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "stable",
+      "definition": "安定した",
+      "example": "名詞の stability（安定、安定性）も重要。unstable（不安定な） instability（不安定さ）, stabilize（安定させる）, stabilization（安定化）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "transition",
+      "definition": "移行/転身",
+      "example": "TOEIC の世界では時折、「見習い→採用→部門長→役員→社長」と短期間に働くべき transition（移行）を見せる社員が登場する。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "consent",
+      "definition": "同意",
+      "example": "電気のコンセントは英語では outlet。consent form（同意書）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "dependable",
+      "definition": "信頼できる",
+      "example": "depend（頼る） dependability（信頼性） reliable（信頼できる）, trusted（信頼のおける） dependence（依存）, dependent（依存している）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "diligent",
+      "definition": "勤勉な/まじめな",
+      "example": "diligently（熱心に、まじめに） work diligently（熱心に働く）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "illustrate",
+      "definition": "（例や図表を使って）説明する",
+      "example": "illustration（本などの説明に用いられる絵、図表、写真） illustrated（絵、図表、写真入りの）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "independently",
+      "definition": "単独で/独立して",
+      "example": "「他の人に頼らず独力で」の意味。企業などが「独立して」の意味でも出る。independent（独立した） an independent firm（独立した会社）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "mission",
+      "definition": "使命/ミッション",
+      "example": "会社や個人に与えられた重要な任務のこと。映画「ミッション・インポッシブル」の「ミッション」も同じ意味。a mission statement（社是、企業理念）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "moderate",
+      "definition": "適度な/ほどほどの",
+      "example": "not extreme（極端ではない）の意味。moderately（ほどほどに、まずまず） a moderately priced item（中価格帯の商品）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "outlook",
+      "definition": "見通し/モノの見方",
+      "example": "「物の見方」の意味も重要。a positive outlook（ポジティブな見方） forecast/prediction（予測）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "precisely",
+      "definition": "正確に",
+      "example": "precise（正確な） precision（正確） accurately（正確に）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "concentrated",
+      "definition": "集中した/濃縮された",
+      "example": "「濃縮型」の意味でも出る。concentrated fruit juice（濃縮のフルーツジュース） concentration（集中） a high concentration of restaurants（たくさんのレストランが集る場所）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "ample",
+      "definition": "十分な/あり余るほどの",
+      "example": "adequate/enough/sufficient（十分な）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "asset",
+      "definition": "資産/役立つ人やモノ",
+      "example": "お金等の資産や、役立つ能力、価値のあるモノを指す。パート7の推論文でも、しばしば用いられる単語。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "controversial",
+      "definition": "議論を引き起こす/議論の的になる",
+      "example": "controversy（論争）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "disappointing",
+      "definition": "期待外れの/がっかりさせるような",
+      "example": "人が主語の場合は disappointed が使われる。Tex was disappointed with the result.（テックスは結果に落胆した） disappointingly low sales（期待外れに低い売り上げ）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "instrumental",
+      "definition": "重要な役割を果たす",
+      "example": "音楽を奏でるのに重要な役割を果たすのが instrument（楽器）。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "interruption",
+      "definition": "中断",
+      "example": "動詞の interrupt（割り込む、中断する）も重要。Sorry to interrupt.（お話中すみません） 類義語の disruption（中断、混乱）も出題例がある。",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "perspective",
+      "definition": "視点/見方/考え方",
+      "example": "per（通じて）spec（見る）が語源。類義語の perception（認識、考え方）も出題例がある。the public's perception of the company（その会社に対する一般の認識）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "scope",
+      "definition": "範囲/余地",
+      "example": "range（範囲）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "speculation",
+      "definition": "憶測/推測",
+      "example": "パート5の語彙問題で出題例有り。speculate（推測する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "supplement",
+      "definition": "補う/補給/栄養補助食品",
+      "example": "名詞でも出る。the Sunday supplement（日曜版の別冊）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "understaffed",
+      "definition": "人手不足の",
+      "example": "staff の数が必要より under（下）なこと。short-staffed（人手不足の）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "rarely",
+      "definition": "めったに〜しない/まれに",
+      "example": "rare（まれな） seldom（めったに〜ない）, hardly（ほとんど〜ない）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "caution",
+      "definition": "注意/警告/注意する/警告する",
+      "example": "派生語も重要。cautious（慎重な、用心深い） cautiously（慎重に、用心深く） alert（警告する、警告）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "legislation",
+      "definition": "法律/立法",
+      "example": "TOEIC の世界では、ドローンはまだ登場していないが、スマホ時代、いつか現れる日が来るかもしれない。legislate（法律を制定する）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    },
+    {
+      "term": "logical",
+      "definition": "当然な/論理的な/筋の通った",
+      "example": "もっともな理由や正当な考えに基づいている様子を表す。reasonable（理にかなった）, sensible（賢明な）",
+      "chapter": "words401-700",
+      "source": "words401-700.csv"
+    }
+  ],
+  "quizzes": []
+}

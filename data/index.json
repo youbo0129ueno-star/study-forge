@@ -1,9 +1,54 @@
 {
   "subjects": [
     {
+      "id": "words1-400",
+      "title": "TOEIC words1-400",
+      "file": "./data/words1-400.json"
+    },
+    {
+      "id": "words401-700",
+      "title": "TOEIC words401-700",
+      "file": "./data/words401-700.json"
+    },
+    {
+      "id": "words701-900",
+      "title": "TOEIC words701-900",
+      "file": "./data/words701-900.json"
+    },
+    {
+      "id": "words901-1000",
+      "title": "TOEIC words901-1000",
+      "file": "./data/words901-1000.json"
+    },
+    {
+      "id": "supplement1",
+      "title": "TOEIC Supplement1",
+      "file": "./data/supplement1.json"
+    },
+    {
+      "id": "supplement2",
+      "title": "TOEIC Supplement2",
+      "file": "./data/supplement2.json"
+    },
+    {
+      "id": "supplement3",
+      "title": "TOEIC Supplement3",
+      "file": "./data/supplement3.json"
+    },
+    {
       "id": "philosophy",
       "title": "哲学",
       "file": "./data/philosophy.json"
+    },
+    {
+      "id": "toeic-600",
+      "title": "TOEIC 600 Level",
+      "file": "./data/toeic-600.json"
+    },
+    {
+      "id": "template",
+      "title": "Template",
+      "file": "./data/template.json"
     }
   ]
 }

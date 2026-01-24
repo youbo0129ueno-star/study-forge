@@ -1,0 +1,6873 @@
+{
+  "subject": "TOEIC words1-400",
+  "terms": [
+    {
+      "term": "anyway",
+      "definition": "とにかく",
+      "example": "何事もやってみないと始まりません。例: Anyway, let's try.（とにかくやってみよう）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "following",
+      "definition": "〜に続いて/次の/以下の",
+      "example": "直後や次の情報を示す形容詞でも使う。例: Following the speech, we had dinner.（スピーチに続いて夕食をとった）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "be followed by X",
+      "definition": "Xが後に続く",
+      "example": "Xが後で起こる・後に続くという意味。例: The lecture was followed by a Q&A.（講演の後に質疑応答が続いた）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "refer",
+      "definition": "参照する/言及する/(人を)紹介する",
+      "example": "資料や話題に触れる/参照する。例: Please refer to the map.（地図を参照してください）; Refer a friend and get paid.（友人を紹介すれば現金還元）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "referral",
+      "definition": "紹介",
+      "example": "refer の名詞。紹介や紹介状。例: I got a referral from my manager.（上司から紹介をもらった）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "customer-referral program",
+      "definition": "顧客紹介プログラム",
+      "example": "顧客が友人を紹介すると特典がある仕組み。例: We launched a customer-referral program.（顧客紹介プログラムを開始した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "available",
+      "definition": "利用できる/空いている/入手可能な",
+      "example": "人なら「手が空いている」、物なら「入手可能」。例: Mr. Kato is not available right now.（加藤さんは今手が空いていません）; Tickets are available online.（チケットはオンラインで入手可能です）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "availability",
+      "definition": "利用できること/利用可能性",
+      "example": "available の名詞。例: Please confirm your availability.（ご都合を確認してください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "unavailable",
+      "definition": "利用できない/手が空いていない",
+      "example": "available の反対。例: The item is unavailable now.（その品は現在入手不可です）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "department",
+      "definition": "部門/売り場",
+      "example": "部署や売り場を指す。例: the sales department（営業部）; the toy department（おもちゃ売り場）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "division",
+      "definition": "部門",
+      "example": "department と同義のことが多い。例: the HR division（人事部）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "departmental",
+      "definition": "部門の",
+      "example": "department の形容詞。例: departmental meeting（部門会議）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "department store",
+      "definition": "デパート",
+      "example": "department を含む熟語。例: I bought it at a department store.（デパートで買った）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "conference",
+      "definition": "会議",
+      "example": "同じ組織・職種の人が集まる会議。例: a sales conference（営業会議）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "convention",
+      "definition": "会議/大会",
+      "example": "大規模な会議や大会。例: an annual convention（年次大会）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "conference call",
+      "definition": "電話会議",
+      "example": "電話での会議。例: Join the conference call at 3.（3時の電話会議に参加して）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "teleconference",
+      "definition": "遠隔会議",
+      "example": "遠隔地同士で行う会議。例: We held a teleconference.（遠隔会議を行った）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "according to",
+      "definition": "〜によると/〜に従って",
+      "example": "情報源や基準を示す。例: According to the email, the meeting is canceled.（メールによると会議は中止）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "likely",
+      "definition": "おそらく",
+      "example": "可能性が高いことを示す。例: She is likely to arrive late.（彼女は遅れて来る可能性が高い）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "offer",
+      "definition": "申し出る/提供する",
+      "example": "相手に提案・提供する。例: He offered her a job.（彼は彼女に仕事を提供した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "offering",
+      "definition": "申し出/オファー/提供物",
+      "example": "offer の名詞。例: This is our latest offering.（これが最新の提供物です）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "course offerings",
+      "definition": "コース内容/提供講座",
+      "example": "学校や研修の提供科目。例: Check our course offerings.（提供講座を確認してください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "equipment",
+      "definition": "機器/設備",
+      "example": "機械や備品の総称。例: office equipment（オフィス機器）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "provide",
+      "definition": "提供する",
+      "example": "「AにBを提供する」は provide A with B / provide B to A の両方。例: Please provide me with your email address.（メールアドレスを提供してください）; We provide support to users.（利用者にサポートを提供する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "provider",
+      "definition": "提供者",
+      "example": "provide の名詞。例: The provider offers training.（その提供者は研修を提供している）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "local",
+      "definition": "地元の/地方の",
+      "example": "local は「田舎」の意味ではない。local train（各駅停車）, locally（地元で/現地で）。例: We use locally grown vegetables.（地元で育った野菜を使う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "purchase",
+      "definition": "購入する/購入",
+      "example": "動詞・名詞の両方。例: We purchased new laptops.（新しいノートPCを購入した）; make a purchase（購入する）; at the time of purchase（購入時に）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "opening",
+      "definition": "空き/開店/開幕",
+      "example": "opening は「空き（求人）」や「開店・開幕」。例: We have an opening in sales.（営業に空きがある）; the grand opening（グランドオープン）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "vacancy",
+      "definition": "空き",
+      "example": "opening の類義語。例: There is a vacancy in accounting.（経理に空きがある）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "open position",
+      "definition": "求人/空きポスト",
+      "example": "opening の言い換え。例: We have an open position.（空きポストがあります）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "construction",
+      "definition": "建設",
+      "example": "工事の意味で頻出。例: The construction site is closed.（工事現場は閉鎖中）; under construction（工事中）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "construct",
+      "definition": "建設する",
+      "example": "construction の動詞。例: They will construct a new bridge.（新しい橋を建設する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "under construction",
+      "definition": "工事中",
+      "example": "定番フレーズ。例: The road is under construction.（その道路は工事中だ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "tour",
+      "definition": "見学する/旅行する/見学",
+      "example": "名詞・動詞で使う。例: We toured the factory.（工場を見学した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "research",
+      "definition": "研究/調査",
+      "example": "study とセットで出る。例: We conducted market research.（市場調査を行った）; researcher（研究者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "researcher",
+      "definition": "研究者",
+      "example": "research の派生語。例: She is a researcher.（彼女は研究者だ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "attend",
+      "definition": "出席する/参加する",
+      "example": "attend a meeting で「会議に出席」。例: I will attend the meeting.（会議に出席します）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "attend to",
+      "definition": "対応する/世話をする",
+      "example": "attend の別用法。例: We will attend to your request.（ご要望に対応します）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "attendance",
+      "definition": "出席/参加者数",
+      "example": "attend の名詞。例: Attendance was high.（出席者が多かった）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "delivery",
+      "definition": "配達/配送",
+      "example": "配送遅延や破損の文脈で頻出。例: Delivery was delayed.（配送が遅れた）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "recently",
+      "definition": "最近",
+      "example": "過去の近い時点を表す副詞。例: I recently bought a printer.（最近プリンターを買った）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "recent",
+      "definition": "最近の",
+      "example": "recently の形容詞。例: a recent update（最近の更新）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "indicate",
+      "definition": "示す/示唆する",
+      "example": "内容や兆候を示す。例: The report indicates that sales are down.（報告書は売上が落ちていることを示している）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "indicator",
+      "definition": "指標",
+      "example": "indicate の名詞。例: An indicator of growth.（成長の指標）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "indicative",
+      "definition": "示す/象徴的な",
+      "example": "indicate の形容詞。例: This is indicative of a problem.（これは問題の兆候だ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "employee",
+      "definition": "社員/従業員",
+      "example": "employ（雇う）の名詞。例: The company has 200 employees.（その会社には200人の従業員がいる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "employer",
+      "definition": "雇用主",
+      "example": "employ の名詞。例: Her employer provides training.（雇用主が研修を提供する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "employment",
+      "definition": "雇用",
+      "example": "雇用状態を表す。例: He is in full-time employment.（彼は正社員として雇用されている）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "in the employ of",
+      "definition": "〜に雇われている",
+      "example": "雇用関係を表す表現。例: He is in the employ of the bank.（彼はその銀行に雇われている）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "additional",
+      "definition": "追加の",
+      "example": "追加を表す形容詞。例: We need additional staff.（追加のスタッフが必要だ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "add",
+      "definition": "加える",
+      "example": "追加する。例: Please add your signature.（署名を追加してください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "additionally",
+      "definition": "さらに/加えて",
+      "example": "副詞で「加えて」。例: Additionally, we will send a follow-up.（さらに追って連絡します）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "addition",
+      "definition": "追加/加算",
+      "example": "名詞。例: In addition to the plan, we need a budget.（計画に加えて予算が必要）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "additive",
+      "definition": "添加物/加算の",
+      "example": "名詞・形容詞。例: food additives（食品添加物）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "in addition to",
+      "definition": "〜に加えて",
+      "example": "定番の前置詞句。例: In addition to coffee, we serve tea.（コーヒーに加えて紅茶も提供します）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "survey",
+      "definition": "アンケート調査",
+      "example": "survey は「アンケート調査」。study/research は「研究・調査」。例: We conducted a customer survey.（顧客アンケート調査を行った）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "review",
+      "definition": "見直す/レビューする/再検討",
+      "example": "review は動詞で「見直す」、名詞で「レビュー」。例: Please review the report.（報告書に目を通してください）; a book review（書評）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "production",
+      "definition": "生産/制作",
+      "example": "生産や制作を指す。例: The production area is closed.（生産エリアは閉鎖中）; a theater production（舞台作品）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "produce",
+      "definition": "生産する/制作する",
+      "example": "production の動詞。例: They produce medical devices.（医療機器を生産する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "producer",
+      "definition": "生産者/プロデューサー",
+      "example": "production の名詞。例: a film producer（映画プロデューサー）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "located",
+      "definition": "位置している",
+      "example": "所在地を述べる。例: The office is located near the station.（そのオフィスは駅の近くにある）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "inconveniently located",
+      "definition": "不便な場所にある",
+      "example": "located の対語表現。例: The store is inconveniently located.（その店は不便な場所にある）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "location",
+      "definition": "場所/所在地",
+      "example": "名詞。例: a convenient location（便利な場所）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "detail",
+      "definition": "詳細/詳しく述べる",
+      "example": "名詞と動詞。例: the details of a plan（計画の詳細）; Please detail the procedure.（手順を詳しく説明してください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "detailed",
+      "definition": "詳細な",
+      "example": "detail の形容詞。例: a detailed report（詳細な報告書）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "announce",
+      "definition": "発表する",
+      "example": "announce that で内容を述べる。例: They announced that the winners were chosen.（当選者が選ばれたと発表した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "announcement",
+      "definition": "発表/告知",
+      "example": "announce の名詞。例: an announcement was made.（発表があった）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "repair",
+      "definition": "修理する/修理",
+      "example": "動詞・名詞。例: The shop repairs computers.（その店はコンピュータを修理する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "increase",
+      "definition": "増加/増加する",
+      "example": "名詞・動詞。例: Sales increased by 10%.（売上は10%増加した）; an increase in sales（売上の増加）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "decrease",
+      "definition": "減少/減少する",
+      "example": "increase の反対。例: Costs decreased this year.（今年は費用が減少した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "including",
+      "definition": "〜を含めて",
+      "example": "前置詞で「含めて」。例: Open every day including Sunday.（日曜を含めて毎日営業）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "exclude",
+      "definition": "除外する",
+      "example": "including の反対。例: This price excludes tax.（この価格は税別です）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "currently",
+      "definition": "現在",
+      "example": "current の副詞。例: The item is currently out of stock.（その品は現在在庫切れ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "current",
+      "definition": "現在の",
+      "example": "形容詞。例: current members（現在の会員）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "advertising",
+      "definition": "広告/宣伝",
+      "example": "advertise（宣伝する）/ advertisement（広告）。例: We launched an advertising campaign.（広告キャンペーンを開始した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "advertise",
+      "definition": "宣伝する",
+      "example": "動詞。例: They advertise online.（彼らはオンラインで宣伝する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "advertisement",
+      "definition": "広告",
+      "example": "名詞。例: a TV advertisement（テレビ広告）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "advertising agency",
+      "definition": "広告代理店",
+      "example": "関連語。例: an advertising agency（広告代理店）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "advertiser",
+      "definition": "広告主",
+      "example": "関連語。例: an advertiser (広告主)",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "charge",
+      "definition": "請求する/料金",
+      "example": "動詞・名詞。例: We charge $50 for the service.（そのサービスは50ドル請求します）; an extra charge（追加料金）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "in charge of",
+      "definition": "〜を担当して",
+      "example": "役割を示す表現。例: She is in charge of marketing.（彼女はマーケ担当）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "sum",
+      "definition": "合計/金額",
+      "example": "金額を表す名詞。例: a large sum of money（多額の金）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "expect",
+      "definition": "予期する/期待する",
+      "example": "expect to do / expect that。例: Mr. Kato is expected to arrive tomorrow.（加藤さんは明日到着予定だ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "expectation",
+      "definition": "期待/予想",
+      "example": "expect の名詞。例: beyond expectations（期待以上）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "be slated to",
+      "definition": "〜の予定である",
+      "example": "予定を表す表現。例: The meeting is slated to start at 10.（会議は10時開始予定）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "firm",
+      "definition": "会社/事務所",
+      "example": "law firm（法律事務所）、accounting firm（会計事務所）。例: She works at a law firm.（彼女は法律事務所で働いている）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "client",
+      "definition": "顧客/依頼人",
+      "example": "customer と近いがサービス提供の文脈で使う。例: We meet a client today.（今日は顧客と会う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "customer",
+      "definition": "顧客",
+      "example": "商品購入の文脈で頻出。例: customer service（顧客サービス）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "consumer",
+      "definition": "消費者",
+      "example": "一般消費者の文脈。例: consumer behavior（消費者行動）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "guest",
+      "definition": "客/来賓",
+      "example": "ホテル等の文脈。例: hotel guest（ホテルの宿泊客）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "visitor",
+      "definition": "訪問者",
+      "example": "例: museum visitors（美術館の来訪者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "tourist",
+      "definition": "観光客",
+      "example": "例: foreign tourists（外国人観光客）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "financial",
+      "definition": "財務の/金銭の",
+      "example": "finance の形容詞。例: financial support（資金援助）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "financially",
+      "definition": "金銭的に",
+      "example": "副詞。例: financially stable（金銭的に安定した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "monetary",
+      "definition": "金銭の",
+      "example": "形容詞。例: monetary policy（金融政策）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "annual",
+      "definition": "年次の/年1回の",
+      "example": "例: an annual report（年次報告書）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "annually",
+      "definition": "毎年",
+      "example": "副詞。例: The conference is held annually.（会議は毎年開催）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "semi-annual",
+      "definition": "年2回の",
+      "example": "例: semi-annual report（半年ごとの報告書）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "payment",
+      "definition": "支払い",
+      "example": "pay（支払う）の名詞。例: Please make an online payment.（オンラインで支払ってください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "pay",
+      "definition": "支払う",
+      "example": "動詞。例: We pay by credit card.（クレジットカードで支払う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "budget",
+      "definition": "予算/低価格の",
+      "example": "名詞のほか「低価格の」でも使う。例: this year's budget（今年の予算）; a budget hotel（格安ホテル）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "application",
+      "definition": "申請/応募/申込",
+      "example": "fill out an application（申請書に記入する）。例: Submit your application.（応募書類を提出してください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "applicant",
+      "definition": "応募者",
+      "example": "application の派生語。例: an applicant for the job（その職の応募者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "applicable",
+      "definition": "適用できる",
+      "example": "apply の派生語。例: This rule is applicable to all staff.（この規則は全職員に適用）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "contract",
+      "definition": "契約/契約する",
+      "example": "名詞・動詞。例: before signing a contract（契約書に署名する前に）; contractually（契約上）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "contractual",
+      "definition": "契約の/契約上の",
+      "example": "contract の形容詞。例: contractual obligations（契約上の義務）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "contractually",
+      "definition": "契約上",
+      "example": "副詞。例: contractually obligated（契約上義務がある）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "contractor",
+      "definition": "請負業者/契約者",
+      "example": "contract の派生語。例: The contractor completed the work.（請負業者が作業を終えた）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "management",
+      "definition": "経営/管理",
+      "example": "組織の管理や運営。例: project management（プロジェクト管理）; under new management（新しい経営陣の下で）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "performance",
+      "definition": "業績/パフォーマンス/公演",
+      "example": "仕事の成果や公演にも使う。例: an employee's performance（従業員の成績）; a live performance（ライブ公演）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "pleased",
+      "definition": "満足して/喜んで",
+      "example": "be pleased with X（Xに満足）。例: We are pleased with the final result.（最終結果に満足している）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "pleased to",
+      "definition": "〜してうれしい",
+      "example": "be pleased to do の形。例: We are pleased to announce the winner.（受賞者を発表できてうれしい）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "pleasure",
+      "definition": "喜び/満足",
+      "example": "pleased の名詞。例: It is my pleasure.（光栄です）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "confirm",
+      "definition": "確認する/確定する",
+      "example": "confirm that で内容を確定。例: Please confirm the payment.（支払いを確認してください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "confirmation",
+      "definition": "確認/確認書",
+      "example": "confirm の名詞。例: a confirmation email（確認メール）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "order confirmation number",
+      "definition": "注文確認番号",
+      "example": "注文確認で使う表現。例: Your order confirmation number is 1234.（注文確認番号は1234です）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "award",
+      "definition": "賞/授与する",
+      "example": "名詞・動詞。例: Tex was awarded a prize.（テックスは賞を授与された）; an award-winning author（受賞作家）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "award-winning",
+      "definition": "受賞した",
+      "example": "award の形容詞的表現。例: an award-winning film（受賞映画）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "clothing",
+      "definition": "衣料品",
+      "example": "衣類全般。例: a clothing store（衣料品店）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "cloth",
+      "definition": "布",
+      "example": "例: a piece of cloth（布切れ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "clothes",
+      "definition": "衣服",
+      "example": "複数形で衣服。例: warm clothes（暖かい服）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "garment",
+      "definition": "衣類",
+      "example": "ややフォーマル。例: garment factory（衣料工場）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "display",
+      "definition": "展示する/展示",
+      "example": "動詞・名詞。例: Some items are being displayed outside.（いくつかの商品が屋外に展示されている）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "candidate",
+      "definition": "候補者",
+      "example": "応募者や候補者。例: a successful candidate（合格した候補者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "applicant",
+      "definition": "応募者",
+      "example": "candidate の関連語。例: The applicant submitted a resume.（応募者が履歴書を提出した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "state",
+      "definition": "述べる/状態",
+      "example": "設問文で「述べる」の意味。例: The notice states the rules.（通知には規則が述べられている）; stated requirement（明記された要件）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "statement",
+      "definition": "声明/記述",
+      "example": "state の名詞。例: a bank statement（銀行の明細書）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "exhibit",
+      "definition": "展示物/展示する",
+      "example": "名詞・動詞。例: a museum exhibit（博物館の展示物）; exhibit paintings（絵を展示する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "exhibition",
+      "definition": "展示会/展示",
+      "example": "exhibit の名詞。例: an art exhibition（美術展）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "exhibitor",
+      "definition": "出展者",
+      "example": "展示会の出展者。例: The exhibitor answered questions.（出展者が質問に答えた）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "session",
+      "definition": "時間/集まり/セッション",
+      "example": "特定の活動時間。例: a Q&A session（質疑応答の時間）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "note",
+      "definition": "注意する/注意",
+      "example": "note that で注意を促す。例: Please note that prices may change.（価格が変わる場合があるのでご注意ください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "process",
+      "definition": "処理/工程",
+      "example": "名詞・動詞。例: process an order（注文を処理する）; the manufacturing process（製造工程）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "processing",
+      "definition": "処理/加工",
+      "example": "process の名詞形。例: order processing（注文処理）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "instruction",
+      "definition": "説明/指示",
+      "example": "instructions で「説明書」。例: Please read the instructions.（説明書を読んでください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "instruct",
+      "definition": "指示する",
+      "example": "動詞。例: He instructed the staff to wait.（彼はスタッフに待つよう指示した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "instructor",
+      "definition": "講師/指導員",
+      "example": "instruct の名詞。例: a yoga instructor（ヨガ講師）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "tutorial",
+      "definition": "チュートリアル/解説",
+      "example": "学習用の解説。例: an online tutorial（オンライン解説）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "membership",
+      "definition": "会員資格/会員であること",
+      "example": "会員制度の文脈で使う。例: sign up for membership（会員登録する）; increase membership（会員を増やす）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "agency",
+      "definition": "代理店/機関",
+      "example": "旅行・広告・人材など。例: a travel agency（旅行代理店）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "travel agent",
+      "definition": "旅行代理店の担当者",
+      "example": "agency の関連語。例: Ask a travel agent.（旅行代理店に相談する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "advertising agency",
+      "definition": "広告代理店",
+      "example": "agency の関連語。例: an advertising agency（広告代理店）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "employment agency",
+      "definition": "人材紹介会社",
+      "example": "agency の関連語。例: an employment agency（人材紹介会社）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "based",
+      "definition": "〜に拠点を置く",
+      "example": "company based in X で「Xに拠点を置く会社」。例: a company based in Seattle（シアトルに拠点を置く会社）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "based on",
+      "definition": "〜に基づく",
+      "example": "根拠を示す。例: The report is based on a survey.（報告書は調査に基づく）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "facility",
+      "definition": "施設",
+      "example": "建物や設備。例: a research facility（研究施設）; a production facility（生産施設）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "advance",
+      "definition": "事前の/前進/進歩/前払い",
+      "example": "名詞で「事前・前進・進歩」。in advance（事前に）。例: Please notify us in advance.（事前にお知らせください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "advance notice",
+      "definition": "事前の告知",
+      "example": "通知の表現。例: We require advance notice.（事前の告知が必要です）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "committee",
+      "definition": "委員会",
+      "example": "会議体。例: join a committee（委員会に入る）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "successful",
+      "definition": "成功した/合格した",
+      "example": "試験なら合格。例: a successful candidate（合格した候補者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "succeed",
+      "definition": "成功する",
+      "example": "動詞。例: The event succeeded.（イベントは成功した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "success",
+      "definition": "成功",
+      "example": "名詞。例: The event was a success.（イベントは成功だった）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "successfully",
+      "definition": "成功して",
+      "example": "副詞。例: completed successfully（無事完了した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "excellent",
+      "definition": "素晴らしい",
+      "example": "評価表現。例: excellent service（素晴らしいサービス）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "fine",
+      "definition": "優れた/元気な",
+      "example": "excellent よりやや控えめ。例: The food was fine.（料理は良かった）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "outstanding",
+      "definition": "傑出した",
+      "example": "評価表現。例: outstanding performance（傑出した成績）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "exceptional",
+      "definition": "例外的に優れた",
+      "example": "評価表現。例: exceptional quality（非常に高い品質）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "superior",
+      "definition": "より優れた",
+      "example": "比較の語。例: superior service（より優れたサービス）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "terrific",
+      "definition": "素晴らしい",
+      "example": "口語寄り。例: a terrific idea（素晴らしいアイデア）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "industry",
+      "definition": "産業/業界",
+      "example": "industry は「業界」寄りで出ることが多い。例: the fashion industry（ファッション業界）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "industrial",
+      "definition": "産業の",
+      "example": "industry の形容詞。例: industrial waste（産業廃棄物）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "fee",
+      "definition": "料金/手数料",
+      "example": "サービスに対する支払い。例: pay a late fee（延滞料金を払う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "accept",
+      "definition": "受け入れる",
+      "example": "動詞。例: accept an offer（オファーを受け入れる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "acceptable",
+      "definition": "受け入れ可能な",
+      "example": "形容詞。例: an acceptable form of ID（受け入れ可能な身分証）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "acceptance",
+      "definition": "受け入れ/合格",
+      "example": "名詞。例: acceptance letter（合格通知）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "upcoming",
+      "definition": "今度の/近日中の",
+      "example": "近い将来に起きること。例: an upcoming event（今度のイベント）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "forthcoming",
+      "definition": "近々の/まもなく来る",
+      "example": "upcoming の類義語。例: a forthcoming announcement（近々の発表）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "latest",
+      "definition": "最新の",
+      "example": "at the latest で「遅くとも」。例: the latest novel（最新の小説）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "submit",
+      "definition": "提出する",
+      "example": "submit a report（レポートを提出する）。例: Please submit the form.（書類を提出してください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "submission",
+      "definition": "提出物/提出",
+      "example": "submit の名詞。例: deadline for submissions（提出期限）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "file",
+      "definition": "提出する/書類",
+      "example": "動詞で「提出する」。例: file a report（報告書を提出する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "turn in",
+      "definition": "提出する",
+      "example": "口語的。例: turn in the report（報告書を提出する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "transportation",
+      "definition": "交通手段/輸送",
+      "example": "public transportation（公共交通機関）。例: use public transportation（公共交通を利用する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "transport",
+      "definition": "輸送する",
+      "example": "動詞・名詞。例: transport goods（商品を輸送する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "resume",
+      "definition": "履歴書",
+      "example": "米国英語では resume、英国では CV。例: send a resume（履歴書を送る）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "executive",
+      "definition": "重役/幹部",
+      "example": "重要な決定をする立場。例: a company executive（会社の重役）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "CEO",
+      "definition": "最高経営責任者",
+      "example": "Chief Executive Officer。例: the CEO of the company（その会社のCEO）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "introduce",
+      "definition": "導入する/紹介する",
+      "example": "新商品導入や人の紹介。例: introduce a new line of products（新たな商品ラインを導入する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "introduction",
+      "definition": "導入/紹介",
+      "example": "introduce の名詞。例: a brief introduction（簡単な紹介）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "previous",
+      "definition": "以前の",
+      "example": "previously（以前に）。例: previous experience（以前の経験）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "preceding",
+      "definition": "前の/先行する",
+      "example": "previous と近い。例: the preceding year（前年）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "proposal",
+      "definition": "提案/提案書",
+      "example": "propose の名詞。例: review a proposal（提案書に目を通す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "propose",
+      "definition": "提案する",
+      "example": "動詞。例: propose a budget（予算を提案する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "supply",
+      "definition": "供給する/備品",
+      "example": "名詞で「備品」。例: office supplies（オフィス用品）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "supplier",
+      "definition": "供給者/仕入れ先",
+      "example": "supply の名詞。例: a local supplier（地元の供給者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "enclose",
+      "definition": "同封する",
+      "example": "メールの「添付」は attach。例: Enclosed is my resume.（履歴書を同封します）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "attach",
+      "definition": "添付する",
+      "example": "メールの添付。例: I attached my resume.（履歴書を添付しました）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "enclosure",
+      "definition": "同封物",
+      "example": "enclose の名詞。例: Enclosures: resume, cover letter.（同封物: 履歴書、送付状）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "policy",
+      "definition": "方針/規定",
+      "example": "return policy で返品規定。例: Please read our return policy.（返品規定をご確認ください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "exchange",
+      "definition": "交換/交換する",
+      "example": "return と並ぶ頻出語。例: exchange the item（商品を交換する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "replacement",
+      "definition": "交換品/代替品",
+      "example": "例: request a replacement（交換品を依頼する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "refund",
+      "definition": "返金/返金する",
+      "example": "例: receive a refund（返金を受ける）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "register",
+      "definition": "登録する",
+      "example": "register for で「〜に登録」。例: register for employee training（社員研修に登録する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "registration",
+      "definition": "登録",
+      "example": "register の名詞。例: online registration（オンライン登録）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "sign up for",
+      "definition": "〜に申し込む",
+      "example": "register for の言い換え。例: sign up for a seminar（セミナーに申し込む）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "arrange",
+      "definition": "手配する/整える",
+      "example": "arrange a meeting（会議を手配する）。例: We arranged a meeting.（会議を手配した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "arrangement",
+      "definition": "手配/配置",
+      "example": "arrange の名詞。例: travel arrangements（旅行の手配）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "bill",
+      "definition": "請求書/請求する",
+      "example": "名詞・動詞。例: receive a bill（請求書を受け取る）; Bill me later.（後で請求して）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "invoice",
+      "definition": "請求書",
+      "example": "bill の関連語。例: Send the invoice by email.（請求書をメールで送る）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "hire",
+      "definition": "雇う",
+      "example": "例: hire an assistant（アシスタントを雇う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "approve",
+      "definition": "承認する",
+      "example": "例: approve a plan（計画を承認する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "approval",
+      "definition": "承認",
+      "example": "approve の名詞。例: request approval（承認を求める）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "approved",
+      "definition": "承認された",
+      "example": "例: an approved plan（承認された計画）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "conduct",
+      "definition": "実施する/行う",
+      "example": "conduct a survey（アンケートを実施する）。例: We conducted a survey.（アンケートを実施した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "opportunity",
+      "definition": "機会",
+      "example": "chance の類義語。例: an opportunity to work with you（あなたと働く機会）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "chance",
+      "definition": "機会/可能性",
+      "example": "opportunity と近い。例: a chance to win（勝つチャンス）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "deadline",
+      "definition": "締め切り",
+      "example": "例: the deadline for the project（プロジェクトの締め切り）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "corporate",
+      "definition": "企業の/法人の",
+      "example": "corporation の形容詞。例: corporate trainer（企業のトレーナー）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "corporation",
+      "definition": "企業/法人",
+      "example": "corporate の名詞。例: a large corporation（大企業）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "warranty",
+      "definition": "保証",
+      "example": "under warranty（保証期間中）。例: The product is under warranty.（その製品は保証期間中）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "guarantee",
+      "definition": "保証する/保証",
+      "example": "warranty と関連。例: We guarantee the product.（製品を保証します）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "necessary",
+      "definition": "必要な",
+      "example": "not necessarily で「必ずしも〜ない」。例: This step is necessary.（この手順は必要だ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "necessarily",
+      "definition": "必ずしも/必然的に",
+      "example": "否定文で「必ずしも〜ない」。例: It is not necessarily true.（必ずしも真実ではない）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "necessity",
+      "definition": "必要性/必需品",
+      "example": "名詞。例: a necessity（必需品）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "necessitate",
+      "definition": "必要とする",
+      "example": "動詞。例: The delay necessitated a change.（遅延で変更が必要になった）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "reserve",
+      "definition": "予約する/確保する",
+      "example": "reserve a room（部屋を予約する）。例: We reserved a room.（部屋を予約した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "reservation",
+      "definition": "予約",
+      "example": "reserve の名詞。例: make a reservation（予約する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "resident",
+      "definition": "住民",
+      "example": "residential（住宅の）、residence（住居）。例: local residents（地元の住民）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "residential",
+      "definition": "住宅の",
+      "example": "例: a residential area（住宅地）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "residence",
+      "definition": "住居/居住",
+      "example": "例: place of residence（居住地）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "inhabitant",
+      "definition": "住民",
+      "example": "resident の類義語。例: city inhabitants（都市の住民）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "create",
+      "definition": "作り出す",
+      "example": "創造する。例: create a new logo（新しいロゴを作り出す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "creative",
+      "definition": "創造的な",
+      "example": "create の形容詞。例: a creative idea（創造的なアイデア）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "creativity",
+      "definition": "創造性",
+      "example": "名詞。例: encourage creativity（創造性を促す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "creation",
+      "definition": "創造/作品",
+      "example": "名詞。例: a new creation（新しい作品）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "inform",
+      "definition": "知らせる",
+      "example": "inform 人 that...。例: We are happy to inform you that you passed.（合格したことをお知らせできてうれしい）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "information",
+      "definition": "情報",
+      "example": "inform の名詞。例: additional information（追加情報）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "allow",
+      "definition": "許す/可能にする",
+      "example": "allow 人 to do。例: This policy allows customers to pay online.（この方針でオンライン支払いが可能）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "tolerate",
+      "definition": "許容する",
+      "example": "allow の類義語。例: We cannot tolerate delays.（遅延は許容できない）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "mention",
+      "definition": "言及する",
+      "example": "口頭・文章で触れる。例: He mentioned a problem.（彼は問題に言及した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "state",
+      "definition": "述べる",
+      "example": "mention の関連語。例: The report states the issue.（報告書が問題を述べている）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "cite",
+      "definition": "引用する",
+      "example": "出典を示す。例: Please cite the source.（出典を引用してください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "appreciate",
+      "definition": "感謝する",
+      "example": "I appreciate your help.（助けに感謝します）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "appreciation",
+      "definition": "感謝",
+      "example": "appreciate の名詞。例: show appreciation（感謝を示す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "appreciative",
+      "definition": "感謝している",
+      "example": "形容詞。例: We are appreciative of your help.（助けに感謝しています）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "replacement",
+      "definition": "交換品/代替品",
+      "example": "交換や代替の品。例: find a replacement for Tex.（テックスの代わりを探す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "update",
+      "definition": "更新/更新する",
+      "example": "動詞・名詞。例: update the website（サイトを更新する）; updated version（最新バージョン）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "branch",
+      "definition": "支店/分店",
+      "example": "branch office（支店）。例: open a new branch（新しい支店を開く）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "branch manager",
+      "definition": "支店長",
+      "example": "branch の関連語。例: branch manager（支店長）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "paid",
+      "definition": "有給の/支払い済みの",
+      "example": "paid leave（有給休暇）。例: Employees receive paid leave.（社員は有給休暇がある）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "unfortunately",
+      "definition": "残念ながら",
+      "example": "文頭で使う。例: Unfortunately, there are some problems.（残念ながら問題がある）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "fortunate",
+      "definition": "幸運な",
+      "example": "fortunately の形容詞。例: We were fortunate to win.（勝てて幸運だった）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "fortunately",
+      "definition": "幸いにも",
+      "example": "副詞。例: Fortunately, no one was hurt.（幸い誰もけがしなかった）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "original",
+      "definition": "元の/オリジナルの",
+      "example": "例: in original condition（元の状態で）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "originally",
+      "definition": "元々/当初",
+      "example": "副詞。例: Originally, we planned July.（当初は7月を予定）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "originality",
+      "definition": "独創性",
+      "example": "名詞。例: value originality（独創性を重視する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "rent",
+      "definition": "家賃/賃貸する",
+      "example": "rent an apartment（アパートを借りる）。例: rent out rooms（部屋を貸す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "rental",
+      "definition": "賃貸/レンタルの",
+      "example": "rent の名詞・形容詞。例: rental car（レンタカー）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "renter",
+      "definition": "借り手",
+      "example": "rent の名詞。例: The renter signed the contract.（借り手が契約した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "memo",
+      "definition": "社内文書/メモ",
+      "example": "memo は通常「社内文書」。例: write a memo（社内文書を書く）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "memorandum",
+      "definition": "覚書/社内文書",
+      "example": "memo の正式形。例: a memorandum of understanding（覚書）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "luggage",
+      "definition": "旅行かばん/手荷物",
+      "example": "不可算名詞。例: check luggage（荷物を預ける）; carry-on luggage（機内持ち込み）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "baggage",
+      "definition": "手荷物",
+      "example": "luggage の類義語。例: baggage claim（手荷物受取所）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "checked luggage",
+      "definition": "預け荷物",
+      "example": "例: checked luggage（預け荷物）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "carry-on luggage",
+      "definition": "機内持ち込み手荷物",
+      "example": "例: carry-on luggage（機内持ち込み手荷物）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "editor",
+      "definition": "編集者",
+      "example": "edit の名詞。例: a newspaper editor（新聞の編集者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "edit",
+      "definition": "編集する",
+      "example": "動詞。例: edit a catalog（カタログを編集する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "editorial",
+      "definition": "社説/編集の",
+      "example": "名詞・形容詞。例: an editorial column（社説欄）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "exhibition",
+      "definition": "展示会/美術展",
+      "example": "an art exhibition（美術展）。例: a trade fair（展示会）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "exposition",
+      "definition": "展示会",
+      "example": "exhibition の類義語。例: an exposition（展示会）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "trade fair",
+      "definition": "見本市",
+      "example": "例: attend a trade fair（見本市に参加する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "retrospective",
+      "definition": "回顧展",
+      "example": "例: a retrospective exhibition（回顧展）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "leading",
+      "definition": "主要な/一流の",
+      "example": "先頭の・代表的な。例: a leading company（トップの会社）; a leading supplier（主要な供給者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "foremost",
+      "definition": "最も重要な",
+      "example": "leading と関連。例: the foremost expert（第一人者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "organization",
+      "definition": "組織/団体",
+      "example": "organization / organization(al)。例: a nonprofit organization（非営利団体）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "organize",
+      "definition": "組織する/整理する",
+      "example": "動詞。例: organize a meeting（会議を企画する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "organized",
+      "definition": "整然とした/組織された",
+      "example": "形容詞。例: an organized team（組織だったチーム）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "reorganization",
+      "definition": "再編/再編成",
+      "example": "名詞。例: a company reorganization（会社の再編）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "release",
+      "definition": "発表する/発売する",
+      "example": "動詞・名詞。例: release a new album（新しいアルバムを発売する）; press release（プレスリリース）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "limited",
+      "definition": "限定された",
+      "example": "limited time（期間限定）。例: for a limited time（期間限定で）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "limit",
+      "definition": "制限する/限度",
+      "example": "動詞・名詞。例: within city limits（市内の範囲内）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "unlimited",
+      "definition": "無制限の",
+      "example": "limited の反対。例: unlimited data（無制限データ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "indefinitely",
+      "definition": "無期限に",
+      "example": "期間の制限がない。例: postponed indefinitely（無期限延期）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "procedure",
+      "definition": "手順",
+      "example": "process（工程）と関連。例: follow the procedure（手順に従う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "proceed",
+      "definition": "進む/続行する",
+      "example": "動詞。例: Please proceed to the next step.（次の手順に進んでください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "process",
+      "definition": "工程/処理",
+      "example": "procedure と関連。例: the hiring process（採用プロセス）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "experienced",
+      "definition": "経験豊富な",
+      "example": "seasoned と同義。例: an experienced engineer（経験豊かなエンジニア）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "seasoned",
+      "definition": "経験豊富な",
+      "example": "experienced の類義語。例: a seasoned teacher（経験豊富な先生）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "inexperienced",
+      "definition": "未経験の/不慣れな",
+      "example": "experienced の反対。例: an inexperienced worker（未経験の作業員）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "personnel",
+      "definition": "人員/人事",
+      "example": "集合名詞。例: all company personnel（全社員）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "author",
+      "definition": "著者/作家",
+      "example": "本を書く人。例: the author of a popular book（人気本の著者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "benefit",
+      "definition": "福利厚生/利益/役立つ",
+      "example": "名詞・動詞。例: employee benefits（従業員の福利厚生）; This will benefit you.（これは役に立つ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "beneficial",
+      "definition": "有益な",
+      "example": "benefit の形容詞。例: beneficial to employees（従業員に有益）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "focus",
+      "definition": "焦点/集中する",
+      "example": "focus on で「〜に集中」。例: focus on one point（一点に集中する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "participate",
+      "definition": "参加する",
+      "example": "participate in で参加。例: participate in the workshop（ワークショップに参加する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "participation",
+      "definition": "参加",
+      "example": "participate の名詞。例: encourage participation（参加を促す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "participant",
+      "definition": "参加者",
+      "example": "participate の名詞。例: event participants（参加者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "cause",
+      "definition": "原因/引き起こす",
+      "example": "名詞・動詞。例: the cause of the problem（問題の原因）; heavy rain caused delays（大雨が遅延を引き起こした）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "degree",
+      "definition": "学位/程度",
+      "example": "a degree in journalism（ジャーナリズムの学位）; to a certain degree（ある程度）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "master's degree",
+      "definition": "修士号",
+      "example": "例: a master's degree（修士号）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "Ph.D.",
+      "definition": "博士号",
+      "example": "例: a Ph.D. in biology（生物学の博士号）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "diploma",
+      "definition": "卒業証書/資格証明",
+      "example": "例: a diploma in business（ビジネスの資格証明）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "directly",
+      "definition": "直接に",
+      "example": "direct の副詞。例: purchase directly from a website（ウェブサイトから直接購入する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "direct",
+      "definition": "直接の",
+      "example": "形容詞。例: direct contact（直接の連絡）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "indirectly",
+      "definition": "間接的に",
+      "example": "directly の反対。例: It was mentioned indirectly.（間接的に言及された）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "host",
+      "definition": "司会者/主催する",
+      "example": "名詞・動詞。例: host a television show（テレビ番組の司会をする）; host an event（イベントを主催する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "expert",
+      "definition": "専門家/専門の",
+      "example": "名詞・形容詞。例: an expert in the field（その分野の専門家）; expert advice（専門的な助言）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "expertise",
+      "definition": "専門知識",
+      "example": "expert の名詞。例: technical expertise（技術的専門知識）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "connoisseur",
+      "definition": "通/目利き",
+      "example": "専門的な鑑定ができる人。例: a wine connoisseur（ワインの目利き）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "impress",
+      "definition": "感動させる/感銘を与える",
+      "example": "impress 人。例: We were impressed by your knowledge.（あなたの知識に感心した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "impressive",
+      "definition": "印象的な",
+      "example": "形容詞。例: an impressive presentation（印象的なプレゼン）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "impression",
+      "definition": "印象",
+      "example": "名詞。例: make a good impression（良い印象を与える）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "mainly",
+      "definition": "主に",
+      "example": "main の副詞。例: We work mainly in Japan.（主に日本で働く）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "main",
+      "definition": "主な",
+      "example": "形容詞。例: the main reason（主な理由）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "primarily",
+      "definition": "主に",
+      "example": "mainly の類義語。例: primarily responsible（主に責任を負う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "chiefly",
+      "definition": "主に",
+      "example": "mainly の類義語。例: chiefly known for...（主に〜で知られる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "largely",
+      "definition": "主に/大部分は",
+      "example": "mainly の類義語。例: largely due to...（主に〜が原因で）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "suggestion",
+      "definition": "提案",
+      "example": "make suggestions（提案をする）。例: a helpful suggestion（役立つ提案）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "proposal",
+      "definition": "提案/提案書",
+      "example": "suggestion の類義語。例: a proposal for change（変更の提案）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "recommendation",
+      "definition": "推薦/提案",
+      "example": "類義語。例: a recommendation for improvement（改善の提案）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "supplier",
+      "definition": "供給業者",
+      "example": "例: relationships with suppliers（供給業者との関係）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "vendor",
+      "definition": "業者/売り手",
+      "example": "supplier の類義語。例: local vendors（地元の業者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "document",
+      "definition": "書類/文書",
+      "example": "書類全般。例: an important document（重要な書類）; documentation（証明書類）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "documentation",
+      "definition": "書類/記録",
+      "example": "document の名詞。例: submit documentation（書類を提出する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "remind",
+      "definition": "念押しする/思い出させる",
+      "example": "remind 人 of / remind 人 to do。例: Please remind employees about the policy.（方針について念押しする）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "reminder",
+      "definition": "念押し/リマインダー",
+      "example": "名詞。例: a reminder for all employees（全従業員への注意喚起）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "require",
+      "definition": "要求する/必要とする",
+      "example": "require that / require 人 to do。例: Workers are required to wear uniforms.（制服着用が求められる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "requirement",
+      "definition": "要件/必要条件",
+      "example": "名詞。例: minimum requirements（最低条件）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "prerequisite",
+      "definition": "前提条件",
+      "example": "requirement の類義語。例: a prerequisite for the job（その仕事の前提条件）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "representative",
+      "definition": "担当者/代表",
+      "example": "営業担当の文脈で頻出。例: a sales representative（営業担当者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "initiative",
+      "definition": "取り組み/主導権",
+      "example": "代表的な -ive 名詞。例: a new initiative（新しい取り組み）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "alternative",
+      "definition": "代替案/代替の",
+      "example": "例: an alternative plan（代替案）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "perspective",
+      "definition": "視点",
+      "example": "例: a different perspective（別の視点）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "executive",
+      "definition": "幹部/重役",
+      "example": "例: a company executive（会社の幹部）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "packaging",
+      "definition": "包装/梱包",
+      "example": "商品を包む工程や包装。例: the packaging design（パッケージデザイン）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "description",
+      "definition": "説明/記述",
+      "example": "item description（商品説明）。例: a job description（職務内容の説明）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "describe",
+      "definition": "説明する",
+      "example": "動詞。例: describe the process（工程を説明する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "portrayal",
+      "definition": "描写/表現",
+      "example": "description の関連語。例: a realistic portrayal（現実的な描写）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "property",
+      "definition": "不動産/資産",
+      "example": "real estate と関連。例: property manager（不動産の管理人）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "real estate",
+      "definition": "不動産",
+      "example": "名詞。例: real estate agency（不動産会社）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "real estate agency",
+      "definition": "不動産会社",
+      "example": "property の関連語。例: a real estate agency（不動産会社）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "extension",
+      "definition": "内線/延長",
+      "example": "電話の内線番号。例: Call me at extension 4649.（内線4649に電話して）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "extend",
+      "definition": "延長する/伸ばす",
+      "example": "動詞。例: extend the deadline（締め切りを延長する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "inquire",
+      "definition": "問い合わせる",
+      "example": "inquire about で問い合わせ。例: I am calling to inquire about a job.（仕事について問い合わせています）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "inquiry",
+      "definition": "問い合わせ",
+      "example": "名詞。例: handle customer inquiries（顧客の問い合わせ対応）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "merchandise",
+      "definition": "商品",
+      "example": "商品全般。例: display merchandise（商品を陳列する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "highly",
+      "definition": "非常に/高度に",
+      "example": "程度が高いことを示す副詞。例: a highly successful business（非常に成功しているビジネス）; speak highly of（高く評価する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "result",
+      "definition": "結果/結果となる",
+      "example": "名詞・動詞。例: The campaign resulted in success.（キャンペーンは成功という結果になった）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "assistance",
+      "definition": "支援/援助",
+      "example": "assist（助ける）の名詞。例: Thank you for your assistance.（ご支援ありがとうございます）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "assist",
+      "definition": "助ける",
+      "example": "動詞。例: I can assist you.（お手伝いできます）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "encourage",
+      "definition": "奨励する/促す",
+      "example": "encourage 人 to do。例: Employees are encouraged to attend the event.（イベント参加が奨励されている）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "discourage",
+      "definition": "思いとどまらせる/抑制する",
+      "example": "encourage の反対。例: We discourage late arrivals.（遅刻は控えるようにしている）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "individual",
+      "definition": "個人/個々の",
+      "example": "名詞・形容詞。例: each individual in the company（会社の一人一人）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "individually",
+      "definition": "個別に",
+      "example": "副詞。例: individually wrapped chocolates（個包装のチョコ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "laboratory",
+      "definition": "研究所/実験室",
+      "example": "lab と略す。例: enter the laboratory（研究所に入る）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "lab",
+      "definition": "研究室/実験室",
+      "example": "laboratory の略。例: computer lab（コンピュータ室）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "experiment",
+      "definition": "実験",
+      "example": "laboratory と関連。例: run an experiment（実験を行う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "consider",
+      "definition": "考慮する/検討する",
+      "example": "consider doing。例: We are considering working in Japan.（日本で働くことを検討している）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "considerate",
+      "definition": "思いやりのある",
+      "example": "consider の関連語。例: a considerate response（思いやりのある対応）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "deem",
+      "definition": "みなす",
+      "example": "consider の類義語。例: be deemed necessary（必要とみなされる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "weigh",
+      "definition": "比較検討する/重さを量る",
+      "example": "consider の関連。例: weigh the options（選択肢を比較検討する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "consideration",
+      "definition": "考慮/検討",
+      "example": "名詞。例: take into consideration（考慮に入れる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "headquarters",
+      "definition": "本社",
+      "example": "the main/head office。例: move the headquarters to Boston（本社をボストンに移転する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "ship",
+      "definition": "出荷する",
+      "example": "動詞。例: We are ready to ship your order.（注文の出荷準備ができています）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "shipment",
+      "definition": "出荷/発送",
+      "example": "名詞。例: shipment of products（製品の出荷）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "dispatch",
+      "definition": "発送する/派遣する",
+      "example": "ship と関連。例: dispatch the package（荷物を発送する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "commercial",
+      "definition": "商業の/商業用の",
+      "example": "商業ビルの文脈。例: commercial buildings（商業ビル）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "device",
+      "definition": "機器/装置",
+      "example": "医療機器の文脈でよく出る。例: a medical device（医療機器）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "intended",
+      "definition": "意図された/向けられた",
+      "example": "for whom is the notice intended?（誰に向けた通知か）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "intend",
+      "definition": "意図する",
+      "example": "動詞。例: We intend to expand.（拡大する意図がある）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "intention",
+      "definition": "意図/目的",
+      "example": "名詞。例: with the intention of（〜する意図で）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "brochure",
+      "definition": "パンフレット",
+      "example": "案内資料。例: a product brochure（製品パンフレット）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "pamphlet",
+      "definition": "小冊子",
+      "example": "brochure と関連。例: a travel pamphlet（旅行小冊子）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "mail",
+      "definition": "郵便/郵送する",
+      "example": "by mail（郵送で）。例: We will mail the documents.（書類を郵送する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "express mail",
+      "definition": "速達便",
+      "example": "by express mail（速達で）。例: Send it by express mail.（速達で送って）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "prefer",
+      "definition": "好む",
+      "example": "prefer A to B / prefer to do。例: I prefer to work part-time.（パートで働く方が好き）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "preference",
+      "definition": "好み/希望",
+      "example": "prefer の名詞。例: Do you have a seating preference?（座席の希望はありますか）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "preferable",
+      "definition": "より望ましい",
+      "example": "形容詞。例: an adjustable seat is preferable（調節可能な席が望ましい）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "preferably",
+      "definition": "できれば",
+      "example": "副詞。例: Please arrive early, preferably before 9.（できれば9時前に来て）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "response",
+      "definition": "返信/反応",
+      "example": "in response to X。例: I'm writing in response to your letter.（お手紙への返答です）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "respond",
+      "definition": "返答する",
+      "example": "respond to a letter（手紙に返答する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "reply",
+      "definition": "返信/返信する",
+      "example": "response の類義語。例: Please reply soon.（早めに返信してください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "respondent",
+      "definition": "回答者",
+      "example": "アンケートの回答者。例: survey respondents（調査の回答者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "region",
+      "definition": "地域",
+      "example": "regional（地域の）。例: companies in the region（その地域の会社）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "regional",
+      "definition": "地域の",
+      "example": "形容詞。例: a regional sales meeting（地域の営業会議）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "donation",
+      "definition": "寄付",
+      "example": "donate の名詞。例: donations to a museum（博物館への寄付）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "donate",
+      "definition": "寄付する",
+      "example": "動詞。例: donate to a museum（博物館に寄付する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "donor",
+      "definition": "寄付者",
+      "example": "名詞。例: a donor list（寄付者名簿）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "contribution",
+      "definition": "寄付/貢献",
+      "example": "donation と関連。例: make a contribution（寄付する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "quarter",
+      "definition": "四半期",
+      "example": "会計年度の区切り。例: the third quarter（第3四半期）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "agreement",
+      "definition": "合意/契約",
+      "example": "reach an agreement（合意に達する）。例: a rental agreement（賃貸契約）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "agree",
+      "definition": "同意する",
+      "example": "動詞。例: We agreed on the terms.（条件に合意した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "agreeable",
+      "definition": "心地よい/同意できる",
+      "example": "形容詞。例: an agreeable solution（満足できる解決策）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "journal",
+      "definition": "専門誌/学術誌",
+      "example": "trade magazine の意味でも。例: a scientific journal（科学の専門誌）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "trade magazine",
+      "definition": "業界誌",
+      "example": "journal の関連語。例: a trade magazine（業界誌）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "distribute",
+      "definition": "配布する/流通させる",
+      "example": "documents を配る。例: distribute a document（書類を配布する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "distribution",
+      "definition": "配布/流通",
+      "example": "distribute の名詞。例: distribution list（配布先リスト）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "distributor",
+      "definition": "流通業者/配布者",
+      "example": "名詞。例: a distributor for the product（製品の流通業者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "potential",
+      "definition": "見込みのある/可能性",
+      "example": "potential customers（見込み客）。例: enormous potential（大きな可能性）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "reschedule",
+      "definition": "予定変更する",
+      "example": "reschedule an appointment（予定を変更する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "renew",
+      "definition": "更新する",
+      "example": "契約の更新。例: renew a contract（契約を更新する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "renewal",
+      "definition": "更新",
+      "example": "名詞。例: renewal rate（更新率）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "warehouse",
+      "definition": "倉庫",
+      "example": "ship from a warehouse（倉庫から出荷する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "refund",
+      "definition": "返金/返金する",
+      "example": "名詞・動詞。例: a full refund（全額返金）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "advise",
+      "definition": "助言する/知らせる",
+      "example": "advise 人 that... / advise 人 to do。例: Please be advised that...（〜であることにご留意ください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "advice",
+      "definition": "助言",
+      "example": "advise の名詞。例: follow the advice（助言に従う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "advisable",
+      "definition": "望ましい",
+      "example": "形容詞。例: It is advisable to arrive early.（早めに来るのが望ましい）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "immediately",
+      "definition": "すぐに/即座に",
+      "example": "right away の意味。例: The tickets sold out immediately.（チケットは即完した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "immediate",
+      "definition": "即時の/差し迫った",
+      "example": "形容詞。例: immediate response（即時対応）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "council",
+      "definition": "議会/評議会",
+      "example": "city council（市議会）。例: the city council（市議会）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "broadcast",
+      "definition": "放送する/放送",
+      "example": "動詞・名詞。例: The program is broadcast on Saturdays.（番組は土曜に放送される）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "responsible",
+      "definition": "責任がある",
+      "example": "be responsible for。例: I am responsible for training employees.（従業員研修を担当している）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "responsibility",
+      "definition": "責任",
+      "example": "名詞。例: take responsibility for the project（プロジェクトの責任を負う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "accountable",
+      "definition": "責任を負う",
+      "example": "責任を持って説明できる。例: The manager is accountable.（マネジャーが責任を負う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "liability",
+      "definition": "責任/負債",
+      "example": "法律・会計文脈。例: legal liability（法的責任）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "avoid",
+      "definition": "避ける",
+      "example": "avoid doing。例: avoid wasting time（時間の無駄を避ける）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "effective",
+      "definition": "効果的な",
+      "example": "effective advertising campaigns（効果的な広告キャンペーン）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "effect",
+      "definition": "効果",
+      "example": "名詞。例: the effect of the change（変更の効果）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "effectiveness",
+      "definition": "効果/有効性",
+      "example": "名詞。例: measure effectiveness（効果を測る）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "effectively",
+      "definition": "効果的に",
+      "example": "副詞。例: work effectively（効率的に働く）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "invitation",
+      "definition": "招待状/招待",
+      "example": "receive an invitation（招待を受け取る）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "invite",
+      "definition": "招待する",
+      "example": "動詞。例: invite clients（顧客を招待する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "reduce",
+      "definition": "減らす",
+      "example": "reduce prices（値段を下げる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "cut back on",
+      "definition": "削減する",
+      "example": "reduce の言い換え。例: cut back on costs（コストを削減する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "lower",
+      "definition": "下げる/低い",
+      "example": "reduce の言い換え。例: lower prices（価格を下げる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "reduction",
+      "definition": "削減/減少",
+      "example": "reduce の名詞。例: a reduction in staff（人員削減）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "reduced price",
+      "definition": "値下げ価格",
+      "example": "例: at a reduced price（割引価格で）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "shorten",
+      "definition": "短くする",
+      "example": "reduce の関連語。例: shorten the meeting（会議を短くする）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "vehicle",
+      "definition": "車両/乗り物",
+      "example": "車やトラックなど。例: park a vehicle（車を駐車する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "efficient",
+      "definition": "効率的な",
+      "example": "efficient use of energy（エネルギーの効率的な使用）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "efficiently",
+      "definition": "効率的に",
+      "example": "副詞。例: operate efficiently（効率よく運用する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "efficiency",
+      "definition": "効率",
+      "example": "名詞。例: improve efficiency（効率を改善する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "inefficient",
+      "definition": "非効率な",
+      "example": "efficient の反対。例: an inefficient process（非効率な工程）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "manufacturer",
+      "definition": "メーカー/製造業者",
+      "example": "例: a car manufacturer（自動車メーカー）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "manufacture",
+      "definition": "製造する",
+      "example": "動詞。例: manufacture parts（部品を製造する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "manufacturing",
+      "definition": "製造/製造業",
+      "example": "名詞。例: manufacturing sector（製造業部門）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "comfortable",
+      "definition": "快適な",
+      "example": "comfortable rooms（快適な部屋）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "comfort",
+      "definition": "快適さ/慰める",
+      "example": "名詞・動詞。例: provide comfort（快適さを提供する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "comfortably",
+      "definition": "快適に",
+      "example": "副詞。例: sleep comfortably（快適に眠る）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "uncomfortable",
+      "definition": "不快な",
+      "example": "comfortable の反対。例: an uncomfortable chair（不快な椅子）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "correct",
+      "definition": "正確な/正しい/訂正する",
+      "example": "correct an error（誤りを訂正する）。例: Please correct the address.（住所を訂正してください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "correction",
+      "definition": "訂正/修正",
+      "example": "correct の名詞。例: make a correction（訂正を行う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "correctly",
+      "definition": "正しく",
+      "example": "副詞。例: spelled correctly（正しく綴られている）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "incorrect",
+      "definition": "間違った",
+      "example": "correct の反対。例: incorrect information（誤った情報）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "downtown",
+      "definition": "中心街",
+      "example": "ビジネス中心地。例: downtown restaurants（中心街のレストラン）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "urban",
+      "definition": "都市の",
+      "example": "downtown と関連。例: urban area（都市部）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "method",
+      "definition": "方法",
+      "example": "means と近い。例: method of payment（支払い方法）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "means",
+      "definition": "手段",
+      "example": "例: means of communication（通信手段）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "approach",
+      "definition": "手法/取り組み",
+      "example": "例: a new approach to sales（販売への新しい手法）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "entire",
+      "definition": "全体の",
+      "example": "entire staff（全スタッフ）。例: the entire staff（全スタッフ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "entirety",
+      "definition": "全体",
+      "example": "in its entirety（全体として）。例: read the book in its entirety（本を丸ごと読む）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "entirely",
+      "definition": "完全に",
+      "example": "副詞。例: entirely different（まったく違う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "range",
+      "definition": "範囲/幅",
+      "example": "a wide range of services（幅広いサービス）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "extent",
+      "definition": "程度/範囲",
+      "example": "to some extent（ある程度）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "setting",
+      "definition": "環境/状況",
+      "example": "場所や雰囲気。例: a hotel in a beautiful setting（美しい環境にあるホテル）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "atmosphere",
+      "definition": "雰囲気",
+      "example": "setting の関連語。例: a friendly atmosphere（親しみやすい雰囲気）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "apologize",
+      "definition": "謝る",
+      "example": "apologize for。例: We apologize for the inconvenience.（ご不便をおかけしおわびします）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "apology",
+      "definition": "謝罪",
+      "example": "名詞。例: offer an apology（謝罪する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "inconvenience",
+      "definition": "不便",
+      "example": "convenience の反対。例: apologize for the inconvenience（ご不便をおかけしておわびします）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "convenience",
+      "definition": "便利",
+      "example": "例: for your convenience（ご都合のために）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "convenient",
+      "definition": "便利な",
+      "example": "形容詞。例: a convenient location（便利な場所）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "frequent",
+      "definition": "頻繁な",
+      "example": "frequent use（頻繁な使用）。例: frequent customers（常連客）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "frequently",
+      "definition": "頻繁に",
+      "example": "副詞。例: We meet frequently.（頻繁に会う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "frequency",
+      "definition": "頻度",
+      "example": "名詞。例: frequency of use（使用頻度）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "promotion",
+      "definition": "昇進/販売促進",
+      "example": "sales promotion（販売促進）。例: Tex's promotion to sales manager（営業マネージャーへの昇進）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "promote",
+      "definition": "昇進させる/促進する",
+      "example": "動詞。例: promote her to manager（彼女をマネージャーに昇進させる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "promotional",
+      "definition": "販売促進の",
+      "example": "形容詞。例: promotional materials（販促資料）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "regarding",
+      "definition": "〜に関して",
+      "example": "前置詞。例: regarding your order（ご注文に関して）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "concerning",
+      "definition": "〜に関して",
+      "example": "regarding の類義語。例: concerning the schedule（スケジュールに関して）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "with regard to",
+      "definition": "〜に関して",
+      "example": "類義語。例: with regard to your request（ご要望に関して）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "temporary",
+      "definition": "一時的な/臨時の",
+      "example": "temporary workers（臨時雇いの従業員）。例: a temporary job（短期の仕事）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "temporarily",
+      "definition": "一時的に",
+      "example": "副詞。例: temporarily closed（一時休業）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "permanent",
+      "definition": "永久の/正社員の",
+      "example": "temporary の反対。例: permanent staff（正社員）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "traditional",
+      "definition": "伝統的な",
+      "example": "traditional Italian dishes（伝統的なイタリア料理）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "tradition",
+      "definition": "伝統",
+      "example": "名詞。例: local traditions（地元の伝統）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "conventional",
+      "definition": "従来の/一般的な",
+      "example": "traditional の類義語。例: conventional methods（従来の方法）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "heritage",
+      "definition": "伝統/遺産",
+      "example": "文化的な伝統。例: cultural heritage（文化遺産）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "admission",
+      "definition": "入場/入場許可",
+      "example": "admit の名詞。例: Admission is free for members.（会員は入場無料）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "admit",
+      "definition": "認める/入れる",
+      "example": "動詞。例: admit guests（客を入れる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "fit",
+      "definition": "合う/収まる",
+      "example": "収容できる。例: The room can fit 50 people.（その部屋は50人入る）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "reference",
+      "definition": "照会/参照",
+      "example": "連絡先照会など。例: contact a reference（照会先に連絡する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "letter of reference",
+      "definition": "推薦状",
+      "example": "例: a letter of reference（推薦状）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "status",
+      "definition": "状況/状態",
+      "example": "shipping status（配送状況）。例: check the status（状況を確認する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "fuel",
+      "definition": "燃料",
+      "example": "fuel costs（燃料コスト）。例: fuel prices rose.（燃料価格が上がった）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "nearly",
+      "definition": "ほとんど/もう少しで",
+      "example": "almost と近い。例: nearly two years（2年近く）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "almost",
+      "definition": "ほとんど",
+      "example": "副詞。例: almost finished（ほぼ終わり）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "cafeteria",
+      "definition": "社員食堂/カフェテリア",
+      "example": "employee cafeteria の文脈。例: meet in the cafeteria（食堂で会う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "determine",
+      "definition": "決定する/判断する",
+      "example": "determine how to do。例: determine how to sell the product（売り方を決める）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "determined",
+      "definition": "決意した/断固とした",
+      "example": "形容詞。例: a determined team（決意したチーム）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "determination",
+      "definition": "決断/決意",
+      "example": "名詞。例: show determination（決意を示す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "decide",
+      "definition": "決定する",
+      "example": "determine の類義語。例: decide the plan（計画を決める）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "gauge",
+      "definition": "判断する/測定する",
+      "example": "determine の関連語。例: gauge customer interest（顧客の関心を測る）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "expense",
+      "definition": "費用/経費",
+      "example": "travel expenses（出張経費）。例: reimburse expenses（経費を精算する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "expenditure",
+      "definition": "支出",
+      "example": "expense の類義語。例: cut expenditures（支出を削減する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "spending",
+      "definition": "支出/支払い",
+      "example": "名詞。例: reduce spending（支出を減らす）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "overseas",
+      "definition": "海外の/海外へ",
+      "example": "travel overseas（海外旅行する）。例: overseas markets（海外市場）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "satisfied",
+      "definition": "満足した",
+      "example": "be satisfied with。例: I am fully satisfied with the service.（サービスに完全に満足している）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "satisfy",
+      "definition": "満足させる",
+      "example": "動詞。例: satisfy customer needs（顧客のニーズを満たす）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "satisfaction",
+      "definition": "満足/満足感",
+      "example": "名詞。例: customer satisfaction（顧客満足）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "satisfactory",
+      "definition": "満足できる",
+      "example": "形容詞。例: a satisfactory result（満足できる結果）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "appear",
+      "definition": "現れる/〜のように見える",
+      "example": "The item appears to be damaged.（商品は破損しているように見える）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "appearance",
+      "definition": "外見/様子",
+      "example": "名詞。例: a change in appearance（見た目の変化）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "develop",
+      "definition": "開発する/発展させる",
+      "example": "develop a plan（計画を作り出す）。例: develop a product（製品を開発する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "development",
+      "definition": "開発/発展",
+      "example": "名詞。例: product development（製品開発）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "improve",
+      "definition": "改善する",
+      "example": "improve customer service（顧客サービスを改善する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "improvement",
+      "definition": "改善",
+      "example": "名詞。例: make improvements（改善する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "reasonable",
+      "definition": "手ごろな/妥当な",
+      "example": "affordable/competitive と近い。例: a reasonable price（手ごろな価格）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "affordable",
+      "definition": "手ごろな",
+      "example": "reasonable の類義語。例: affordable housing（手ごろな住宅）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "competitive",
+      "definition": "競争力のある",
+      "example": "価格が強い。例: competitive prices（競争力のある価格）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "inexpensive",
+      "definition": "安価な",
+      "example": "例: inexpensive meals（安価な食事）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "unable",
+      "definition": "できない",
+      "example": "able の反対。例: He is unable to attend.（彼は参加できない）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "able",
+      "definition": "できる",
+      "example": "形容詞。例: be able to do（〜できる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "delay",
+      "definition": "遅らせる/遅れ",
+      "example": "動詞・名詞。例: All flights have been delayed.（全便が遅延した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "legal",
+      "definition": "法律の/合法の",
+      "example": "legal advice（法律相談）。例: legal counsel（法律顧問）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "law",
+      "definition": "法律",
+      "example": "関連語。例: break the law（法律に違反する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "law firm",
+      "definition": "法律事務所",
+      "example": "例: a law firm（法律事務所）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "lawyer",
+      "definition": "弁護士",
+      "example": "例: consult a lawyer（弁護士に相談する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "attorney",
+      "definition": "弁護士",
+      "example": "lawyer の類義語。例: an attorney at law（弁護士）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "paralegal",
+      "definition": "パラリーガル/法務補助",
+      "example": "例: work as a paralegal（法務補助として働く）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "regulation",
+      "definition": "規制/規則",
+      "example": "under regulations（規制の下で）。例: safety regulations（安全規則）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "regulate",
+      "definition": "規制する",
+      "example": "動詞。例: regulate prices（価格を規制する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "expand",
+      "definition": "拡大する",
+      "example": "Our business is expanding.（事業が拡大している）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "expansion",
+      "definition": "拡大",
+      "example": "名詞。例: factory expansion（工場拡張）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "expansive",
+      "definition": "広がる/拡張的な",
+      "example": "形容詞。例: an expansive view（広がる眺め）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "launch",
+      "definition": "開始する/発売",
+      "example": "launch a new product（新商品を発売する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "recommendation",
+      "definition": "推薦/推薦状",
+      "example": "a letter of recommendation（推薦状）。例: provide a recommendation（推薦する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "recommend",
+      "definition": "推薦する",
+      "example": "動詞。例: recommend a restaurant（店を推薦する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "direct",
+      "definition": "直接の/指示する",
+      "example": "direct questions to me（質問を私に向けてください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "directly",
+      "definition": "直接に",
+      "example": "副詞。例: contact me directly（直接連絡する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "direction",
+      "definition": "方向/指示",
+      "example": "名詞。例: in the right direction（正しい方向に）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "profit",
+      "definition": "利益",
+      "example": "increase profits（利益を増やす）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "profitable",
+      "definition": "利益になる",
+      "example": "形容詞。例: a profitable business（利益の出る事業）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "profitability",
+      "definition": "収益性",
+      "example": "名詞。例: improve profitability（収益性を改善する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "increase profitability",
+      "definition": "収益性を高める",
+      "example": "表現。例: increase profitability（収益性を高める）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "seek",
+      "definition": "求める",
+      "example": "seek interns（インターンを募集する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "job seeker",
+      "definition": "求職者",
+      "example": "seek の関連語。例: job seekers（求職者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "entry",
+      "definition": "応募作品/入場",
+      "example": "contest entry。例: the winning entry（入賞作品）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "entry form",
+      "definition": "応募用紙",
+      "example": "例: fill out an entry form（応募用紙に記入する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "claim",
+      "definition": "申し立て/請求する",
+      "example": "file a claim（申立てをする）。例: claim compensation（補償を請求する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "baggage claim",
+      "definition": "手荷物受取所",
+      "example": "airport の表現。例: baggage claim area（手荷物受取所）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "unclaimed",
+      "definition": "未請求の/落とし物の",
+      "example": "claim の反対。例: unclaimed baggage（未請求の荷物）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "crew",
+      "definition": "乗務員/作業班",
+      "example": "repair crew（修理班）。例: a repair crew（修理班）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "demand",
+      "definition": "需要/要求する",
+      "example": "meet demand（需要を満たす）。例: demand for services（サービスへの需要）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "meet",
+      "definition": "満たす/会う",
+      "example": "meet demand（需要を満たす）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "figure",
+      "definition": "数字/人物",
+      "example": "sales figures（売上数字）。例: a key figure（重要人物）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "raise",
+      "definition": "上げる/集める",
+      "example": "raise money for charity（慈善のためにお金を集める）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "attach",
+      "definition": "添付する/付ける",
+      "example": "attach a resume（履歴書を添付する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "attachment",
+      "definition": "添付ファイル/付属物",
+      "example": "名詞。例: email attachment（メール添付）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "detach",
+      "definition": "取り外す",
+      "example": "attach の反対。例: detach the label（ラベルを外す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "attract",
+      "definition": "引き付ける",
+      "example": "attract customers（顧客を引き付ける）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "attractive",
+      "definition": "魅力的な",
+      "example": "形容詞。例: an attractive design（魅力的なデザイン）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "attraction",
+      "definition": "魅力/観光名所",
+      "example": "名詞。例: tourist attractions（観光名所）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "insurance",
+      "definition": "保険",
+      "example": "health insurance（健康保険）。例: provide health insurance（健康保険を提供する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "insure",
+      "definition": "保険をかける/保証する",
+      "example": "動詞。例: insure the shipment（輸送品に保険をかける）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "insurance policy",
+      "definition": "保険契約",
+      "example": "例: insurance policy（保険契約）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "policyholder",
+      "definition": "保険契約者",
+      "example": "名詞。例: policyholder information（契約者情報）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "premium",
+      "definition": "保険料/割増料金",
+      "example": "名詞。例: pay the premium（保険料を払う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "departure",
+      "definition": "出発/逸脱",
+      "example": "scheduled departure date（出発予定日）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "depart",
+      "definition": "出発する",
+      "example": "動詞。例: The train departs at 9.（列車は9時に出発する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "mayor",
+      "definition": "市長",
+      "example": "the mayor of Tex Town（テックス・タウンの市長）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "governor",
+      "definition": "知事",
+      "example": "mayor と関連。例: the governor of the state（州知事）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "balance",
+      "definition": "残高/バランス",
+      "example": "account balance（口座残高）。例: check your balance（残高を確認する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "estimate",
+      "definition": "見積もる/見積もり",
+      "example": "an estimate for the project（プロジェクトの見積もり）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "estimated",
+      "definition": "推定の",
+      "example": "形容詞。例: estimated time of arrival（到着予定時刻）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "underestimate",
+      "definition": "過小評価する",
+      "example": "estimate の反対。例: underestimate the cost（費用を過小評価する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "district",
+      "definition": "地区",
+      "example": "商業地区など。例: a commercial district（商業地区）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "former",
+      "definition": "前の/元の",
+      "example": "formerly（以前に）。例: a former employee（元社員）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "previous",
+      "definition": "以前の",
+      "example": "former の類義語。例: previous experience（以前の経験）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "modern",
+      "definition": "現代的な",
+      "example": "modern building（近代的な建物）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "contemporary",
+      "definition": "現代の/同時代の",
+      "example": "modern の類義語。例: contemporary art（現代アート）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "modernize",
+      "definition": "近代化する",
+      "example": "動詞。例: modernize the system（システムを近代化する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "tip",
+      "definition": "アドバイス/コツ",
+      "example": "packing tips（荷造りのコツ）。例: tip for packing（梱包のコツ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "advice",
+      "definition": "助言",
+      "example": "tip の関連語。例: helpful advice（役立つ助言）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "establish",
+      "definition": "設立する/確立する",
+      "example": "establish a business（会社を設立する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "establishment",
+      "definition": "設立/施設",
+      "example": "名詞。例: a local establishment（地元の施設）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "found",
+      "definition": "設立する",
+      "example": "establish の類義語。例: found a company（会社を設立する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "option",
+      "definition": "選択肢",
+      "example": "an option to change the date（日時変更の選択肢）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "optional",
+      "definition": "任意の",
+      "example": "option の形容詞。例: Attendance is optional.（参加は任意）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "retire",
+      "definition": "退職する",
+      "example": "retire after 20 years of service（20年勤務の後に退職する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "retirement",
+      "definition": "退職/引退",
+      "example": "名詞。例: retirement party（退職祝い）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "search",
+      "definition": "探す/検索",
+      "example": "search for the next president（次の社長を探す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "search for",
+      "definition": "〜を探す",
+      "example": "句。例: search for information（情報を探す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "search the web",
+      "definition": "ネットで検索する",
+      "example": "例: search the Web site（ウェブサイトを検索する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "specific",
+      "definition": "具体的な/特定の",
+      "example": "a specific example（具体的な例）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "specifically",
+      "definition": "具体的に/特に",
+      "example": "副詞。例: specifically mentioned（特に言及された）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "specifics",
+      "definition": "具体的事項",
+      "example": "名詞。例: discuss the specifics（詳細を話す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "agricultural",
+      "definition": "農業の",
+      "example": "agricultural technology（農業技術）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "agriculture",
+      "definition": "農業",
+      "example": "名詞。例: modern agriculture（現代農業）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "organic",
+      "definition": "有機の",
+      "example": "organic food（有機食品）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "historical",
+      "definition": "歴史的な",
+      "example": "historic/historical。例: historical figures（歴史上の人物）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "historically",
+      "definition": "歴史的に",
+      "example": "副詞。例: historically important（歴史的に重要）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "historic",
+      "definition": "歴史的に重要な",
+      "example": "historic buildings（歴史的建造物）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "helpful",
+      "definition": "役立つ",
+      "example": "helpful information（役立つ情報）。例: helpful staff（親切で役立つスタッフ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "complaint",
+      "definition": "苦情/クレーム",
+      "example": "make a complaint（苦情を言う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "complain",
+      "definition": "苦情を言う",
+      "example": "complain about noise（騒音について苦情を言う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "related",
+      "definition": "関連した",
+      "example": "related to X（Xに関連した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "relate",
+      "definition": "関連づける/関係する",
+      "example": "relate to X（〜に関係する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "relevant",
+      "definition": "関連のある",
+      "example": "related の類義語。例: relevant experience（関連経験）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "pertain",
+      "definition": "関係する",
+      "example": "pertain to X（〜に関係する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "simply",
+      "definition": "単純に/ただ",
+      "example": "simply fill out（単に記入する）; simply put（簡単に言えば）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "only",
+      "definition": "〜だけ",
+      "example": "副詞。例: only two seats（たった2席）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "just",
+      "definition": "〜だけ/ちょうど",
+      "example": "副詞。例: just a moment（ちょっとだけ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "merely",
+      "definition": "単に",
+      "example": "副詞。例: merely a suggestion（単なる提案）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "purely",
+      "definition": "純粋に",
+      "example": "副詞。例: purely for safety（安全のためだけに）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "unique",
+      "definition": "独自の/唯一の",
+      "example": "a unique opportunity（特別な機会）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "concerning",
+      "definition": "〜に関して",
+      "example": "any questions concerning the order（注文に関する質問）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "regarding",
+      "definition": "〜に関して",
+      "example": "concerning の類義語。例: regarding the schedule（スケジュールに関して）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "reputation",
+      "definition": "評判",
+      "example": "a well-deserved reputation（確固たる評判）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "ability",
+      "definition": "能力",
+      "example": "an ability to speak three languages（3言語を話す能力）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "capability",
+      "definition": "能力",
+      "example": "ability の類義語。例: production capability（生産能力）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "arrival",
+      "definition": "到着",
+      "example": "the time of arrival（到着時刻）。例: arrival time（到着時刻）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "departure",
+      "definition": "出発",
+      "example": "arrival の対語。例: departure time（出発時刻）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "familiar",
+      "definition": "よく知っている",
+      "example": "be familiar with。例: I am familiar with the area.（その地域に詳しい）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "familiarize",
+      "definition": "慣れさせる/知ってもらう",
+      "example": "familiarize 人 with。例: Please familiarize yourself with the new system.（新システムに慣れてください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "familiarity",
+      "definition": "なじみ/知識",
+      "example": "名詞。例: familiarity with the topic（話題への理解）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "unfamiliar",
+      "definition": "不慣れな",
+      "example": "familiar の反対。例: an unfamiliar process（不慣れな手順）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "ideal",
+      "definition": "理想的な",
+      "example": "ideal location（理想的な立地）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "ideally",
+      "definition": "理想的には",
+      "example": "副詞。例: Ideally, we would finish today.（理想的には今日終える）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "impeccable",
+      "definition": "非の打ちどころのない",
+      "example": "ideal の関連語。例: impeccable service（完璧なサービス）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "perfect",
+      "definition": "完璧な",
+      "example": "ideal の類義語。例: a perfect fit（ぴったり）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "maintain",
+      "definition": "維持する/保守する",
+      "example": "maintain a website（Webサイトを維持管理する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "maintenance",
+      "definition": "維持/保守",
+      "example": "名詞。例: maintenance costs（保守費用）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "landscaping",
+      "definition": "造園/景観設計",
+      "example": "landscaping company（造園会社）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "gardening",
+      "definition": "園芸",
+      "example": "関連語。例: gardening tools（園芸道具）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "gardener",
+      "definition": "庭師",
+      "example": "名詞。例: hire a gardener（庭師を雇う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "landscape paintings",
+      "definition": "風景画",
+      "example": "関連語。例: landscape paintings（風景画）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "greenhouse",
+      "definition": "温室",
+      "example": "関連語。例: a greenhouse（温室）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "organize",
+      "definition": "組織する/取りまとめる",
+      "example": "organize an event（イベントを取りまとめる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "organizer",
+      "definition": "主催者/まとめ役",
+      "example": "organize の名詞。例: event organizer（イベント主催者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "significant",
+      "definition": "かなりの/重要な",
+      "example": "a significant increase in profits（かなりの利益増）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "significantly",
+      "definition": "大幅に",
+      "example": "副詞。例: Sales increased significantly.（売上が大幅に増えた）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "significance",
+      "definition": "重要性",
+      "example": "名詞。例: the significance of the change（変更の重要性）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "considerable",
+      "definition": "かなりの",
+      "example": "significant の類義語。例: considerable cost（かなりの費用）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "substantial",
+      "definition": "かなりの/相当な",
+      "example": "significant の類義語。例: substantial profits（相当な利益）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "occasion",
+      "definition": "機会/行事",
+      "example": "a special occasion（特別な行事）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "standard",
+      "definition": "基準/標準の",
+      "example": "safety standards（安全基準）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "criterion",
+      "definition": "基準",
+      "example": "単数。例: selection criterion（選考基準）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "criteria",
+      "definition": "基準（複数）",
+      "example": "criterion の複数。例: the criteria for approval（承認基準）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "background",
+      "definition": "経歴/背景",
+      "example": "educational background（学歴）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "guided",
+      "definition": "ガイド付きの",
+      "example": "a guided tour（ガイド付きツアー）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "advanced",
+      "definition": "先進的な/高度な",
+      "example": "advanced technology（先端技術）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "advance",
+      "definition": "前進/進歩/事前",
+      "example": "advanced の関連語。例: in advance（事前に）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "alternative",
+      "definition": "代替案/代替の",
+      "example": "an alternative date（代わりの日）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "alternatively",
+      "definition": "あるいは",
+      "example": "副詞。例: Alternatively, we can meet online.（あるいはオンラインで会う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "alternate",
+      "definition": "代替の/交代の",
+      "example": "形容詞・動詞。例: alternate plan（代替案）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "substitute",
+      "definition": "代わり/代用する",
+      "example": "名詞・動詞。例: a substitute teacher（代用教員）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "confident",
+      "definition": "自信がある",
+      "example": "I'm confident that...（〜だと自信がある）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "confidential",
+      "definition": "機密の",
+      "example": "confident と混同注意。例: confidential information（機密情報）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "confidence",
+      "definition": "自信",
+      "example": "名詞。例: gain confidence（自信をつける）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "convince",
+      "definition": "納得させる",
+      "example": "convince 人 that...。例: convince clients（顧客を納得させる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "decade",
+      "definition": "10年間/10年代",
+      "example": "over the past two decades（過去20年間）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "initial",
+      "definition": "最初の/当初の",
+      "example": "initial training session（最初の研修）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "initially",
+      "definition": "最初は",
+      "example": "副詞。例: initially planned（当初は計画した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "separate",
+      "definition": "別々の/分ける",
+      "example": "separate shipments（別々の配送）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "separately",
+      "definition": "別々に",
+      "example": "副詞。例: shipped separately（別々に発送）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "celebration",
+      "definition": "祝賀/お祝い",
+      "example": "grand opening celebration（グランドオープンのお祝い）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "celebrate",
+      "definition": "祝う",
+      "example": "動詞。例: celebrate the opening（開店を祝う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "celebrated",
+      "definition": "有名な/著名な",
+      "example": "形容詞。例: a celebrated chef（著名なシェフ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "celebrity",
+      "definition": "有名人",
+      "example": "名詞。例: a celebrity guest（有名人のゲスト）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "festivity",
+      "definition": "祝祭/催し",
+      "example": "名詞。例: holiday festivities（祝祭の行事）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "gala",
+      "definition": "祝賀行事",
+      "example": "名詞。例: a gala event（ガラ・イベント）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "concern",
+      "definition": "懸念/関心/懸念する",
+      "example": "express concern（懸念を示す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "concerned",
+      "definition": "心配して/関係して",
+      "example": "be concerned about（〜を心配する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "environment",
+      "definition": "環境",
+      "example": "work environment（職場環境）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "environmental",
+      "definition": "環境の",
+      "example": "environmental policy（環境方針）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "environmentally",
+      "definition": "環境面で/環境に配慮して",
+      "example": "environmentally friendly（環境に優しい）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "operate",
+      "definition": "操作する/運営する",
+      "example": "operate a machine（機械を操作する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "operation",
+      "definition": "運営/運用",
+      "example": "名詞。例: business operations（事業運営）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "operational",
+      "definition": "運用の/稼働中の",
+      "example": "形容詞。例: operational costs（運用コスト）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "various",
+      "definition": "さまざまな",
+      "example": "various designs and patterns（さまざまなデザインや柄）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "variety",
+      "definition": "多様性/種類",
+      "example": "a wide variety of products（幅広い種類の製品）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "vary",
+      "definition": "変わる/さまざまである",
+      "example": "動詞。例: Prices vary by season.（価格は季節で変わる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "variable",
+      "definition": "変化する/変数",
+      "example": "形容詞・名詞。例: variable costs（変動費）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "erratic",
+      "definition": "不規則な",
+      "example": "類義語。例: erratic schedule（不規則な予定）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "brief",
+      "definition": "短い/簡潔な",
+      "example": "a brief report（短い報告書）; a brief break（短時間の休憩）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "briefly",
+      "definition": "簡潔に/短時間",
+      "example": "副詞。例: speak briefly（簡潔に話す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "full-time",
+      "definition": "フルタイムの",
+      "example": "full-time employees（常勤の社員）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "part-time",
+      "definition": "パートタイムの",
+      "example": "full-time の反対。例: part-time job（パートの仕事）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "permanent",
+      "definition": "正社員の/永久の",
+      "example": "permanent job（正社員の仕事）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "overall",
+      "definition": "全体の/全体として",
+      "example": "the overall budget（全体の予算）; Overall, sales increased.（全体として売上が増えた）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "achieve",
+      "definition": "達成する",
+      "example": "achieve a sales target（販売目標を達成する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "achievement",
+      "definition": "達成/成果",
+      "example": "名詞。例: a major achievement（大きな成果）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "attain",
+      "definition": "達成する",
+      "example": "achieve の類義語。例: attain the target（目標を達成する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "meet",
+      "definition": "達成する/満たす",
+      "example": "meet a target（目標を達成する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "basis",
+      "definition": "基準/基礎",
+      "example": "on a monthly basis（月単位で）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "daily",
+      "definition": "毎日の",
+      "example": "on a daily basis（毎日）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "weekly",
+      "definition": "毎週の",
+      "example": "on a weekly basis（毎週）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "yearly",
+      "definition": "毎年の",
+      "example": "on a yearly basis（毎年）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "complex",
+      "definition": "複合施設/複雑な",
+      "example": "a sports complex（スポーツの複合施設）; complex system（複雑なシステム）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "delighted",
+      "definition": "とても喜んでいる",
+      "example": "be delighted to do。例: We are delighted to see you.（お会いできてうれしい）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "pleased",
+      "definition": "喜んで/満足して",
+      "example": "delighted より控えめ。例: pleased to meet you（お会いできてうれしい）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "delightful",
+      "definition": "楽しい/魅力的な",
+      "example": "形容詞。例: a delightful stay（楽しい滞在）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "obtain",
+      "definition": "得る",
+      "example": "obtain information from the Internet（ネットから情報を得る）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "honor",
+      "definition": "称える/名誉",
+      "example": "honor an employee（社員を称える）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "accolade",
+      "definition": "賞賛/栄誉",
+      "example": "名詞。例: receive an accolade（栄誉を受ける）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "properly",
+      "definition": "適切に/きちんと",
+      "example": "properly trained staff（きちんと訓練されたスタッフ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "proper",
+      "definition": "適切な",
+      "example": "形容詞。例: proper procedure（適切な手順）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "improperly",
+      "definition": "不適切に",
+      "example": "properly の反対。例: handled improperly（不適切に扱われた）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "suitable",
+      "definition": "適した",
+      "example": "suitable for outdoor use（屋外用に適した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "suitably",
+      "definition": "適切に",
+      "example": "副詞。例: suitably dressed（適切な服装）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "suitability",
+      "definition": "適性/適切さ",
+      "example": "名詞。例: assess suitability（適性を評価する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "electronic",
+      "definition": "電子の/オンラインの",
+      "example": "electronic devices（電子機器）; electronic statements（オンライン明細）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "electronically",
+      "definition": "電子的に/オンラインで",
+      "example": "副詞。例: submit electronically（オンラインで提出する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "finalize",
+      "definition": "最終決定する",
+      "example": "finalize a contract（契約を取りまとめる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "final",
+      "definition": "最終の",
+      "example": "形容詞。例: final decision（最終決定）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "finally",
+      "definition": "ついに/最終的に",
+      "example": "副詞。例: finally approved（ついに承認された）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "generous",
+      "definition": "気前のよい/多額の",
+      "example": "a generous donation（多額の寄付）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "generously",
+      "definition": "気前よく",
+      "example": "副詞。例: donated generously（気前よく寄付した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "generosity",
+      "definition": "寛大さ",
+      "example": "名詞。例: show generosity（寛大さを示す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "preparation",
+      "definition": "準備",
+      "example": "in preparation for（〜の準備として）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "prepare",
+      "definition": "準備する",
+      "example": "prepare for an event（イベントの準備をする）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "preparatory",
+      "definition": "準備の",
+      "example": "形容詞。例: preparatory meeting（準備会議）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "duty",
+      "definition": "義務/職務",
+      "example": "main duties of a teacher（教師の主な任務）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "responsibility",
+      "definition": "責任",
+      "example": "duty の関連語。例: take responsibility（責任を負う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "earn",
+      "definition": "得る/稼ぐ",
+      "example": "earn the respect of people（人々の尊敬を得る）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "earnings",
+      "definition": "収入",
+      "example": "名詞。例: quarterly earnings（四半期の収益）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "willing",
+      "definition": "〜する意思がある",
+      "example": "willing to work overseas（海外で働く意思がある）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "willingness",
+      "definition": "意欲/意思",
+      "example": "名詞。例: willingness to travel（出張する意欲）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "worth",
+      "definition": "価値がある",
+      "example": "be worth doing。例: The book is worth reading.（その本は読む価値がある）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "fund",
+      "definition": "資金提供する/資金",
+      "example": "a project funded by the government（政府が資金提供するプロジェクト）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "raise funds",
+      "definition": "資金を集める",
+      "example": "例: raise funds for charity（慈善の資金を集める）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "funding",
+      "definition": "資金提供",
+      "example": "名詞。例: secure funding（資金を確保する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "overnight",
+      "definition": "一晩で/翌日配達の",
+      "example": "free overnight delivery（無料の翌日配達）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "stay overnight",
+      "definition": "一泊する",
+      "example": "例: stay overnight at a hotel（ホテルに一泊する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "particularly",
+      "definition": "特に",
+      "example": "particularly interested in（特に〜に興味がある）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "especially",
+      "definition": "特に",
+      "example": "類義語。例: especially important（特に重要）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "in particular",
+      "definition": "特に",
+      "example": "句。例: I like this one in particular.（特にこれが好き）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "aspect",
+      "definition": "側面/局面",
+      "example": "every aspect of a project（プロジェクトのあらゆる側面）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "facet",
+      "definition": "側面",
+      "example": "aspect の類義語。例: a facet of the plan（計画の一面）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "phase",
+      "definition": "段階",
+      "example": "例: the planning phase（計画段階）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "factor",
+      "definition": "要因",
+      "example": "例: a key factor（重要な要因）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "hesitate",
+      "definition": "ためらう",
+      "example": "Please do not hesitate to contact us.（遠慮なく連絡ください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "hesitant",
+      "definition": "ためらいがちな",
+      "example": "形容詞。例: hesitant to decide（決めるのをためらう）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "involved",
+      "definition": "関わっている",
+      "example": "be involved with。例: I was not involved with the project.（そのプロジェクトに関わっていなかった）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "involve",
+      "definition": "巻き込む/関わらせる",
+      "example": "動詞。例: The job involves travel.（その仕事は出張が伴う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "regularly",
+      "definition": "定期的に",
+      "example": "a regularly updated list（定期的に更新されるリスト）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "regular",
+      "definition": "定期的な",
+      "example": "例: regular business hours（通常の営業時間）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "scholarship",
+      "definition": "奨学金",
+      "example": "apply for a scholarship（奨学金を申請する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "grant",
+      "definition": "助成金/補助金",
+      "example": "scholarship の関連語。例: research grant（研究助成）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "shortly",
+      "definition": "まもなく",
+      "example": "The meeting will begin shortly.（会議はまもなく始まる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "soon",
+      "definition": "すぐに/まもなく",
+      "example": "類義語。例: see you soon（すぐに会いましょう）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "automobile",
+      "definition": "自動車",
+      "example": "automobile manufacturing（自動車製造）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "automotive",
+      "definition": "自動車の",
+      "example": "形容詞。例: automotive parts（自動車部品）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "deposit",
+      "definition": "保証金/預け金",
+      "example": "security deposit（敷金・保証金）。例: pay a security deposit（保証金を払う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "contain",
+      "definition": "含む/入っている",
+      "example": "The book contains useful information.（本には役立つ情報が含まれている）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "container",
+      "definition": "容器/コンテナ",
+      "example": "contain の関連語。例: shipping container（輸送用コンテナ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "content",
+      "definition": "内容/目次",
+      "example": "the contents of the book（本の内容）; a table of contents（目次）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "proof",
+      "definition": "証拠/証明",
+      "example": "proof of purchase（購入の証明）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "receipt",
+      "definition": "領収書",
+      "example": "proof の関連語。例: keep the receipt（領収書を保管する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "prove",
+      "definition": "証明する",
+      "example": "動詞。例: prove the claim（主張を証明する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "evidence",
+      "definition": "証拠",
+      "example": "名詞。例: provide evidence（証拠を示す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "affect",
+      "definition": "影響する",
+      "example": "affect the price（価格に影響する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "affected",
+      "definition": "影響を受けた",
+      "example": "形容詞。例: the affected area（被災地域）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "recognize",
+      "definition": "認識する/評価する",
+      "example": "Our products are recognized for their quality.（製品は品質で認められている）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "recognition",
+      "definition": "認識/評価",
+      "example": "名詞。例: international recognition（国際的評価）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "represent",
+      "definition": "代表する/表す",
+      "example": "represent a company（会社を代表する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "representative",
+      "definition": "担当者/代表",
+      "example": "represent の名詞。例: sales representative（営業担当）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "representation",
+      "definition": "代表/表現",
+      "example": "名詞。例: a fair representation（公正な代表）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "transfer",
+      "definition": "移動させる/異動",
+      "example": "Tex was transferred to Alaska.（テックスはアラスカに異動した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "transportation",
+      "definition": "交通/輸送",
+      "example": "transfer の関連語。例: public transportation（公共交通）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "anniversary",
+      "definition": "記念日/周年",
+      "example": "twentieth anniversary（20周年）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "annual",
+      "definition": "年次の/年1回の",
+      "example": "anniversary と関連。例: annual meeting（年次会議）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "milestone",
+      "definition": "節目/重要な出来事",
+      "example": "anniversary と関連。例: a major milestone（重要な節目）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "automatically",
+      "definition": "自動的に",
+      "example": "The machine will automatically shut down.（機械は自動的に停止する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "automatic",
+      "definition": "自動の",
+      "example": "形容詞。例: automatic withdrawal（自動引き落とし）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "automated",
+      "definition": "自動化された",
+      "example": "形容詞。例: an automated message（自動メッセージ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "capacity",
+      "definition": "生産能力/収容人数/役割",
+      "example": "production capacity（生産能力）。例: seating capacity of 500（500席の収容人数）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "destination",
+      "definition": "目的地",
+      "example": "travel destinations（旅行の目的地）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "grant",
+      "definition": "助成金/許可する",
+      "example": "obtain a grant（補助金を得る）。例: grant approval（承認を与える）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "scholarship",
+      "definition": "奨学金",
+      "example": "grant の関連語。例: receive a scholarship（奨学金を受ける）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "publish",
+      "definition": "出版する",
+      "example": "publish a magazine（雑誌を出版する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "publication",
+      "definition": "出版物/出版",
+      "example": "名詞。例: a publication date（出版日）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "publisher",
+      "definition": "出版社/出版者",
+      "example": "名詞。例: a major publisher（大手出版社）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "publishing",
+      "definition": "出版業",
+      "example": "名詞。例: the publishing industry（出版業界）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "accompany",
+      "definition": "同伴する/添える",
+      "example": "be accompanied by。例: The book is accompanied by a CD.（本にCDが付属している）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "accompanied",
+      "definition": "伴われた/添付された",
+      "example": "形容詞。例: accompanied documents（添付書類）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "economic",
+      "definition": "経済の/経済的な",
+      "example": "economic growth（経済成長）; an economic printer（低コストのプリンター）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "economy",
+      "definition": "経済",
+      "example": "名詞。例: the local economy（地域経済）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "economical",
+      "definition": "経済的な/安上がりの",
+      "example": "economic と混同注意。例: an economical car（燃費の良い車）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "extremely",
+      "definition": "非常に",
+      "example": "extremely careful（非常に注意深く）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "very",
+      "definition": "非常に",
+      "example": "類義語。例: very careful（非常に注意深い）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "immensely",
+      "definition": "非常に/多大に",
+      "example": "類義語。例: immensely successful（非常に成功した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "institution",
+      "definition": "機関/団体",
+      "example": "a financial institution（金融機関）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "accurate",
+      "definition": "正確な",
+      "example": "accurate sales figures（正確な売上数字）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "accurately",
+      "definition": "正確に",
+      "example": "副詞。例: measured accurately（正確に測定した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "accuracy",
+      "definition": "正確さ",
+      "example": "名詞。例: improve accuracy（正確さを高める）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "correct",
+      "definition": "正確な/訂正する",
+      "example": "accurate の類義語。例: correct data（正しいデータ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "precise",
+      "definition": "精密な/正確な",
+      "example": "accurate の類義語。例: precise measurements（精密な測定）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "inaccurate",
+      "definition": "不正確な",
+      "example": "accurate の反対。例: inaccurate information（不正確な情報）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "compete",
+      "definition": "競争する",
+      "example": "compete with large companies（大会社と競う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "competition",
+      "definition": "競争/競技",
+      "example": "名詞。例: intense competition（激しい競争）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "competitor",
+      "definition": "競争相手",
+      "example": "名詞。例: major competitors（主要な競合）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "competitive",
+      "definition": "競争力のある",
+      "example": "形容詞。例: competitive prices（競争力のある価格）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "competitively",
+      "definition": "競争的に/競争力を持って",
+      "example": "副詞。例: competitively priced（競争力のある価格設定）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "competing",
+      "definition": "競合する",
+      "example": "形容詞。例: competing companies（競合企業）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "emphasize",
+      "definition": "強調する",
+      "example": "emphasize a point（ポイントを強調する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "emphasis",
+      "definition": "強調",
+      "example": "名詞。例: place emphasis on quality（品質を重視する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "stress",
+      "definition": "強調する/ストレス",
+      "example": "動詞で強調。例: stress the importance（重要性を強調する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "highlight",
+      "definition": "強調する/目立たせる",
+      "example": "例: highlight the key points（重要点を強調する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "aware",
+      "definition": "気付いている",
+      "example": "be aware of。例: I was aware of the problem.（問題に気付いていた）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "awareness",
+      "definition": "認識",
+      "example": "名詞。例: raise awareness（認識を高める）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "unaware",
+      "definition": "気付いていない",
+      "example": "aware の反対。例: unaware of the change（変更に気付かない）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "crowded",
+      "definition": "混雑した",
+      "example": "crowded with tourists（観光客で混雑した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "praise",
+      "definition": "ほめる/称賛",
+      "example": "The CEO praised the team.（CEOがチームをほめた）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "commend",
+      "definition": "称賛する",
+      "example": "praise の類義語。例: commend employees（社員を称賛する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "compliment",
+      "definition": "褒め言葉/称賛する",
+      "example": "名詞・動詞。例: receive a compliment（褒め言葉をもらう）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "valuable",
+      "definition": "価値のある/貴重な",
+      "example": "a valuable addition（貴重な追加メンバー）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "invaluable",
+      "definition": "非常に貴重な",
+      "example": "valuable の強い表現。例: invaluable support（非常に貴重な支援）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "valuables",
+      "definition": "貴重品",
+      "example": "名詞。例: leave valuables at home（貴重品は家に）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "explore",
+      "definition": "探る/探検する",
+      "example": "explore the possibility（可能性を探る）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "found",
+      "definition": "設立する",
+      "example": "found a company（会社を設立する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "founder",
+      "definition": "創業者",
+      "example": "名詞。例: the company's founder（創業者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "foundation",
+      "definition": "設立/基金/基礎",
+      "example": "名詞。例: a foundation for growth（成長の基盤）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "function",
+      "definition": "機能/機能する",
+      "example": "basic functions（基本機能）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "functional",
+      "definition": "機能的な",
+      "example": "形容詞。例: a functional design（機能的な設計）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "impact",
+      "definition": "影響/影響を与える",
+      "example": "have an impact on（〜に影響する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "amazing",
+      "definition": "驚くべき",
+      "example": "an amazing success（驚くべき成功）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "amazingly",
+      "definition": "驚くほど",
+      "example": "副詞。例: amazingly fast（驚くほど速い）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "surprising",
+      "definition": "驚くべき",
+      "example": "形容詞。例: a surprising result（驚く結果）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "phenomenal",
+      "definition": "驚異的な",
+      "example": "形容詞。例: phenomenal growth（驚異的な成長）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "assure",
+      "definition": "保証する/請け合う",
+      "example": "assure 人 that...。例: We assure you that he will be promoted.（昇進することを保証します）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "assured",
+      "definition": "確信している/保証された",
+      "example": "be assured that。例: You can be assured that...（〜と確信してよい）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "rest assured",
+      "definition": "ご安心ください",
+      "example": "定型表現。例: Rest assured that your order is on the way.（ご注文は発送済みなのでご安心ください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "cooperation",
+      "definition": "協力",
+      "example": "Thank you for your cooperation.（ご協力ありがとうございます）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "cooperate",
+      "definition": "協力する",
+      "example": "動詞。例: cooperate with the team（チームと協力する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "cooperative",
+      "definition": "協力的な",
+      "example": "形容詞。例: a cooperative attitude（協力的な姿勢）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "collaboration",
+      "definition": "共同作業/協力",
+      "example": "名詞。例: a collaboration with another firm（他社との協業）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "popularity",
+      "definition": "人気",
+      "example": "a rise in popularity（人気の上昇）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "popular",
+      "definition": "人気のある",
+      "example": "形容詞。例: a popular product（人気商品）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "permit",
+      "definition": "許可証/許可する",
+      "example": "a construction permit（建設許可証）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "permission",
+      "definition": "許可",
+      "example": "permit の関連語。例: get permission（許可を得る）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "solve",
+      "definition": "解決する",
+      "example": "solve a problem（問題を解決する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "resolve",
+      "definition": "解決する/決意する",
+      "example": "solve の類義語。例: resolve the issue（問題を解決する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "overcome",
+      "definition": "克服する",
+      "example": "例: overcome difficulties（困難を克服する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "solution",
+      "definition": "解決策",
+      "example": "名詞。例: find a solution（解決策を見つける）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "vote",
+      "definition": "投票する/投票",
+      "example": "vote against a proposal（提案に反対票を投じる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "vote for",
+      "definition": "〜に賛成票を投じる",
+      "example": "例: vote for the plan（計画に賛成票を入れる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "in favor of",
+      "definition": "〜に賛成して",
+      "example": "vote for と関連。例: in favor of the proposal（提案に賛成して）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "crop",
+      "definition": "作物/収穫",
+      "example": "locally grown crops（地元で育てられた作物）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "grain",
+      "definition": "穀物",
+      "example": "crop の関連語。例: grain prices（穀物価格）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "harvest",
+      "definition": "収穫/収穫する",
+      "example": "名詞・動詞。例: harvest the crops（作物を収穫する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "yield",
+      "definition": "収穫量/生み出す",
+      "example": "crop の関連語。例: increase yield（収穫量を増やす）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "neighborhood",
+      "definition": "近所/地域",
+      "example": "There are no hotels in this neighborhood.（この近所にはホテルがない）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "neighbor",
+      "definition": "近所の人",
+      "example": "名詞。例: a friendly neighbor（親切な近所の人）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "permanent",
+      "definition": "恒久的な/正社員の",
+      "example": "permanent exhibit（常設展示）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "permanently",
+      "definition": "永久に/恒久的に",
+      "example": "副詞。例: permanently closed（恒久的に閉鎖）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "permanent headquarters",
+      "definition": "本社",
+      "example": "例: permanent headquarters（本社）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "permanent housing",
+      "definition": "恒久住宅",
+      "example": "例: permanent housing（恒久住宅）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "regret",
+      "definition": "後悔する/残念に思う",
+      "example": "We regret to inform you that...（残念ながらお知らせします）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "regretfully",
+      "definition": "残念ながら",
+      "example": "副詞。例: We regretfully inform you...（残念ながらお知らせします）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "unfortunately",
+      "definition": "残念ながら",
+      "example": "類義語。例: Unfortunately, we are out of stock.（残念ながら在庫切れです）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "slightly",
+      "definition": "わずかに",
+      "example": "slightly increased（わずかに増加した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "slight",
+      "definition": "わずかな",
+      "example": "形容詞。例: a slight increase（わずかな増加）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "marginally",
+      "definition": "わずかに",
+      "example": "副詞。例: marginally higher（わずかに高い）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "subtly",
+      "definition": "微妙に",
+      "example": "副詞。例: subtly different（わずかに違う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "complicated",
+      "definition": "複雑な",
+      "example": "The system is very complicated.（そのシステムはとても複雑だ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "complex",
+      "definition": "複雑な",
+      "example": "complicated の類義語。例: a complex issue（複雑な問題）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "confusing",
+      "definition": "ややこしい",
+      "example": "形容詞。例: confusing instructions（分かりにくい説明）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "elaborate",
+      "definition": "手の込んだ/入念な",
+      "example": "形容詞。例: an elaborate plan（手の込んだ計画）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "factor",
+      "definition": "要因",
+      "example": "various factors（さまざまな要因）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "element",
+      "definition": "要素",
+      "example": "factor の類義語。例: a key element（重要な要素）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "favorable",
+      "definition": "好意的な/有利な",
+      "example": "favorable customer reviews（好意的な顧客レビュー）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "favor",
+      "definition": "好意/好意を示す",
+      "example": "名詞・動詞。例: in favor of（〜に賛成して）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "favorably",
+      "definition": "好意的に",
+      "example": "副詞。例: reviewed favorably（好意的に評価された）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "unfavorable",
+      "definition": "好ましくない",
+      "example": "favorable の反対。例: unfavorable conditions（好ましくない条件）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "guarantee",
+      "definition": "保証する/保証",
+      "example": "guarantee same-day delivery（同日配送を保証する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "mechanical",
+      "definition": "機械の/機械的な",
+      "example": "mechanical trouble（機械のトラブル）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "priority",
+      "definition": "優先順位",
+      "example": "a high priority（高い優先順位）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "prioritize",
+      "definition": "優先順位を付ける",
+      "example": "動詞。例: prioritize tasks（タスクに優先順位を付ける）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "relatively",
+      "definition": "比較的",
+      "example": "a relatively recent trend（比較的最近のトレンド）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "relative",
+      "definition": "相対的な",
+      "example": "形容詞。例: relative cost（相対的なコスト）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "comparatively",
+      "definition": "比較的",
+      "example": "副詞。例: comparatively small（比較的小さい）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "resource",
+      "definition": "資源/資源としての人材",
+      "example": "natural resources（天然資源）; human resources（人材）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "source",
+      "definition": "源/情報源",
+      "example": "energy source（エネルギー源）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "shuttle",
+      "definition": "シャトル便/送迎",
+      "example": "free shuttle service（無料の送迎サービス）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "divide",
+      "definition": "分ける",
+      "example": "divide into sections（区分する）。例: The catalog is divided into three sections.（カタログは3つのセクションに分かれている）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "division",
+      "definition": "部門/区分",
+      "example": "divide の名詞。例: the marketing division（マーケ部門）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "sort",
+      "definition": "仕分ける",
+      "example": "divide と関連。例: sort the papers（書類を仕分ける）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "native",
+      "definition": "出身の/出身者",
+      "example": "a singer native to the town（その町出身の歌手）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "afford",
+      "definition": "（金銭的に）余裕がある",
+      "example": "We can't afford to do that.（それをする余裕がない）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "affordable",
+      "definition": "手ごろな",
+      "example": "afford の派生語。例: affordable prices（手ごろな価格）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "affordably",
+      "definition": "手ごろに",
+      "example": "副詞。例: affordably priced（手ごろな価格設定の）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "income",
+      "definition": "収入",
+      "example": "high income（高い収入）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "salary",
+      "definition": "給料",
+      "example": "income の関連語。例: annual salary（年収）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "wage",
+      "definition": "賃金",
+      "example": "hourly wage（時給）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "occur",
+      "definition": "起こる/発生する",
+      "example": "damage occurred during shipment（配送中に損傷が発生した）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "happen",
+      "definition": "起こる",
+      "example": "occur の類義語。例: The accident happened yesterday.（事故が起きた）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "take place",
+      "definition": "起こる/行われる",
+      "example": "occur の類義語。例: The event will take place on Friday.（イベントは金曜に行われる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "saving",
+      "definition": "節約/貯金",
+      "example": "significant savings（大幅な値引き/節約）; energy savings（省エネ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "save",
+      "definition": "節約する/救う",
+      "example": "動詞。例: save money（お金を節約する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "findings",
+      "definition": "調査結果",
+      "example": "research findings（調査結果）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "locate",
+      "definition": "見つける/特定する",
+      "example": "I was unable to locate the book.（その本を見つけられなかった）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "location",
+      "definition": "場所/所在地",
+      "example": "名詞。例: a convenient location（便利な場所）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "postpone",
+      "definition": "延期する",
+      "example": "postpone a meeting（会議を延期する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "preserve",
+      "definition": "保護する/保存する",
+      "example": "preserve the environment（環境を保護する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "preservation",
+      "definition": "保護/保存",
+      "example": "preserve の名詞。例: preservation of historic buildings（歴史的建造物の保存）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "prove",
+      "definition": "〜だと分かる/証明する",
+      "example": "prove to be difficult（難しいと分かる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "proof",
+      "definition": "証明/証拠",
+      "example": "名詞。例: proof of identity（身分証明）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "exact",
+      "definition": "正確な",
+      "example": "the exact date（正確な日付）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "exactly",
+      "definition": "正確に/ちょうど",
+      "example": "副詞。例: exactly one hour（ちょうど1時間）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "gain",
+      "definition": "得る/増加",
+      "example": "gain popularity（人気を得る）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "profit",
+      "definition": "利益",
+      "example": "gain in profits（利益の増加）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "achieve",
+      "definition": "達成する",
+      "example": "gain と関連。例: achieve goals（目標を達成する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "obtain",
+      "definition": "得る",
+      "example": "gain の類義語。例: obtain permission（許可を得る）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "labor",
+      "definition": "労働/人件費",
+      "example": "labor costs（人件費）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "regard",
+      "definition": "みなす/評価する",
+      "example": "be widely regarded as（〜と広くみなされる）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "disregard",
+      "definition": "無視する",
+      "example": "regard の反対。例: Please disregard my previous email.（前のメールは無視してください）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "closely",
+      "definition": "密接に/注意深く",
+      "example": "work closely with（密に協力する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "close",
+      "definition": "近い/親密な",
+      "example": "形容詞。例: a close partnership（緊密な提携）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "deserve",
+      "definition": "値する",
+      "example": "deserve a promotion（昇進に値する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "identify",
+      "definition": "特定する/身元確認する",
+      "example": "identify problems（問題を特定する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "identification",
+      "definition": "身分証明",
+      "example": "名詞。例: photo identification（写真付き身分証）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "identification badge",
+      "definition": "身分証バッジ",
+      "example": "例: wear an identification badge（身分証バッジを着用する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "loyal",
+      "definition": "忠実な/常連の",
+      "example": "loyal customers（常連の顧客）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "patron",
+      "definition": "常連客",
+      "example": "名詞。例: loyal patrons（常連客）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "established",
+      "definition": "確立した",
+      "example": "形容詞。例: established customers（固定客）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "customer loyalty",
+      "definition": "顧客ロイヤルティ",
+      "example": "例: improve customer loyalty（顧客ロイヤルティを高める）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "promising",
+      "definition": "有望な",
+      "example": "the most promising applicant（最も有望な応募者）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "promise",
+      "definition": "約束/将来性",
+      "example": "名詞。例: show promise（将来性を示す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "stress",
+      "definition": "強調する/ストレス",
+      "example": "stress the importance of reading（読書の重要性を強調する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "emphasize",
+      "definition": "強調する",
+      "example": "stress の類義語。例: emphasize safety（安全を強調する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "highlight",
+      "definition": "強調する",
+      "example": "類義語。例: highlight key points（要点を強調する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "analyze",
+      "definition": "分析する",
+      "example": "analyze customer feedback（顧客の意見を分析する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "analysis",
+      "definition": "分析",
+      "example": "名詞。例: data analysis（データ分析）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "analyst",
+      "definition": "分析者",
+      "example": "名詞。例: a market analyst（市場アナリスト）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "commission",
+      "definition": "委託/手数料",
+      "example": "The report was commissioned by Tex Corporation.（報告書はテックス社の委託）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "commissioned",
+      "definition": "委託された",
+      "example": "commission の形容詞。例: a commissioned report（委託された報告書）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "pay a commission",
+      "definition": "手数料を払う",
+      "example": "例: pay a commission（手数料を支払う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "committed",
+      "definition": "献身的な/熱心な",
+      "example": "be committed to。例: We are committed to providing quality service.（質の高いサービス提供に尽力している）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "commitment",
+      "definition": "献身/約束",
+      "example": "名詞。例: a commitment to quality（品質への取り組み）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "dedicated",
+      "definition": "献身的な",
+      "example": "committed の類義語。例: dedicated staff（献身的なスタッフ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "devoted",
+      "definition": "熱心な",
+      "example": "committed の類義語。例: devoted employees（献身的な社員）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "comparison",
+      "definition": "比較",
+      "example": "a cost comparison（コスト比較）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "compare",
+      "definition": "比較する",
+      "example": "動詞。例: compare prices（価格を比較する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "comparable",
+      "definition": "同等の/比較可能な",
+      "example": "形容詞。例: comparable products（同等の製品）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "component",
+      "definition": "部品/構成要素",
+      "example": "electronic components（電子部品）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "enable",
+      "definition": "可能にする",
+      "example": "enable staff to work from home（在宅勤務を可能にする）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "enjoyable",
+      "definition": "楽しい/快適な",
+      "example": "an enjoyable stay（楽しい滞在）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "enjoyment",
+      "definition": "楽しみ",
+      "example": "名詞。例: for your enjoyment（お楽しみのため）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "existing",
+      "definition": "既存の/従来の",
+      "example": "existing customers（従来の顧客）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "flyer",
+      "definition": "チラシ",
+      "example": "post a flyer（チラシを掲示する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "brochure",
+      "definition": "パンフレット",
+      "example": "flyer の関連語。例: a product brochure（製品パンフレット）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "proceed",
+      "definition": "進む/進行する",
+      "example": "proceed to the boarding gate（搭乗口へ進む）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "prevent",
+      "definition": "防ぐ/妨げる",
+      "example": "prevent 人 from doing。例: Tex prevented us from entering the room.（入室を妨げた）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "prevention",
+      "definition": "防止",
+      "example": "名詞。例: disease prevention（病気予防）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "preventive",
+      "definition": "予防の",
+      "example": "形容詞。例: preventive measures（予防策）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "alike",
+      "definition": "似ている/同様に",
+      "example": "teachers and students alike（教師も生徒も同様に）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "likewise",
+      "definition": "同様に",
+      "example": "alike の関連語。例: We appreciate your help, and likewise your patience.（助けと同様に忍耐にも感謝します）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "appoint",
+      "definition": "任命する",
+      "example": "appoint someone chairperson（議長に任命する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "appointment",
+      "definition": "任命/予約",
+      "example": "名詞。例: an appointment as manager（マネージャーへの任命）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "connection",
+      "definition": "接続/乗り継ぎ",
+      "example": "a high-speed Internet connection（高速ネット接続）; connecting flight（乗り継ぎ便）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "connect",
+      "definition": "接続する/つなぐ",
+      "example": "動詞。例: connect to Wi-Fi（Wi-Fiに接続する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "eager",
+      "definition": "熱望して",
+      "example": "be eager to do。例: I am eager to learn new things.（新しいことを学びたい）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "eagerly",
+      "definition": "熱心に/切望して",
+      "example": "副詞。例: eagerly waiting（心待ちにする）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "ease",
+      "definition": "容易さ/和らげる",
+      "example": "ease of use（使いやすさ）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "easy",
+      "definition": "簡単な/気軽な",
+      "example": "形容詞。例: easy to use（使いやすい）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "easily",
+      "definition": "簡単に",
+      "example": "副詞。例: access easily（簡単にアクセスする）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "fairly",
+      "definition": "かなり/公正に",
+      "example": "a fairly common issue（かなり一般的な問題）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "fair",
+      "definition": "公平な/見本市",
+      "example": "形容詞・名詞。例: a trade fair（見本市）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "absolutely",
+      "definition": "完全に/絶対に",
+      "example": "absolutely free of charge（完全に無料）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "absolute",
+      "definition": "絶対的な",
+      "example": "形容詞。例: absolute confidence（絶対的な自信）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "definitely",
+      "definition": "確実に/間違いなく",
+      "example": "副詞。例: definitely attend（必ず参加する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "undoubtedly",
+      "definition": "疑いなく",
+      "example": "副詞。例: undoubtedly the best（疑いなく最高）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "atmosphere",
+      "definition": "雰囲気",
+      "example": "a warm atmosphere（温かい雰囲気）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "calculate",
+      "definition": "計算する",
+      "example": "calculate delivery costs（送料を計算する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "calculation",
+      "definition": "計算",
+      "example": "名詞。例: a rough calculation（概算）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "calculator",
+      "definition": "計算機",
+      "example": "名詞。例: use a calculator（計算機を使う）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "contrast",
+      "definition": "対照/対比する",
+      "example": "in contrast to last year（昨年と対照的に）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "contrasting",
+      "definition": "対照的な",
+      "example": "形容詞。例: contrasting results（対照的な結果）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "by contrast",
+      "definition": "対照的に",
+      "example": "句。例: By contrast, sales fell.（対照的に売上は下がった）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "monitor",
+      "definition": "監視する/モニター",
+      "example": "monitor the quality of products（製品品質を監視する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "occasionally",
+      "definition": "時々",
+      "example": "I occasionally travel abroad.（時々海外出張する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "occasion",
+      "definition": "時/特別な行事",
+      "example": "occasional と関連。例: a special occasion（特別な行事）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "occasional",
+      "definition": "時々の/たまの",
+      "example": "形容詞。例: occasional visits（時々の訪問）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "practical",
+      "definition": "実用的な/実際の",
+      "example": "practical experience（実務の経験）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "practically",
+      "definition": "ほとんど/実際に",
+      "example": "副詞。例: practically every day（ほとんど毎日）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "serious",
+      "definition": "重大な/深刻な",
+      "example": "a serious problem（重大な問題）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "seriously",
+      "definition": "深刻に/真剣に",
+      "example": "副詞。例: take it seriously（真剣に受け止める）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "severe",
+      "definition": "深刻な/激しい",
+      "example": "severe damage（深刻な損害）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "strength",
+      "definition": "強度/強み",
+      "example": "the strength of materials（材料の強度）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "strong",
+      "definition": "強い",
+      "example": "形容詞。例: strong demand（強い需要）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "strongly",
+      "definition": "強く",
+      "example": "副詞。例: strongly recommend（強く勧める）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "strengthen",
+      "definition": "強化する",
+      "example": "動詞。例: strengthen ties（関係を強化する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "equally",
+      "definition": "同じくらい/均等に",
+      "example": "equally important（同じくらい重要）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "evenly",
+      "definition": "均等に",
+      "example": "副詞。例: divide the budget evenly（予算を均等に分ける）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "equivalent",
+      "definition": "同等の",
+      "example": "形容詞。例: equivalent value（同等の価値）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "import",
+      "definition": "輸入/輸入する",
+      "example": "imports from China（中国からの輸入品）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "export",
+      "definition": "輸出/輸出する",
+      "example": "import の反対。例: export products（製品を輸出する）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "informal",
+      "definition": "非公式の/カジュアルな",
+      "example": "an informal survey（非公式の調査）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "informally",
+      "definition": "非公式に/カジュアルに",
+      "example": "副詞。例: talk informally（カジュアルに話す）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    },
+    {
+      "term": "formal",
+      "definition": "正式の/フォーマルな",
+      "example": "informal の反対。例: a formal meeting（正式な会議）",
+      "chapter": "words1-400",
+      "source": "words1-400.csv"
+    }
+  ],
+  "quizzes": []
+}
