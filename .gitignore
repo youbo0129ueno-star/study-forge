@@ -1,3 +1,16 @@
 server.log
 server-8081.log
 .DS_Store
+
+# OCR / local study artifacts
+ocr_header_test/
+ocr_pages/
+ocr_pages_low/
+ocr_test/
+ocr_work/
+tessdata/
+scripts/
+scripts/__pycache__/
+
+# Local source materials
+TOEIC L&R TEST*.pdf

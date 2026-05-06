@@ -9,9 +9,11 @@ const state = {
   chapter: 'all',
   terms: [],
   quizzes: [],
+  materials: [],
   termQuizzes: [],
   termIndex: 0,
   quizIndex: 0,
+  materialIndex: 0,
   page: 'main',
   direction: 'en-ja',
   session: {
@@ -41,15 +43,19 @@ const els = {
   chapterSelect: document.getElementById('chapterSelect'),
   modeTerms: document.getElementById('modeTerms'),
   modeQuiz: document.getElementById('modeQuiz'),
+  modeMaterials: document.getElementById('modeMaterials'),
   startQuizBtn: document.getElementById('startQuizBtn'),
   shuffleBtn: document.getElementById('shuffleBtn'),
   resetBtn: document.getElementById('resetBtn'),
   progressText: document.getElementById('progressText'),
   accuracyText: document.getElementById('accuracyText'),
+  subjectTitle: document.getElementById('subjectTitle'),
+  datasetSummary: document.getElementById('datasetSummary'),
   historySummary: document.getElementById('historySummary'),
   historyList: document.getElementById('historyList'),
   cardView: document.getElementById('cardView'),
   quizView: document.getElementById('quizView'),
+  materialView: document.getElementById('materialView'),
   sessionView: document.getElementById('sessionView'),
   sessionResultView: document.getElementById('sessionResultView'),
   sessionReviewView: document.getElementById('sessionReviewView'),
@@ -74,6 +80,15 @@ const els = {
   quizOptions: document.getElementById('quizOptions'),
   quizExplain: document.getElementById('quizExplain'),
   quizNextBtn: document.getElementById('quizNextBtn'),
+  materialTitle: document.getElementById('materialTitle'),
+  materialTag: document.getElementById('materialTag'),
+  materialSummary: document.getElementById('materialSummary'),
+  materialPointsBlock: document.getElementById('materialPointsBlock'),
+  materialPoints: document.getElementById('materialPoints'),
+  materialDetailsBlock: document.getElementById('materialDetailsBlock'),
+  materialDetails: document.getElementById('materialDetails'),
+  materialSource: document.getElementById('materialSource'),
+  materialNextBtn: document.getElementById('materialNextBtn'),
   sessionTitle: document.getElementById('sessionTitle'),
   sessionTag: document.getElementById('sessionTag'),
   sessionQuestion: document.getElementById('sessionQuestion'),
@@ -93,10 +108,34 @@ const els = {
   netStatus: document.getElementById('netStatus'),
   directionEnJa: document.getElementById('directionEnJa'),
   directionJaEn: document.getElementById('directionJaEn'),
+  pageTitle: document.getElementById('pageTitle'),
+  pageSubtitle: document.getElementById('pageSubtitle'),
 };
 
 function updateNetStatus() {
   els.netStatus.textContent = navigator.onLine ? 'Online' : 'Offline Ready';
+}
+
+function getSubjectIdFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get('subject');
+}
+
+function syncSubjectUrl(subjectId) {
+  const nextUrl = new URL(window.location.href);
+  nextUrl.searchParams.set('subject', subjectId);
+  window.history.replaceState({}, '', nextUrl);
+}
+
+function applySubjectTheme(subject) {
+  const theme = subject?.theme || 'default';
+  document.body.dataset.theme = theme;
+  if (els.pageTitle) {
+    els.pageTitle.textContent = subject?.title || 'Study Forge';
+  }
+  if (els.pageSubtitle) {
+    els.pageSubtitle.textContent = subject?.description || '用語も論点も、迷わず反復するための静かな訓練場。';
+  }
 }
 
 function saveProgress() {
@@ -169,6 +208,7 @@ function setContentView(view) {
   const views = [
     els.cardView,
     els.quizView,
+    els.materialView,
     els.sessionView,
     els.sessionResultView,
     els.sessionReviewView,
@@ -176,6 +216,7 @@ function setContentView(view) {
   views.forEach((panel) => panel.classList.add('hidden'));
   if (view === 'card') els.cardView.classList.remove('hidden');
   if (view === 'quiz') els.quizView.classList.remove('hidden');
+  if (view === 'material') els.materialView.classList.remove('hidden');
   if (view === 'session') els.sessionView.classList.remove('hidden');
   if (view === 'result') els.sessionResultView.classList.remove('hidden');
   if (view === 'review') els.sessionReviewView.classList.remove('hidden');
@@ -191,10 +232,16 @@ function getFilteredQuizzes() {
   return state.data.quizzes.filter(q => state.chapter === 'all' || q.chapter === state.chapter);
 }
 
+function getFilteredMaterials() {
+  if (!state.data) return [];
+  return (state.data.materials || []).filter(item => state.chapter === 'all' || item.chapter === state.chapter);
+}
+
 function updateChapterOptions() {
   const chapters = new Set(['all']);
   state.data.terms.forEach(term => chapters.add(term.chapter));
   state.data.quizzes.forEach(q => chapters.add(q.chapter));
+  (state.data.materials || []).forEach(item => chapters.add(item.chapter));
   els.chapterSelect.innerHTML = '';
   Array.from(chapters).forEach(chapter => {
     const opt = document.createElement('option');
@@ -206,8 +253,18 @@ function updateChapterOptions() {
 }
 
 function updateMetrics() {
-  const total = state.mode === 'terms' ? state.terms.length : state.quizzes.length;
-  const current = state.mode === 'terms' ? state.termIndex + 1 : state.quizIndex + 1;
+  let total = 0;
+  let current = 0;
+  if (state.mode === 'terms') {
+    total = state.terms.length;
+    current = state.termIndex + 1;
+  } else if (state.mode === 'quiz') {
+    total = state.quizzes.length;
+    current = state.quizIndex + 1;
+  } else {
+    total = state.materials.length;
+    current = state.materialIndex + 1;
+  }
   els.progressText.textContent = total ? `${current} / ${total}` : '0 / 0';
   if (state.stats.quizTotal) {
     const ratio = Math.round((state.stats.quizCorrect / state.stats.quizTotal) * 100);
@@ -215,7 +272,16 @@ function updateMetrics() {
   } else {
     els.accuracyText.textContent = '-';
   }
+  updateSubjectOverview();
   renderStudyLog();
+}
+
+function updateSubjectOverview() {
+  els.subjectTitle.textContent = state.subject ? state.subject.title : '-';
+  const termCount = state.data?.terms?.length || 0;
+  const quizCount = state.data?.quizzes?.length || 0;
+  const materialCount = state.data?.materials?.length || 0;
+  els.datasetSummary.textContent = `用語 ${termCount} / 小テスト ${quizCount} / 資料 ${materialCount}`;
 }
 
 function renderTerm() {
@@ -322,6 +388,56 @@ function renderQuiz() {
     btn.addEventListener('click', () => handleQuizAnswer(option, quiz, btn));
     els.quizOptions.appendChild(btn);
   });
+}
+
+function renderDetails(items) {
+  els.materialDetails.innerHTML = '';
+  const normalized = Array.isArray(items) ? items : [];
+  if (!normalized.length) {
+    els.materialDetailsBlock.classList.add('hidden');
+    return;
+  }
+  normalized.forEach((item) => {
+    if (!item || (!item.label && !item.content)) return;
+    const wrapper = document.createElement('article');
+    wrapper.className = 'detail-item';
+    const label = document.createElement('p');
+    label.className = 'detail-label';
+    label.textContent = item.label || '補足';
+    const text = document.createElement('p');
+    text.className = 'detail-text';
+    text.textContent = item.content || '';
+    wrapper.appendChild(label);
+    wrapper.appendChild(text);
+    els.materialDetails.appendChild(wrapper);
+  });
+  if (els.materialDetails.children.length) {
+    els.materialDetailsBlock.classList.remove('hidden');
+  } else {
+    els.materialDetailsBlock.classList.add('hidden');
+  }
+}
+
+function renderMaterial() {
+  if (!state.materials.length) {
+    els.materialTitle.textContent = '資料がありません';
+    els.materialTag.textContent = '';
+    els.materialSummary.textContent = 'この科目にはまだ資料が登録されていません。materials を追加すると、要点や補足をここで読めます。';
+    els.materialPoints.innerHTML = '';
+    els.materialPointsBlock.classList.add('hidden');
+    els.materialDetails.innerHTML = '';
+    els.materialDetailsBlock.classList.add('hidden');
+    els.materialSource.textContent = '';
+    return;
+  }
+  const material = state.materials[state.materialIndex];
+  if (!material) return;
+  els.materialTitle.textContent = material.title || '資料';
+  els.materialTag.textContent = material.chapter || '';
+  els.materialSummary.textContent = material.summary || '概要は未設定です。';
+  renderMetaList(els.materialPointsBlock, els.materialPoints, material.points);
+  renderDetails(material.details);
+  els.materialSource.textContent = material.source ? `出典: ${material.source}` : '';
 }
 
 function getQuizPool() {
@@ -600,9 +716,11 @@ function buildTermExplanation(term) {
 function applyFilters() {
   state.terms = getFilteredTerms();
   state.quizzes = getFilteredQuizzes();
+  state.materials = getFilteredMaterials();
   buildTermQuizzes();
   state.termIndex = 0;
   state.quizIndex = 0;
+  state.materialIndex = 0;
   state.revealed = false;
   render();
 }
@@ -612,7 +730,7 @@ function render() {
   if (state.mode === 'terms') {
     setContentView('card');
     renderTerm();
-  } else {
+  } else if (state.mode === 'quiz') {
     setContentView('quiz');
     if (state.quizType === 'term') {
       state.quizzes = state.termQuizzes;
@@ -623,8 +741,25 @@ function render() {
       state.quizzes = getFilteredQuizzes();
     }
     renderQuiz();
+  } else {
+    setContentView('material');
+    renderMaterial();
   }
+  updateControlAvailability();
   updateMetrics();
+}
+
+function updateModeButtons() {
+  els.modeTerms.classList.toggle('is-active', state.mode === 'terms');
+  els.modeQuiz.classList.toggle('is-active', state.mode === 'quiz');
+  els.modeMaterials.classList.toggle('is-active', state.mode === 'materials');
+}
+
+function updateControlAvailability() {
+  const isMaterials = state.mode === 'materials';
+  els.directionEnJa.disabled = isMaterials;
+  els.directionJaEn.disabled = isMaterials;
+  els.startQuizBtn.disabled = isMaterials;
 }
 
 async function loadSubjects() {
@@ -639,7 +774,10 @@ async function loadSubjects() {
     els.subjectSelect.appendChild(opt);
   });
   if (payload.subjects.length) {
-    await loadSubject(payload.subjects[0].id);
+    const requestedId = getSubjectIdFromUrl();
+    const initialSubject = payload.subjects.find(subject => subject.id === requestedId) || payload.subjects[0];
+    els.subjectSelect.value = initialSubject.id;
+    await loadSubject(initialSubject.id);
   }
 }
 
@@ -647,8 +785,14 @@ async function loadSubject(id) {
   const subject = state.subjects.find(s => s.id === id);
   if (!subject) return;
   state.subject = subject;
+  applySubjectTheme(subject);
+  syncSubjectUrl(subject.id);
+  els.subjectSelect.value = subject.id;
   const res = await fetch(subject.file);
   state.data = await res.json();
+  state.data.terms = Array.isArray(state.data.terms) ? state.data.terms : [];
+  state.data.quizzes = Array.isArray(state.data.quizzes) ? state.data.quizzes : [];
+  state.data.materials = Array.isArray(state.data.materials) ? state.data.materials : [];
   state.chapter = 'all';
   loadProgress();
   updateChapterOptions();
@@ -670,17 +814,22 @@ function setupListeners() {
 
   els.modeTerms.addEventListener('click', () => {
     state.mode = 'terms';
-    els.modeTerms.classList.add('is-active');
-    els.modeQuiz.classList.remove('is-active');
     state.page = 'main';
+    updateModeButtons();
     render();
   });
 
   els.modeQuiz.addEventListener('click', () => {
     state.mode = 'quiz';
-    els.modeQuiz.classList.add('is-active');
-    els.modeTerms.classList.remove('is-active');
     state.page = 'main';
+    updateModeButtons();
+    render();
+  });
+
+  els.modeMaterials.addEventListener('click', () => {
+    state.mode = 'materials';
+    state.page = 'main';
+    updateModeButtons();
     render();
   });
   els.directionEnJa.addEventListener('click', () => {
@@ -728,6 +877,13 @@ function setupListeners() {
     updateMetrics();
   });
 
+  els.materialNextBtn.addEventListener('click', () => {
+    if (!state.materials.length) return;
+    state.materialIndex = (state.materialIndex + 1) % state.materials.length;
+    renderMaterial();
+    updateMetrics();
+  });
+
   els.sessionNextBtn.addEventListener('click', () => {
     if (!state.session.answered) return;
     state.session.cursor += 1;
@@ -740,7 +896,6 @@ function setupListeners() {
 
   els.sessionExitBtn.addEventListener('click', () => {
     state.page = 'main';
-    setContentView(state.mode === 'terms' ? 'card' : 'quiz');
     render();
   });
 
@@ -751,7 +906,6 @@ function setupListeners() {
 
   els.sessionBackBtn.addEventListener('click', () => {
     state.page = 'main';
-    setContentView(state.mode === 'terms' ? 'card' : 'quiz');
     render();
   });
 
@@ -759,7 +913,6 @@ function setupListeners() {
     state.review.cursor += 1;
     if (state.review.cursor >= state.review.queue.length) {
       state.page = 'main';
-      setContentView(state.mode === 'terms' ? 'card' : 'quiz');
       render();
       return;
     }
@@ -768,15 +921,16 @@ function setupListeners() {
 
   els.reviewBackBtn.addEventListener('click', () => {
     state.page = 'main';
-    setContentView(state.mode === 'terms' ? 'card' : 'quiz');
     render();
   });
 
   els.shuffleBtn.addEventListener('click', () => {
     shuffleArray(state.terms);
     shuffleArray(state.quizzes);
+    shuffleArray(state.materials);
     state.termIndex = 0;
     state.quizIndex = 0;
+    state.materialIndex = 0;
     state.revealed = false;
     render();
   });

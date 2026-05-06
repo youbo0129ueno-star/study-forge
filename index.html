@@ -7,157 +7,23 @@
   <link rel="manifest" href="./manifest.json" />
   <link rel="icon" href="./assets/icon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="./styles.css" />
-  <title>Study Forge</title>
+  <title>Study Forge | Home</title>
 </head>
-<body>
-  <div class="app">
-    <header class="hero">
+<body class="home-page">
+  <div class="app home-shell">
+    <header class="hero home-hero">
       <div>
-        <p class="eyebrow">オフライン対応・知識確認</p>
-        <h1>Study Forge</h1>
-        <p class="subtitle">用語も論点も、迷わず反復するための静かな訓練場。</p>
+        <p class="eyebrow">Study Forge</p>
+        <h1>科目一覧</h1>
       </div>
-      <div class="status" id="netStatus">Offline Ready</div>
+      <div class="status">Offline Ready</div>
     </header>
 
-    <main class="grid">
-      <section class="panel controls">
-        <h2>学習設定</h2>
-        <label class="field">
-          <span>科目</span>
-          <select id="subjectSelect"></select>
-        </label>
-        <label class="field">
-          <span>モード</span>
-          <div class="segmented" role="group">
-            <button type="button" id="modeTerms" class="segmented-btn is-active">用語</button>
-            <button type="button" id="modeQuiz" class="segmented-btn">小テスト</button>
-          </div>
-        </label>
-        <label class="field">
-          <span>出題方向</span>
-          <div class="segmented" role="group">
-            <button type="button" id="directionEnJa" class="segmented-btn is-active">英→日</button>
-            <button type="button" id="directionJaEn" class="segmented-btn">日→英</button>
-          </div>
-        </label>
-        <label class="field">
-          <span>章フィルタ</span>
-          <select id="chapterSelect"></select>
-        </label>
-        <div class="actions">
-          <button type="button" id="startQuizBtn" class="primary">小テストを開始（重複なし）</button>
-          <button type="button" id="shuffleBtn" class="ghost">シャッフル</button>
-          <button type="button" id="resetBtn" class="ghost">進捗リセット</button>
-        </div>
-        <div class="metrics">
-          <div>
-            <p class="metric-label">進捗</p>
-            <p id="progressText" class="metric-value">0 / 0</p>
-          </div>
-          <div>
-            <p class="metric-label">正答率</p>
-            <p id="accuracyText" class="metric-value">-</p>
-          </div>
-        </div>
-        <div class="study-log">
-          <p class="metric-label">学習記録</p>
-          <p id="historySummary" class="metric-value"></p>
-          <div id="historyList" class="history-list"></div>
-        </div>
-      </section>
-
-      <section class="panel content" id="contentPanel">
-        <div class="card" id="cardView">
-          <div class="card-header">
-            <h3 id="cardTitle">読み込み中...</h3>
-            <span id="cardTag" class="tag"></span>
-          </div>
-          <p id="cardBody" class="card-body"></p>
-          <div id="cardMeta" class="card-meta hidden">
-            <div class="meta-block hidden" id="cardSynonymsBlock">
-              <p class="meta-title">類義語</p>
-              <ul id="cardSynonyms" class="meta-list"></ul>
-            </div>
-            <div class="meta-block hidden" id="cardDerivativesBlock">
-              <p class="meta-title">派生語</p>
-              <ul id="cardDerivatives" class="meta-list"></ul>
-            </div>
-            <div class="meta-block hidden" id="cardPhrasesBlock">
-              <p class="meta-title">熟語・語句</p>
-              <ul id="cardPhrases" class="meta-list"></ul>
-            </div>
-            <div class="meta-block hidden" id="cardExamplesBlock">
-              <p class="meta-title">例文</p>
-              <ul id="cardExamples" class="meta-list"></ul>
-            </div>
-          </div>
-          <div class="card-actions" id="cardActions">
-            <button type="button" id="revealBtn">答えを見る</button>
-            <button type="button" id="knownBtn" class="good">理解した</button>
-            <button type="button" id="nextBtn" class="ghost">次へ</button>
-          </div>
-        </div>
-
-        <div class="card hidden" id="quizView">
-          <div class="card-header">
-            <h3 id="quizTitle">問題</h3>
-            <span id="quizTag" class="tag"></span>
-          </div>
-          <p id="quizQuestion" class="card-body"></p>
-          <div id="quizOptions" class="options"></div>
-          <div class="explain" id="quizExplain"></div>
-          <div class="card-actions">
-            <button type="button" id="quizNextBtn" class="ghost">次の問題</button>
-          </div>
-        </div>
-
-        <div class="card hidden" id="sessionView">
-          <div class="card-header">
-            <h3 id="sessionTitle">小テスト</h3>
-            <span id="sessionTag" class="tag"></span>
-          </div>
-          <p id="sessionQuestion" class="card-body"></p>
-          <div id="sessionOptions" class="options"></div>
-          <div class="explain" id="sessionExplain"></div>
-          <div class="card-actions">
-            <button type="button" id="sessionExitBtn" class="ghost">中断して戻る</button>
-            <button type="button" id="sessionNextBtn">次へ</button>
-          </div>
-        </div>
-
-        <div class="card hidden" id="sessionResultView">
-          <div class="card-header">
-            <h3>テスト結果</h3>
-          </div>
-          <p id="sessionScore" class="card-body"></p>
-          <div class="card-actions">
-            <button type="button" id="sessionReviewBtn">間違いを復習</button>
-            <button type="button" id="sessionBackBtn" class="ghost">元のページに戻る</button>
-          </div>
-        </div>
-
-        <div class="card hidden" id="sessionReviewView">
-          <div class="card-header">
-            <h3>間違いの復習</h3>
-            <span id="reviewTag" class="tag"></span>
-          </div>
-          <p id="reviewQuestion" class="card-body"></p>
-          <div id="reviewOptions" class="options"></div>
-          <div class="explain" id="reviewExplain"></div>
-          <div class="card-actions">
-            <button type="button" id="reviewBackBtn" class="ghost">元のページに戻る</button>
-            <button type="button" id="reviewNextBtn">次へ</button>
-          </div>
-        </div>
-      </section>
+    <main class="home-main">
+      <section class="home-grid" id="subjectGrid"></section>
     </main>
-
-    <footer class="footer">
-      <p>初回オンライン時にキャッシュされ, 以降はオフラインでも利用可能。</p>
-    </footer>
   </div>
 
-  <script src="./app.js"></script>
+  <script src="./home.js"></script>
 </body>
 </html>
