@@ -1,12 +1,14 @@
 'use strict';
 
+const DEPRECATED_SUBJECT_IDS = new Set(['toeic-600']);
+
 async function loadHome() {
   const grid = document.getElementById('subjectGrid');
   if (!grid) return;
 
   const res = await fetch('./data/index.json');
   const payload = await res.json();
-  const subjects = Array.isArray(payload.subjects) ? payload.subjects : [];
+  const subjects = normalizeSubjects(payload.subjects);
   const homeSubjects = buildHomeSubjects(subjects);
 
   grid.innerHTML = '';
@@ -37,6 +39,11 @@ async function loadHome() {
     link.appendChild(footer);
     grid.appendChild(link);
   });
+}
+
+function normalizeSubjects(subjects) {
+  return (Array.isArray(subjects) ? subjects : [])
+    .filter(subject => !DEPRECATED_SUBJECT_IDS.has(subject.id));
 }
 
 function buildHomeSubjects(subjects) {

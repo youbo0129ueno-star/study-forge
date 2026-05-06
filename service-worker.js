@@ -1,4 +1,4 @@
-const CACHE_NAME = 'study-forge-v21';
+const CACHE_NAME = 'study-forge-v22';
 const ASSETS = [
   './index.html',
   './study.html',
@@ -38,6 +38,19 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
+  const url = new URL(event.request.url);
+  if (url.pathname.endsWith('/data/index.json')) {
+    event.respondWith(
+      fetch(event.request).then((response) => {
+        if (!response || response.status !== 200) return response;
+        const copy = response.clone();
+        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+        return response;
+      }).catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
   event.respondWith(
     caches.match(event.request).then((cached) => {
       if (cached) return cached;

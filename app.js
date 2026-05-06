@@ -1,5 +1,7 @@
 'use strict';
 
+const DEPRECATED_SUBJECT_IDS = new Set(['toeic-600']);
+
 const state = {
   subjects: [],
   subject: null,
@@ -834,20 +836,25 @@ function updateControlAvailability() {
 async function loadSubjects() {
   const res = await fetch('./data/index.json');
   const payload = await res.json();
-  state.subjects = payload.subjects;
+  state.subjects = normalizeSubjects(payload.subjects);
   els.subjectSelect.innerHTML = '';
-  payload.subjects.forEach(subject => {
+  state.subjects.forEach(subject => {
     const opt = document.createElement('option');
     opt.value = subject.id;
     opt.textContent = subject.title;
     els.subjectSelect.appendChild(opt);
   });
-  if (payload.subjects.length) {
+  if (state.subjects.length) {
     const requestedId = getSubjectIdFromUrl();
-    const initialSubject = payload.subjects.find(subject => subject.id === requestedId) || payload.subjects[0];
+    const initialSubject = state.subjects.find(subject => subject.id === requestedId) || state.subjects[0];
     els.subjectSelect.value = initialSubject.id;
     await loadSubject(initialSubject.id);
   }
+}
+
+function normalizeSubjects(subjects) {
+  return (Array.isArray(subjects) ? subjects : [])
+    .filter(subject => !DEPRECATED_SUBJECT_IDS.has(subject.id));
 }
 
 async function loadSubject(id) {
