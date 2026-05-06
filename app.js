@@ -228,6 +228,9 @@ function getFilteredTerms() {
     const range = parseRangeFilter(state.chapter);
     return state.data.terms.slice(range.start, range.end + 1);
   }
+  if (state.chapter === 'all' && hasDeclaredTermRange()) {
+    return state.data.terms.slice(0, getTermRangeConfig().total);
+  }
   return state.data.terms.filter(term => state.chapter === 'all' || term.chapter === state.chapter);
 }
 
@@ -253,33 +256,54 @@ function parseRangeFilter(value) {
 }
 
 function shouldUseTermRanges() {
-  return state.subject?.theme === 'toeic' && (state.data?.terms?.length || 0) > 100;
+  const config = getTermRangeConfig();
+  return state.subject?.theme === 'toeic' && config.total >= 100;
 }
 
-function getTermRangeBase() {
+function getTermRangeConfig() {
   const match = state.subject?.id?.match(/words(\d+)-(\d+)/);
-  return match ? Number(match[1]) : 1;
+  if (!match) {
+    return {
+      base: 1,
+      total: state.data?.terms?.length || 0,
+    };
+  }
+  const start = Number(match[1]);
+  const end = Number(match[2]);
+  return {
+    base: start,
+    total: end - start + 1,
+  };
+}
+
+function hasDeclaredTermRange() {
+  return Boolean(state.subject?.id?.match(/words(\d+)-(\d+)/));
 }
 
 function updateChapterOptions() {
-  const chapters = new Set(['all']);
-  state.data.terms.forEach(term => chapters.add(term.chapter));
-  state.data.quizzes.forEach(q => chapters.add(q.chapter));
-  (state.data.materials || []).forEach(item => chapters.add(item.chapter));
   els.chapterSelect.innerHTML = '';
-  const options = Array.from(chapters).map(chapter => ({
-    value: chapter,
-    label: chapter === 'all' ? '全章' : chapter,
-  }));
+  const options = [{ value: 'all', label: '全章' }];
   if (shouldUseTermRanges()) {
-    const base = getTermRangeBase();
-    for (let start = 0; start < state.data.terms.length; start += 100) {
-      const end = Math.min(start + 99, state.data.terms.length - 1);
+    const { base, total } = getTermRangeConfig();
+    const cappedTotal = Math.min(total, state.data.terms.length);
+    for (let start = 0; start < cappedTotal; start += 100) {
+      const end = Math.min(start + 99, cappedTotal - 1);
       options.push({
         value: `range:${start}:${end}`,
         label: `${base + start}-${base + end}`,
       });
     }
+  } else {
+    const chapters = new Set();
+    state.data.terms.forEach(term => chapters.add(term.chapter));
+    state.data.quizzes.forEach(q => chapters.add(q.chapter));
+    (state.data.materials || []).forEach(item => chapters.add(item.chapter));
+    Array.from(chapters).forEach(chapter => {
+      options.push({
+        value: chapter,
+        label: chapter,
+      });
+    });
   }
   options.forEach(({ value, label }) => {
     const opt = document.createElement('option');
