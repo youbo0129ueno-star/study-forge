@@ -3,52 +3,101 @@
     {
       "id": "words1-400",
       "title": "TOEIC words1-400",
-      "file": "./data/words1-400.json"
+      "file": "./data/words1-400.json",
+      "theme": "toeic",
+      "themeLabel": "TOEIC Deck",
+      "group": "TOEIC",
+      "description": "頻出単語の前半を、語義と例文中心の軽いテンポで反復する。"
     },
     {
       "id": "words401-700",
       "title": "TOEIC words401-700",
-      "file": "./data/words401-700.json"
+      "file": "./data/words401-700.json",
+      "theme": "toeic",
+      "themeLabel": "TOEIC Deck",
+      "group": "TOEIC",
+      "description": "中盤の語彙帯。意味の取り違えを防ぎながら定着させる。"
     },
     {
       "id": "words701-900",
       "title": "TOEIC words701-900",
-      "file": "./data/words701-900.json"
+      "file": "./data/words701-900.json",
+      "theme": "toeic",
+      "themeLabel": "TOEIC Deck",
+      "group": "TOEIC",
+      "description": "上位語彙のまとまりを、選択肢と例文で素早く確認する。"
     },
     {
       "id": "words901-1000",
       "title": "TOEIC words901-1000",
-      "file": "./data/words901-1000.json"
+      "file": "./data/words901-1000.json",
+      "theme": "toeic",
+      "themeLabel": "TOEIC Deck",
+      "group": "TOEIC",
+      "description": "仕上げ帯の語彙確認。細かいニュアンス差の見落としを減らす。"
     },
     {
       "id": "supplement1",
       "title": "TOEIC Supplement1",
-      "file": "./data/supplement1.json"
+      "file": "./data/supplement1.json",
+      "theme": "toeic",
+      "themeLabel": "TOEIC Drill",
+      "group": "TOEIC",
+      "description": "補助セット1。弱点語の拾い直しや短い周回向け。"
     },
     {
       "id": "supplement2",
       "title": "TOEIC Supplement2",
-      "file": "./data/supplement2.json"
+      "file": "./data/supplement2.json",
+      "theme": "toeic",
+      "themeLabel": "TOEIC Drill",
+      "group": "TOEIC",
+      "description": "補助セット2。語彙と設問感覚を切り替えながら確認する。"
     },
     {
       "id": "supplement3",
       "title": "TOEIC Supplement3",
-      "file": "./data/supplement3.json"
+      "file": "./data/supplement3.json",
+      "theme": "toeic",
+      "themeLabel": "TOEIC Drill",
+      "group": "TOEIC",
+      "description": "補助セット3。短時間で回すための追加データ。"
     },
     {
       "id": "philosophy",
       "title": "哲学",
-      "file": "./data/philosophy.json"
+      "file": "./data/philosophy.json",
+      "theme": "philosophy",
+      "themeLabel": "Seminar Room",
+      "group": "Philosophy",
+      "description": "概念と論証を、資料・用語・設問の三層で落ち着いて整理する。"
     },
     {
       "id": "toeic-600",
       "title": "TOEIC 600 Level",
-      "file": "./data/toeic-600.json"
+      "file": "./data/toeic-600.json",
+      "theme": "toeic",
+      "themeLabel": "Score Builder",
+      "group": "TOEIC",
+      "description": "600点帯向けの語彙確認。実戦寄りの意味処理を優先する。"
     },
     {
       "id": "template",
       "title": "Template",
-      "file": "./data/template.json"
+      "file": "./data/template.json",
+      "theme": "default",
+      "themeLabel": "Starter",
+      "group": "Template",
+      "description": "新しい科目を増やすための雛形。資料・用語・小テストをまとめて持てる。"
+    },
+    {
+      "id": "modern-astronomy",
+      "title": "現代天文学",
+      "file": "./data/modern-astronomy.json",
+      "theme": "default",
+      "themeLabel": "Lecture Notes",
+      "group": "Astronomy",
+      "description": "第2回講義ノートをもとに、古代からギリシャ天文学までを整理する。"
     }
   ]
 }
