@@ -7,9 +7,10 @@ async function loadHome() {
   const res = await fetch('./data/index.json');
   const payload = await res.json();
   const subjects = Array.isArray(payload.subjects) ? payload.subjects : [];
+  const homeSubjects = buildHomeSubjects(subjects);
 
   grid.innerHTML = '';
-  subjects.forEach((subject) => {
+  homeSubjects.forEach((subject) => {
     const link = document.createElement('a');
     link.className = 'subject-card';
     link.href = `./study.html?subject=${encodeURIComponent(subject.id)}`;
@@ -36,6 +37,23 @@ async function loadHome() {
     link.appendChild(footer);
     grid.appendChild(link);
   });
+}
+
+function buildHomeSubjects(subjects) {
+  const toeicSubjects = subjects.filter(subject => subject.group === 'TOEIC');
+  const otherSubjects = subjects.filter(subject => subject.group !== 'TOEIC' && subject.id !== 'template');
+  if (!toeicSubjects.length) return otherSubjects;
+  return [
+    {
+      id: 'words1-400',
+      title: 'TOEIC',
+      theme: 'toeic',
+      themeLabel: 'Vocabulary Deck',
+      group: 'TOEIC',
+      description: '単語セットを選び、100語単位で区切って用語確認と小テストを進める。',
+    },
+    ...otherSubjects,
+  ];
 }
 
 function setupServiceWorker() {
