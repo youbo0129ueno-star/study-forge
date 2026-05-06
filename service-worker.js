@@ -1,4 +1,4 @@
-const CACHE_NAME = 'study-forge-v20';
+const CACHE_NAME = 'study-forge-v21';
 const ASSETS = [
   './index.html',
   './study.html',
@@ -14,7 +14,6 @@ const ASSETS = [
   './data/supplement1.json',
   './data/supplement2.json',
   './data/supplement3.json',
-  './data/toeic-600.json',
   './data/words1-400.json',
   './data/words401-700.json',
   './data/words701-900.json',

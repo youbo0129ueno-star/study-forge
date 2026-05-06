@@ -73,15 +73,6 @@
       "description": "概念と論証を、資料・用語・設問の三層で落ち着いて整理する。"
     },
     {
-      "id": "toeic-600",
-      "title": "TOEIC 600 Level",
-      "file": "./data/toeic-600.json",
-      "theme": "toeic",
-      "themeLabel": "Score Builder",
-      "group": "TOEIC",
-      "description": "600点帯向けの語彙確認。実戦寄りの意味処理を優先する。"
-    },
-    {
       "id": "template",
       "title": "Template",
       "file": "./data/template.json",
