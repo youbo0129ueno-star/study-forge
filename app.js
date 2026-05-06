@@ -224,17 +224,41 @@ function setContentView(view) {
 
 function getFilteredTerms() {
   if (!state.data) return [];
+  if (isRangeFilter(state.chapter)) {
+    const range = parseRangeFilter(state.chapter);
+    return state.data.terms.slice(range.start, range.end + 1);
+  }
   return state.data.terms.filter(term => state.chapter === 'all' || term.chapter === state.chapter);
 }
 
 function getFilteredQuizzes() {
   if (!state.data) return [];
+  if (isRangeFilter(state.chapter)) return [];
   return state.data.quizzes.filter(q => state.chapter === 'all' || q.chapter === state.chapter);
 }
 
 function getFilteredMaterials() {
   if (!state.data) return [];
+  if (isRangeFilter(state.chapter)) return [];
   return (state.data.materials || []).filter(item => state.chapter === 'all' || item.chapter === state.chapter);
+}
+
+function isRangeFilter(value) {
+  return typeof value === 'string' && value.startsWith('range:');
+}
+
+function parseRangeFilter(value) {
+  const [, start, end] = value.split(':').map(Number);
+  return { start, end };
+}
+
+function shouldUseTermRanges() {
+  return state.subject?.theme === 'toeic' && (state.data?.terms?.length || 0) > 100;
+}
+
+function getTermRangeBase() {
+  const match = state.subject?.id?.match(/words(\d+)-(\d+)/);
+  return match ? Number(match[1]) : 1;
 }
 
 function updateChapterOptions() {
@@ -243,13 +267,32 @@ function updateChapterOptions() {
   state.data.quizzes.forEach(q => chapters.add(q.chapter));
   (state.data.materials || []).forEach(item => chapters.add(item.chapter));
   els.chapterSelect.innerHTML = '';
-  Array.from(chapters).forEach(chapter => {
+  const options = Array.from(chapters).map(chapter => ({
+    value: chapter,
+    label: chapter === 'all' ? '全章' : chapter,
+  }));
+  if (shouldUseTermRanges()) {
+    const base = getTermRangeBase();
+    for (let start = 0; start < state.data.terms.length; start += 100) {
+      const end = Math.min(start + 99, state.data.terms.length - 1);
+      options.push({
+        value: `range:${start}:${end}`,
+        label: `${base + start}-${base + end}`,
+      });
+    }
+  }
+  options.forEach(({ value, label }) => {
     const opt = document.createElement('option');
-    opt.value = chapter;
-    opt.textContent = chapter === 'all' ? '全章' : chapter;
+    opt.value = value;
+    opt.textContent = label;
     els.chapterSelect.appendChild(opt);
   });
-  els.chapterSelect.value = state.chapter;
+  if (options.some(option => option.value === state.chapter)) {
+    els.chapterSelect.value = state.chapter;
+  } else {
+    state.chapter = 'all';
+    els.chapterSelect.value = state.chapter;
+  }
 }
 
 function updateMetrics() {
@@ -444,7 +487,8 @@ function getQuizPool() {
   if (state.mode === 'terms') {
     return [...state.termQuizzes];
   }
-  return [...getFilteredQuizzes()];
+  const quizzes = getFilteredQuizzes();
+  return quizzes.length ? [...quizzes] : [...state.termQuizzes];
 }
 
 function renderSessionQuestion() {
@@ -738,7 +782,8 @@ function render() {
       state.quizzes = [...getFilteredQuizzes(), ...state.termQuizzes];
       shuffleArray(state.quizzes);
     } else {
-      state.quizzes = getFilteredQuizzes();
+      const quizzes = getFilteredQuizzes();
+      state.quizzes = quizzes.length ? quizzes : state.termQuizzes;
     }
     renderQuiz();
   } else {
