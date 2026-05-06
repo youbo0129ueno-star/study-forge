@@ -98,6 +98,15 @@
       "themeLabel": "Lecture Notes",
       "group": "Astronomy",
       "description": "第2回講義ノートをもとに、古代からギリシャ天文学までを整理する。"
+    },
+    {
+      "id": "contemporary-law",
+      "title": "法の現代的課題",
+      "file": "./data/contemporary-law.json",
+      "theme": "default",
+      "themeLabel": "Lecture Notes",
+      "group": "Law",
+      "description": "AI・動物・自然環境をめぐる現代的な法的課題を整理する。"
     }
   ]
 }
