@@ -46,6 +46,13 @@
           <span>章フィルタ</span>
           <select id="chapterSelect"></select>
         </label>
+        <label class="field">
+          <span>小テストの出題数</span>
+          <div class="quiz-count-control">
+            <select id="quizCountSelect"></select>
+            <span id="quizAvailableText" class="available-count">全 0 問</span>
+          </div>
+        </label>
         <div class="actions">
           <button type="button" id="startQuizBtn" class="primary">小テストを開始（重複なし）</button>
           <button type="button" id="shuffleBtn" class="ghost">シャッフル</button>
@@ -153,7 +160,10 @@
         <div class="card hidden" id="sessionView">
           <div class="card-header">
             <h3 id="sessionTitle">小テスト</h3>
-            <span id="sessionTag" class="tag"></span>
+            <div class="session-meta">
+              <span id="sessionProgress" class="available-count"></span>
+              <span id="sessionTag" class="tag"></span>
+            </div>
           </div>
           <p id="sessionQuestion" class="card-body"></p>
           <div id="sessionOptions" class="options"></div>
@@ -170,15 +180,19 @@
           </div>
           <p id="sessionScore" class="card-body"></p>
           <div class="card-actions">
-            <button type="button" id="sessionReviewBtn">間違いを復習</button>
+            <button type="button" id="sessionReviewAllBtn">全問を復習</button>
+            <button type="button" id="sessionReviewBtn" class="ghost">間違いを復習</button>
             <button type="button" id="sessionBackBtn" class="ghost">元のページに戻る</button>
           </div>
         </div>
 
         <div class="card hidden" id="sessionReviewView">
           <div class="card-header">
-            <h3>間違いの復習</h3>
-            <span id="reviewTag" class="tag"></span>
+            <h3 id="reviewTitle">復習</h3>
+            <div class="session-meta">
+              <span id="reviewProgress" class="available-count"></span>
+              <span id="reviewTag" class="tag"></span>
+            </div>
           </div>
           <p id="reviewQuestion" class="card-body"></p>
           <div id="reviewOptions" class="options"></div>

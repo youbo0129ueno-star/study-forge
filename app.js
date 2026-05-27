@@ -24,6 +24,7 @@ const state = {
     correct: 0,
     wrong: 0,
     answered: false,
+    answeredItems: [],
     wrongItems: [],
   },
   review: {
@@ -43,6 +44,8 @@ const state = {
 const els = {
   subjectSelect: document.getElementById('subjectSelect'),
   chapterSelect: document.getElementById('chapterSelect'),
+  quizCountSelect: document.getElementById('quizCountSelect'),
+  quizAvailableText: document.getElementById('quizAvailableText'),
   modeTerms: document.getElementById('modeTerms'),
   modeQuiz: document.getElementById('modeQuiz'),
   modeMaterials: document.getElementById('modeMaterials'),
@@ -93,15 +96,19 @@ const els = {
   materialNextBtn: document.getElementById('materialNextBtn'),
   sessionTitle: document.getElementById('sessionTitle'),
   sessionTag: document.getElementById('sessionTag'),
+  sessionProgress: document.getElementById('sessionProgress'),
   sessionQuestion: document.getElementById('sessionQuestion'),
   sessionOptions: document.getElementById('sessionOptions'),
   sessionExplain: document.getElementById('sessionExplain'),
   sessionNextBtn: document.getElementById('sessionNextBtn'),
   sessionExitBtn: document.getElementById('sessionExitBtn'),
   sessionScore: document.getElementById('sessionScore'),
+  sessionReviewAllBtn: document.getElementById('sessionReviewAllBtn'),
   sessionReviewBtn: document.getElementById('sessionReviewBtn'),
   sessionBackBtn: document.getElementById('sessionBackBtn'),
   reviewTag: document.getElementById('reviewTag'),
+  reviewTitle: document.getElementById('reviewTitle'),
+  reviewProgress: document.getElementById('reviewProgress'),
   reviewQuestion: document.getElementById('reviewQuestion'),
   reviewOptions: document.getElementById('reviewOptions'),
   reviewExplain: document.getElementById('reviewExplain'),
@@ -548,6 +555,26 @@ function getQuizPool() {
   return quizzes.length ? [...quizzes] : [...state.termQuizzes];
 }
 
+function updateQuizCountOptions() {
+  const total = getQuizPool().length;
+  const previous = els.quizCountSelect.value || 'all';
+  const choices = [5, 10, 20].filter(count => count < total);
+  els.quizCountSelect.innerHTML = '';
+  choices.forEach((count) => {
+    const option = document.createElement('option');
+    option.value = String(count);
+    option.textContent = `${count} 問`;
+    els.quizCountSelect.appendChild(option);
+  });
+  const allOption = document.createElement('option');
+  allOption.value = 'all';
+  allOption.textContent = `全問（${total} 問）`;
+  els.quizCountSelect.appendChild(allOption);
+  els.quizCountSelect.value = choices.includes(Number(previous)) ? previous : 'all';
+  els.quizAvailableText.textContent = `全 ${total} 問`;
+  els.quizCountSelect.disabled = state.mode === 'materials' || !total;
+}
+
 function renderSessionQuestion() {
   els.sessionExplain.textContent = '';
   els.sessionExplain.classList.add('hidden');
@@ -562,6 +589,7 @@ function renderSessionQuestion() {
     els.sessionOptions.innerHTML = '';
     return;
   }
+  els.sessionProgress.textContent = `${state.session.cursor + 1} / ${state.session.queue.length} 問`;
   els.sessionTag.textContent = quiz.chapter || '';
   els.sessionQuestion.textContent = quiz.question;
   els.sessionOptions.innerHTML = '';
@@ -580,6 +608,7 @@ function renderSessionResult() {
   const total = state.session.queue.length;
   const ratio = total ? Math.round((state.session.correct / total) * 100) : 0;
   els.sessionScore.textContent = `正答率 ${ratio}%（${state.session.correct} / ${total}）`;
+  els.sessionReviewAllBtn.disabled = !state.session.answeredItems.length;
   if (state.session.wrongItems.length) {
     els.sessionReviewBtn.disabled = false;
   } else {
@@ -597,6 +626,7 @@ function renderReviewQuestion() {
   }
   const entry = state.review.queue[state.review.cursor];
   const quiz = entry.quiz;
+  els.reviewProgress.textContent = `${state.review.cursor + 1} / ${state.review.queue.length} 問`;
   els.reviewTag.textContent = quiz.chapter || '';
   els.reviewQuestion.textContent = quiz.question;
   els.reviewOptions.innerHTML = '';
@@ -609,7 +639,7 @@ function renderReviewQuestion() {
     if (isCorrectOption(option, quiz)) {
       btn.classList.add('is-correct');
     }
-    if (entry.selectedKey && option.key === entry.selectedKey) {
+    if (entry.selectedKey && option.key === entry.selectedKey && !isCorrectOption(option, quiz)) {
       btn.classList.add('is-wrong');
     }
     els.reviewOptions.appendChild(btn);
@@ -627,10 +657,13 @@ function startSession() {
   buildTermQuizzes();
   const pool = getQuizPool();
   shuffleArray(pool);
-  state.session.queue = pool;
+  const requestedCount = els.quizCountSelect.value;
+  const count = requestedCount === 'all' ? pool.length : Number(requestedCount);
+  state.session.queue = pool.slice(0, count);
   state.session.cursor = 0;
   state.session.correct = 0;
   state.session.wrong = 0;
+  state.session.answeredItems = [];
   state.session.wrongItems = [];
   state.page = 'session';
   setContentView('session');
@@ -656,9 +689,10 @@ function finishSession() {
   renderStudyLog();
 }
 
-function startReview() {
-  state.review.queue = [...state.session.wrongItems];
+function startReview(items, title) {
+  state.review.queue = [...items];
   state.review.cursor = 0;
+  els.reviewTitle.textContent = title;
   state.page = 'review';
   setContentView('review');
   renderReviewQuestion();
@@ -728,6 +762,7 @@ function handleSessionAnswer(option, quiz, btn) {
   buttons.forEach(button => button.disabled = true);
   state.stats.quizTotal += 1;
   const isCorrect = isCorrectOption(option, quiz);
+  state.session.answeredItems.push({ quiz, selectedKey: option.key });
   if (isCorrect) {
     state.session.correct += 1;
     state.stats.quizCorrect += 1;
@@ -830,6 +865,7 @@ function render() {
     renderMaterial();
   }
   updateControlAvailability();
+  updateQuizCountOptions();
   updateMetrics();
 }
 
@@ -844,6 +880,7 @@ function updateControlAvailability() {
   els.directionEnJa.disabled = isMaterials;
   els.directionJaEn.disabled = isMaterials;
   els.startQuizBtn.disabled = isMaterials;
+  els.quizCountSelect.disabled = isMaterials;
 }
 
 async function loadSubjects() {
@@ -990,7 +1027,12 @@ function setupListeners() {
 
   els.sessionReviewBtn.addEventListener('click', () => {
     if (!state.session.wrongItems.length) return;
-    startReview();
+    startReview(state.session.wrongItems, '間違いの復習');
+  });
+
+  els.sessionReviewAllBtn.addEventListener('click', () => {
+    if (!state.session.answeredItems.length) return;
+    startReview(state.session.answeredItems, '全問の復習');
   });
 
   els.sessionBackBtn.addEventListener('click', () => {

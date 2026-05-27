@@ -226,6 +226,28 @@ select {
   background: #fdfbf6;
 }
 
+.quiz-count-control {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.quiz-count-control select {
+  flex: 1;
+}
+
+.available-count {
+  color: var(--ink-soft);
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.session-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .segmented {
   display: flex;
   gap: 8px;
