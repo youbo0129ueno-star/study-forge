@@ -181,6 +181,37 @@ function shuffleArray(items) {
   }
 }
 
+function getDisplayOptions(quiz) {
+  if (!Array.isArray(quiz.displayOptions)) {
+    quiz.displayOptions = Array.isArray(quiz.options) ? [...quiz.options] : [];
+    shuffleArray(quiz.displayOptions);
+  }
+  return quiz.displayOptions;
+}
+
+function setOptionButtonContent(btn, option, index) {
+  btn.textContent = `${String.fromCharCode(97 + index)}. ${option.text}`;
+  btn.dataset.optionKey = option.key || '';
+  btn.dataset.optionText = option.text;
+}
+
+function isCorrectOption(option, quiz) {
+  return quiz.answer_key
+    ? option.key === quiz.answer_key
+    : option.text === quiz.answer_text;
+}
+
+function markCorrectOption(buttons, quiz) {
+  buttons.forEach((button) => {
+    if (isCorrectOption({
+      key: button.dataset.optionKey,
+      text: button.dataset.optionText,
+    }, quiz)) {
+      button.classList.add('is-correct');
+    }
+  });
+}
+
 function getQuizId(quiz) {
   return `${quiz.chapter || 'no-chapter'}::${quiz.question}`;
 }
@@ -449,11 +480,11 @@ function renderQuiz() {
   els.quizQuestion.textContent = quiz.question;
   els.quizTag.textContent = quiz.chapter || '';
   els.quizOptions.innerHTML = '';
-  quiz.options.forEach(option => {
+  getDisplayOptions(quiz).forEach((option, index) => {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'option-btn';
-    btn.textContent = `${option.key}. ${option.text}`;
+    setOptionButtonContent(btn, option, index);
     btn.addEventListener('click', () => handleQuizAnswer(option, quiz, btn));
     els.quizOptions.appendChild(btn);
   });
@@ -535,11 +566,11 @@ function renderSessionQuestion() {
   els.sessionQuestion.textContent = quiz.question;
   els.sessionOptions.innerHTML = '';
   state.session.answered = false;
-  quiz.options.forEach((option) => {
+  getDisplayOptions(quiz).forEach((option, index) => {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'option-btn';
-    btn.textContent = `${option.key}. ${option.text}`;
+    setOptionButtonContent(btn, option, index);
     btn.addEventListener('click', () => handleSessionAnswer(option, quiz, btn));
     els.sessionOptions.appendChild(btn);
   });
@@ -569,15 +600,13 @@ function renderReviewQuestion() {
   els.reviewTag.textContent = quiz.chapter || '';
   els.reviewQuestion.textContent = quiz.question;
   els.reviewOptions.innerHTML = '';
-  quiz.options.forEach((option) => {
+  getDisplayOptions(quiz).forEach((option, index) => {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'option-btn';
-    btn.textContent = `${option.key}. ${option.text}`;
+    setOptionButtonContent(btn, option, index);
     btn.disabled = true;
-    if (quiz.answer_key && option.key === quiz.answer_key) {
-      btn.classList.add('is-correct');
-    } else if (!quiz.answer_key && option.text === quiz.answer_text) {
+    if (isCorrectOption(option, quiz)) {
       btn.classList.add('is-correct');
     }
     if (entry.selectedKey && option.key === entry.selectedKey) {
@@ -668,25 +697,17 @@ function renderStudyLog() {
   });
 }
 function handleQuizAnswer(option, quiz, btn) {
-  const correctKey = quiz.answer_key || null;
-  const correctText = quiz.answer_text;
   const buttons = Array.from(els.quizOptions.querySelectorAll('button'));
   buttons.forEach(button => button.disabled = true);
   state.stats.quizTotal += 1;
 
-  const isCorrect = correctKey ? option.key === correctKey : option.text === correctText;
+  const isCorrect = isCorrectOption(option, quiz);
   if (isCorrect) {
     state.stats.quizCorrect += 1;
     btn.classList.add('is-correct');
   } else {
     btn.classList.add('is-wrong');
-    buttons.forEach(button => {
-      if (correctKey && button.textContent.startsWith(`${correctKey}.`)) {
-        button.classList.add('is-correct');
-      } else if (!correctKey && button.textContent.includes(correctText)) {
-        button.classList.add('is-correct');
-      }
-    });
+    markCorrectOption(buttons, quiz);
   }
 
   const explainParts = [
@@ -701,14 +722,12 @@ function handleQuizAnswer(option, quiz, btn) {
 }
 
 function handleSessionAnswer(option, quiz, btn) {
-  const correctKey = quiz.answer_key || null;
-  const correctText = quiz.answer_text;
   const buttons = Array.from(els.sessionOptions.querySelectorAll('button'));
   if (state.session.answered) return;
   state.session.answered = true;
   buttons.forEach(button => button.disabled = true);
   state.stats.quizTotal += 1;
-  const isCorrect = correctKey ? option.key === correctKey : option.text === correctText;
+  const isCorrect = isCorrectOption(option, quiz);
   if (isCorrect) {
     state.session.correct += 1;
     state.stats.quizCorrect += 1;
@@ -716,13 +735,7 @@ function handleSessionAnswer(option, quiz, btn) {
   } else {
     state.session.wrong += 1;
     btn.classList.add('is-wrong');
-    buttons.forEach(button => {
-      if (correctKey && button.textContent.startsWith(`${correctKey}.`)) {
-        button.classList.add('is-correct');
-      } else if (!correctKey && button.textContent.includes(correctText)) {
-        button.classList.add('is-correct');
-      }
-    });
+    markCorrectOption(buttons, quiz);
     recordWrongQuestion(quiz, option.key);
     state.session.wrongItems.push({ quiz, selectedKey: option.key });
   }
