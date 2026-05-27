@@ -558,7 +558,9 @@ function getQuizPool() {
 function updateQuizCountOptions() {
   const total = getQuizPool().length;
   const previous = els.quizCountSelect.value || 'all';
-  const choices = [5, 10, 20].filter(count => count < total);
+  const maxSelectable = Math.min(total, 20);
+  const choices = Array.from({ length: maxSelectable }, (_, index) => index + 1)
+    .filter(count => count < total);
   els.quizCountSelect.innerHTML = '';
   choices.forEach((count) => {
     const option = document.createElement('option');
@@ -572,7 +574,7 @@ function updateQuizCountOptions() {
   els.quizCountSelect.appendChild(allOption);
   els.quizCountSelect.value = choices.includes(Number(previous)) ? previous : 'all';
   els.quizAvailableText.textContent = `全 ${total} 問`;
-  els.quizCountSelect.disabled = state.mode === 'materials' || !total;
+  els.quizCountSelect.disabled = !total;
 }
 
 function renderSessionQuestion() {
@@ -879,8 +881,7 @@ function updateControlAvailability() {
   const isMaterials = state.mode === 'materials';
   els.directionEnJa.disabled = isMaterials;
   els.directionJaEn.disabled = isMaterials;
-  els.startQuizBtn.disabled = isMaterials;
-  els.quizCountSelect.disabled = isMaterials;
+  els.startQuizBtn.disabled = !getQuizPool().length;
 }
 
 async function loadSubjects() {
