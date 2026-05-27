@@ -1,6 +1,6 @@
 # Study Forge
 
-**GitHub Pages: https://youbo0129ueno-star.github.io/study-forge/**
+**GitHub Pages: https://yuta-u-tech.github.io/study-forge/**
 
 オフライン対応の学習アプリ。`HOME` から科目ページへ移動し、科目ごとのテーマで用語・小テスト・資料を扱える。
 
