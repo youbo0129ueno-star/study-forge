@@ -188,6 +188,249 @@ function shuffleArray(items) {
   }
 }
 
+function appendInlineContent(parent, value) {
+  const text = String(value || '');
+  const pattern = /(\$\$[^$]+\$\$|\$[^$]+\$|\\\([^)]+\\\)|\\\[[\s\S]+?\\\])/g;
+  let lastIndex = 0;
+  text.replace(pattern, (match, _part, offset) => {
+    if (offset > lastIndex) {
+      parent.appendChild(document.createTextNode(text.slice(lastIndex, offset)));
+    }
+    const math = document.createElement('span');
+    math.className = match.startsWith('$$') || match.startsWith('\\[')
+      ? 'math-token math-token-block'
+      : 'math-token';
+    appendMathContent(math, match
+      .replace(/^\$\$|\$\$$/g, '')
+      .replace(/^\$|\$$/g, '')
+      .replace(/^\\\(|\\\)$/g, '')
+      .replace(/^\\\[|\\\]$/g, ''));
+    parent.appendChild(math);
+    lastIndex = offset + match.length;
+    return match;
+  });
+  if (lastIndex < text.length) {
+    parent.appendChild(document.createTextNode(text.slice(lastIndex)));
+  }
+}
+
+function appendMathContent(parent, value) {
+  const tex = String(value || '');
+  if (window.katex) {
+    try {
+      window.katex.render(tex, parent, {
+        displayMode: parent.classList.contains('math-token-block') || parent.classList.contains('math-block'),
+        throwOnError: false,
+        strict: 'ignore',
+        trust: false
+      });
+      return;
+    } catch (err) {
+      console.warn('KaTeX render failed', err);
+    }
+  }
+  parent.appendChild(parseMath(tex));
+}
+
+function parseMath(input, start = 0, stop = '') {
+  const fragment = document.createDocumentFragment();
+  let index = start;
+  while (index < input.length) {
+    const char = input[index];
+    if (stop && char === stop) {
+      return { fragment, index: index + 1 };
+    }
+    if (char === '\\') {
+      const commandMatch = input.slice(index + 1).match(/^[A-Za-z]+/);
+      if (!commandMatch) {
+        fragment.appendChild(document.createTextNode(input[index + 1] || ''));
+        index += 2;
+        continue;
+      }
+      const command = commandMatch[0];
+      index += command.length + 1;
+      if (command === 'frac') {
+        const numerator = readMathArgument(input, index);
+        const denominator = readMathArgument(input, numerator.index);
+        const fraction = document.createElement('span');
+        fraction.className = 'math-frac';
+        const top = document.createElement('span');
+        top.className = 'math-frac-top';
+        top.appendChild(numerator.fragment);
+        const bottom = document.createElement('span');
+        bottom.className = 'math-frac-bottom';
+        bottom.appendChild(denominator.fragment);
+        fraction.append(top, bottom);
+        fragment.appendChild(fraction);
+        index = denominator.index;
+        continue;
+      }
+      if (command === 'sqrt') {
+        const radicand = readMathArgument(input, index);
+        const root = document.createElement('span');
+        root.className = 'math-root';
+        const symbol = document.createElement('span');
+        symbol.className = 'math-root-symbol';
+        symbol.textContent = '√';
+        const body = document.createElement('span');
+        body.className = 'math-root-body';
+        body.appendChild(radicand.fragment);
+        root.append(symbol, body);
+        fragment.appendChild(root);
+        index = radicand.index;
+        continue;
+      }
+      if (command === 'bar') {
+        const body = readMathArgument(input, index);
+        const overline = document.createElement('span');
+        overline.className = 'math-overline';
+        overline.appendChild(body.fragment);
+        fragment.appendChild(overline);
+        index = body.index;
+        continue;
+      }
+      fragment.appendChild(document.createTextNode(getMathCommandText(command)));
+      continue;
+    }
+    if (char === '^' || char === '_') {
+      const script = readMathArgument(input, index + 1);
+      appendMathScript(fragment, char === '^' ? 'sup' : 'sub', script.fragment);
+      index = script.index;
+      continue;
+    }
+    if (char === '{') {
+      const group = parseMath(input, index + 1, '}');
+      fragment.appendChild(group.fragment);
+      index = group.index;
+      continue;
+    }
+    fragment.appendChild(document.createTextNode(char));
+    index += 1;
+  }
+  return stop ? { fragment, index } : fragment;
+}
+
+function readMathArgument(input, index) {
+  while (input[index] === ' ') index += 1;
+  if (input[index] === '{') {
+    return parseMath(input, index + 1, '}');
+  }
+  const fragment = document.createDocumentFragment();
+  if (index < input.length) {
+    if (input[index] === '\\') {
+      const commandMatch = input.slice(index + 1).match(/^[A-Za-z]+/);
+      if (commandMatch) {
+        fragment.appendChild(document.createTextNode(getMathCommandText(commandMatch[0])));
+        return { fragment, index: index + commandMatch[0].length + 1 };
+      }
+    }
+    fragment.appendChild(document.createTextNode(input[index]));
+  }
+  return { fragment, index: index + 1 };
+}
+
+function appendMathScript(fragment, type, scriptFragment) {
+  const previous = fragment.lastChild || document.createTextNode('');
+  if (fragment.lastChild) fragment.removeChild(previous);
+  const wrapper = previous.nodeType === Node.ELEMENT_NODE && previous.classList.contains('math-script')
+    ? previous
+    : document.createElement('span');
+  if (!wrapper.classList.contains('math-script')) {
+    wrapper.className = 'math-script';
+    const base = document.createElement('span');
+    base.className = 'math-script-base';
+    base.appendChild(previous);
+    wrapper.appendChild(base);
+  }
+  const script = document.createElement(type);
+  script.appendChild(scriptFragment);
+  wrapper.appendChild(script);
+  fragment.appendChild(wrapper);
+}
+
+function getMathCommandText(command) {
+  const symbols = {
+    approx: '≈',
+    cdot: '·',
+    ge: '≥',
+    le: '≤',
+    infty: '∞',
+    pm: '±',
+    rho: 'ρ',
+    sigma: 'σ',
+    sum: 'Σ',
+    times: '×'
+  };
+  return symbols[command] || command;
+}
+
+function renderRichContent(target, content, fallback = '') {
+  target.innerHTML = '';
+  const blocks = Array.isArray(content) ? content : [content || fallback];
+  blocks.forEach((block) => {
+    if (!block) return;
+    if (typeof block === 'string') {
+      block.split('\n').filter(Boolean).forEach((line) => {
+        const p = document.createElement('p');
+        appendInlineContent(p, line);
+        target.appendChild(p);
+      });
+      return;
+    }
+    if (block.type === 'math') {
+      const div = document.createElement('div');
+      div.className = 'math-block';
+      appendMathContent(div, block.content || '');
+      target.appendChild(div);
+      return;
+    }
+    if (block.type === 'table') {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'table-scroll';
+      const table = document.createElement('table');
+      table.className = 'data-table';
+      if (block.caption) {
+        const caption = document.createElement('caption');
+        caption.textContent = block.caption;
+        table.appendChild(caption);
+      }
+      if (Array.isArray(block.headers) && block.headers.length) {
+        const thead = document.createElement('thead');
+        const tr = document.createElement('tr');
+        block.headers.forEach((header) => {
+          const th = document.createElement('th');
+          appendInlineContent(th, header);
+          tr.appendChild(th);
+        });
+        thead.appendChild(tr);
+        table.appendChild(thead);
+      }
+      const tbody = document.createElement('tbody');
+      (Array.isArray(block.rows) ? block.rows : []).forEach((row) => {
+        const tr = document.createElement('tr');
+        (Array.isArray(row) ? row : []).forEach((cell) => {
+          const td = document.createElement('td');
+          appendInlineContent(td, cell);
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+      table.appendChild(tbody);
+      wrapper.appendChild(table);
+      target.appendChild(wrapper);
+      return;
+    }
+    if (block.type === 'text' || block.content) {
+      const p = document.createElement('p');
+      appendInlineContent(p, block.content || '');
+      target.appendChild(p);
+    }
+  });
+  if (!target.children.length) {
+    target.textContent = fallback;
+  }
+}
+
 function getDisplayOptions(quiz) {
   if (!Array.isArray(quiz.displayOptions)) {
     quiz.displayOptions = Array.isArray(quiz.options) ? [...quiz.options] : [];
@@ -197,7 +440,14 @@ function getDisplayOptions(quiz) {
 }
 
 function setOptionButtonContent(btn, option, index) {
-  btn.textContent = `${String.fromCharCode(97 + index)}. ${option.text}`;
+  btn.textContent = '';
+  const prefix = document.createElement('span');
+  prefix.className = 'option-prefix';
+  prefix.textContent = `${String.fromCharCode(97 + index)}.`;
+  const body = document.createElement('span');
+  body.className = 'option-text';
+  appendInlineContent(body, option.content || option.text);
+  btn.append(prefix, body);
   btn.dataset.optionKey = option.key || '';
   btn.dataset.optionText = option.text;
 }
@@ -217,6 +467,26 @@ function markCorrectOption(buttons, quiz) {
       button.classList.add('is-correct');
     }
   });
+}
+
+function renderExplanation(target, quiz) {
+  const blocks = [
+    `解答: ${quiz.answer_text || ''}`,
+    quiz.explanation ? `解説: ${quiz.explanation}` : '',
+    quiz.other_explanations ? `他選択肢: ${quiz.other_explanations}` : '',
+  ].filter(Boolean);
+  renderRichContent(target, quiz.explanation_blocks || blocks);
+}
+
+function getQuizContent(quiz) {
+  const blocks = [];
+  if (quiz.question) blocks.push(quiz.question);
+  if (Array.isArray(quiz.content)) {
+    blocks.push(...quiz.content);
+  } else if (quiz.content) {
+    blocks.push(quiz.content);
+  }
+  return blocks;
 }
 
 function getQuizId(quiz) {
@@ -412,7 +682,7 @@ function renderTerm() {
   els.cardTitle.textContent = front;
   els.cardTag.textContent = term.chapter || '';
   if (state.revealed) {
-    els.cardBody.textContent = back;
+    renderRichContent(els.cardBody, back);
     els.revealBtn.textContent = '答えを隠す';
     renderMeta(term);
   } else {
@@ -448,7 +718,7 @@ function renderMetaList(blockEl, listEl, items) {
   }
   normalized.forEach((text) => {
     const li = document.createElement('li');
-    li.textContent = text;
+    appendInlineContent(li, text);
     listEl.appendChild(li);
   });
   blockEl.classList.remove('hidden');
@@ -471,20 +741,20 @@ function renderMeta(term) {
 }
 
 function renderQuiz() {
-  els.quizExplain.textContent = '';
+  els.quizExplain.innerHTML = '';
   els.quizExplain.classList.add('hidden');
   if (!state.quizzes.length) {
-    els.quizQuestion.textContent = '問題データを追加してください。';
+    renderRichContent(els.quizQuestion, '問題データを追加してください。');
     els.quizOptions.innerHTML = '';
     return;
   }
   const quiz = state.quizzes[state.quizIndex];
   if (!quiz) {
-    els.quizQuestion.textContent = '問題データを追加してください。';
+    renderRichContent(els.quizQuestion, '問題データを追加してください。');
     els.quizOptions.innerHTML = '';
     return;
   }
-  els.quizQuestion.textContent = quiz.question;
+  renderRichContent(els.quizQuestion, getQuizContent(quiz), '問題データを追加してください。');
   els.quizTag.textContent = quiz.chapter || '';
   els.quizOptions.innerHTML = '';
   getDisplayOptions(quiz).forEach((option, index) => {
@@ -511,9 +781,9 @@ function renderDetails(items) {
     const label = document.createElement('p');
     label.className = 'detail-label';
     label.textContent = item.label || '補足';
-    const text = document.createElement('p');
-    text.className = 'detail-text';
-    text.textContent = item.content || '';
+    const text = document.createElement('div');
+    text.className = 'detail-text rich-content';
+    renderRichContent(text, item.blocks || item.content || '');
     wrapper.appendChild(label);
     wrapper.appendChild(text);
     els.materialDetails.appendChild(wrapper);
@@ -529,7 +799,7 @@ function renderMaterial() {
   if (!state.materials.length) {
     els.materialTitle.textContent = '資料がありません';
     els.materialTag.textContent = '';
-    els.materialSummary.textContent = 'この科目にはまだ資料が登録されていません。materials を追加すると、要点や補足をここで読めます。';
+    renderRichContent(els.materialSummary, 'この科目にはまだ資料が登録されていません。materials を追加すると、要点や補足をここで読めます。');
     els.materialPoints.innerHTML = '';
     els.materialPointsBlock.classList.add('hidden');
     els.materialDetails.innerHTML = '';
@@ -541,7 +811,7 @@ function renderMaterial() {
   if (!material) return;
   els.materialTitle.textContent = material.title || '資料';
   els.materialTag.textContent = material.chapter || '';
-  els.materialSummary.textContent = material.summary || '概要は未設定です。';
+  renderRichContent(els.materialSummary, material.content || material.summary, '概要は未設定です。');
   renderMetaList(els.materialPointsBlock, els.materialPoints, material.points);
   renderDetails(material.details);
   els.materialSource.textContent = material.source ? `出典: ${material.source}` : '';
@@ -578,22 +848,22 @@ function updateQuizCountOptions() {
 }
 
 function renderSessionQuestion() {
-  els.sessionExplain.textContent = '';
+  els.sessionExplain.innerHTML = '';
   els.sessionExplain.classList.add('hidden');
   if (!state.session.queue.length) {
-    els.sessionQuestion.textContent = '問題データを追加してください。';
+    renderRichContent(els.sessionQuestion, '問題データを追加してください。');
     els.sessionOptions.innerHTML = '';
     return;
   }
   const quiz = state.session.queue[state.session.cursor];
   if (!quiz) {
-    els.sessionQuestion.textContent = '問題データを追加してください。';
+    renderRichContent(els.sessionQuestion, '問題データを追加してください。');
     els.sessionOptions.innerHTML = '';
     return;
   }
   els.sessionProgress.textContent = `${state.session.cursor + 1} / ${state.session.queue.length} 問`;
   els.sessionTag.textContent = quiz.chapter || '';
-  els.sessionQuestion.textContent = quiz.question;
+  renderRichContent(els.sessionQuestion, getQuizContent(quiz), '問題データを追加してください。');
   els.sessionOptions.innerHTML = '';
   state.session.answered = false;
   getDisplayOptions(quiz).forEach((option, index) => {
@@ -619,10 +889,10 @@ function renderSessionResult() {
 }
 
 function renderReviewQuestion() {
-  els.reviewExplain.textContent = '';
+  els.reviewExplain.innerHTML = '';
   els.reviewExplain.classList.add('hidden');
   if (!state.review.queue.length) {
-    els.reviewQuestion.textContent = '復習する問題がありません。';
+    renderRichContent(els.reviewQuestion, '復習する問題がありません。');
     els.reviewOptions.innerHTML = '';
     return;
   }
@@ -630,7 +900,7 @@ function renderReviewQuestion() {
   const quiz = entry.quiz;
   els.reviewProgress.textContent = `${state.review.cursor + 1} / ${state.review.queue.length} 問`;
   els.reviewTag.textContent = quiz.chapter || '';
-  els.reviewQuestion.textContent = quiz.question;
+  renderRichContent(els.reviewQuestion, getQuizContent(quiz), '問題データを追加してください。');
   els.reviewOptions.innerHTML = '';
   getDisplayOptions(quiz).forEach((option, index) => {
     const btn = document.createElement('button');
@@ -646,12 +916,7 @@ function renderReviewQuestion() {
     }
     els.reviewOptions.appendChild(btn);
   });
-  const explainParts = [
-    `解答: ${quiz.answer_text}`,
-    quiz.explanation ? `解説: ${quiz.explanation}` : '',
-    quiz.other_explanations ? `他選択肢: ${quiz.other_explanations}` : '',
-  ].filter(Boolean);
-  els.reviewExplain.textContent = explainParts.join(' ');
+  renderExplanation(els.reviewExplain, quiz);
   els.reviewExplain.classList.remove('hidden');
 }
 
@@ -746,12 +1011,7 @@ function handleQuizAnswer(option, quiz, btn) {
     markCorrectOption(buttons, quiz);
   }
 
-  const explainParts = [
-    `解答: ${quiz.answer_text}`,
-    quiz.explanation ? `解説: ${quiz.explanation}` : '',
-    quiz.other_explanations ? `他選択肢: ${quiz.other_explanations}` : '',
-  ].filter(Boolean);
-  els.quizExplain.textContent = explainParts.join(' ');
+  renderExplanation(els.quizExplain, quiz);
   els.quizExplain.classList.remove('hidden');
   saveProgress();
   updateMetrics();
@@ -776,12 +1036,7 @@ function handleSessionAnswer(option, quiz, btn) {
     recordWrongQuestion(quiz, option.key);
     state.session.wrongItems.push({ quiz, selectedKey: option.key });
   }
-  const explainParts = [
-    `解答: ${quiz.answer_text}`,
-    quiz.explanation ? `解説: ${quiz.explanation}` : '',
-    quiz.other_explanations ? `他選択肢: ${quiz.other_explanations}` : '',
-  ].filter(Boolean);
-  els.sessionExplain.textContent = explainParts.join(' ');
+  renderExplanation(els.sessionExplain, quiz);
   els.sessionExplain.classList.remove('hidden');
   saveProgress();
   updateMetrics();
