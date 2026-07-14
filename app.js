@@ -420,6 +420,10 @@ function renderRichContent(target, content, fallback = '') {
       target.appendChild(wrapper);
       return;
     }
+    if (block.type === 'logic-animation') {
+      target.appendChild(createLogicAnimation(block));
+      return;
+    }
     if (block.type === 'text' || block.content) {
       const p = document.createElement('p');
       appendInlineContent(p, block.content || '');
@@ -429,6 +433,67 @@ function renderRichContent(target, content, fallback = '') {
   if (!target.children.length) {
     target.textContent = fallback;
   }
+}
+
+function createLogicAnimation(block) {
+  const simulation = document.createElement('section');
+  simulation.className = 'logic-simulation';
+  simulation.setAttribute('aria-label', block.title || 'NOT回路の動作アニメーション');
+
+  const heading = document.createElement('p');
+  heading.className = 'logic-simulation-title';
+  heading.textContent = block.title || '回路を動かして確かめる';
+  simulation.appendChild(heading);
+
+  const description = document.createElement('p');
+  description.className = 'logic-simulation-description';
+  description.textContent = block.description || '入力を切り替えると、電流の流れと出力が連動して変化する。';
+  simulation.appendChild(description);
+
+  const controls = document.createElement('div');
+  controls.className = 'logic-controls';
+  const lowButton = document.createElement('button');
+  lowButton.type = 'button';
+  lowButton.textContent = '入力 Low (0)';
+  const highButton = document.createElement('button');
+  highButton.type = 'button';
+  highButton.textContent = '入力 High (1)';
+  controls.append(lowButton, highButton);
+  simulation.appendChild(controls);
+
+  const circuit = document.createElement('div');
+  circuit.className = 'logic-circuit is-low';
+  circuit.innerHTML = `
+    <div class="logic-node logic-input"><span>入力</span><strong>Low / 0</strong></div>
+    <div class="logic-wire logic-base-wire"></div>
+    <div class="logic-transistor"><span class="logic-transistor-label">NPN</span><span class="logic-switch"></span><span class="logic-transistor-state">OFF</span></div>
+    <div class="logic-wire logic-collector-wire"></div>
+    <div class="logic-node logic-output"><span>出力</span><strong>High / 1</strong></div>
+    <div class="logic-led"><span class="logic-led-bulb"></span><span class="logic-led-label">LED 消灯</span></div>
+  `;
+  simulation.appendChild(circuit);
+
+  const result = document.createElement('p');
+  result.className = 'logic-result';
+  simulation.appendChild(result);
+
+  const setState = (isHigh) => {
+    circuit.classList.toggle('is-high', isHigh);
+    circuit.classList.toggle('is-low', !isHigh);
+    lowButton.classList.toggle('is-active', !isHigh);
+    highButton.classList.toggle('is-active', isHigh);
+    circuit.querySelector('.logic-input strong').textContent = isHigh ? 'High / 1' : 'Low / 0';
+    circuit.querySelector('.logic-output strong').textContent = isHigh ? 'Low / 0' : 'High / 1';
+    circuit.querySelector('.logic-transistor-state').textContent = isHigh ? 'ON' : 'OFF';
+    circuit.querySelector('.logic-led-label').textContent = isHigh ? 'LED 点灯' : 'LED 消灯';
+    result.textContent = isHigh
+      ? 'ベース電流が流れてトランジスタがONになる。出力は0 V付近となり Low (0) である。'
+      : 'ベース電流が流れずトランジスタはOFFである。出力はVCC付近となり High (1) である。';
+  };
+  lowButton.addEventListener('click', () => setState(false));
+  highButton.addEventListener('click', () => setState(true));
+  setState(false);
+  return simulation;
 }
 
 function getDisplayOptions(quiz) {

@@ -691,6 +691,159 @@ button.primary {
   color: var(--ink-soft);
 }
 
+.logic-simulation {
+  margin: 14px 0 4px;
+  padding: 16px;
+  border: 1px solid rgba(31, 42, 36, 0.14);
+  border-radius: 16px;
+  background: linear-gradient(135deg, #f8f4eb, #eef5ed);
+}
+
+.logic-simulation-title,
+.logic-simulation-description,
+.logic-result {
+  margin: 0;
+}
+
+.logic-simulation-title {
+  font-weight: 800;
+}
+
+.logic-simulation-description,
+.logic-result {
+  margin-top: 6px;
+  color: var(--ink-soft);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.logic-controls {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.logic-controls button {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 7px 11px;
+  background: #fffdf8;
+  color: var(--ink);
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+}
+
+.logic-controls button.is-active {
+  color: #fff;
+  border-color: var(--accent-2);
+  background: var(--accent-2);
+}
+
+.logic-circuit {
+  display: grid;
+  grid-template-columns: minmax(72px, 1fr) 28px minmax(72px, 1fr) 28px minmax(72px, 1fr);
+  align-items: center;
+  gap: 5px;
+  margin-top: 14px;
+}
+
+.logic-node,
+.logic-transistor,
+.logic-led {
+  min-height: 78px;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  border-radius: 12px;
+  border: 2px solid #62746a;
+  background: #fffdf8;
+  transition: border-color 260ms ease, background 260ms ease, transform 260ms ease;
+}
+
+.logic-node span,
+.logic-transistor-label,
+.logic-led-label {
+  font-size: 11px;
+  color: var(--ink-soft);
+}
+
+.logic-node strong,
+.logic-transistor-state {
+  margin-top: 3px;
+  font-size: 14px;
+}
+
+.logic-wire {
+  height: 5px;
+  border-radius: 99px;
+  background: #aab5ad;
+  transition: background 260ms ease;
+}
+
+.logic-transistor {
+  position: relative;
+}
+
+.logic-switch {
+  width: 34px;
+  height: 7px;
+  margin: 7px auto 2px;
+  border-radius: 99px;
+  background: #aab5ad;
+  transform: rotate(-22deg);
+  transform-origin: left center;
+  transition: background 260ms ease, transform 260ms ease;
+}
+
+.logic-led {
+  grid-column: 3;
+  grid-row: 2;
+  min-height: 56px;
+  margin-top: 8px;
+  border-style: dashed;
+}
+
+.logic-led-bulb {
+  width: 17px;
+  height: 17px;
+  margin: 0 auto 3px;
+  border-radius: 50%;
+  background: #c6ccc5;
+  box-shadow: none;
+  transition: background 260ms ease, box-shadow 260ms ease;
+}
+
+.logic-circuit.is-high .logic-node,
+.logic-circuit.is-high .logic-transistor {
+  border-color: #c05b27;
+  background: #fff3dd;
+}
+
+.logic-circuit.is-high .logic-wire,
+.logic-circuit.is-high .logic-switch {
+  background: #c05b27;
+}
+
+.logic-circuit.is-high .logic-switch {
+  transform: rotate(0deg);
+}
+
+.logic-circuit.is-high .logic-led-bulb {
+  background: #ffc23d;
+  box-shadow: 0 0 0 5px rgba(255, 194, 61, 0.22), 0 0 18px rgba(255, 167, 40, 0.9);
+  animation: logicGlow 850ms ease-in-out infinite alternate;
+}
+
+@keyframes logicGlow {
+  to { transform: scale(1.12); }
+}
+
+@media (max-width: 520px) {
+  .logic-circuit { grid-template-columns: 1fr 20px 1fr 20px 1fr; gap: 3px; }
+  .logic-node, .logic-transistor { min-height: 70px; }
+}
+
 .card-actions {
   display: flex;
   gap: 12px;

@@ -91,6 +91,15 @@
       "description": "第2回から第4回までの講義ノートをもとに、古代宇宙観からケプラーの法則までを整理する。"
     },
     {
+      "id": "logic-circuit",
+      "title": "論理回路",
+      "file": "./data/logic-circuit.json",
+      "theme": "default",
+      "themeLabel": "Interactive Notes",
+      "group": "Computer Engineering",
+      "description": "ディジタル化、2進数、トランジスタのスイッチング、NOT回路を資料・用語・小テストと操作型アニメーションで整理する。"
+    },
+    {
       "id": "contemporary-law",
       "title": "法の現代的課題",
       "file": "./data/contemporary-law.json",

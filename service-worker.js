@@ -1,4 +1,4 @@
-const CACHE_NAME = 'study-forge-v39';
+const CACHE_NAME = 'study-forge-v40';
 const ASSETS = [
   './index.html',
   './study.html',
@@ -32,6 +32,7 @@ const ASSETS = [
   './data/index.json',
   './data/contemporary-law.json',
   './data/modern-astronomy.json',
+  './data/logic-circuit.json',
   './data/philosophy.json',
   './data/statistics-grade2.json',
   './data/supplement1.json',

@@ -1,0 +1,60 @@
+{
+  "subject": "論理回路",
+  "terms": [
+    {"term":"アナログ信号","definition":"時間や値が連続的に変化する信号。","example":"温度、音圧、電圧は連続量として扱える。","chapter":"第1回","source":"論理回路 ch01"},
+    {"term":"ディジタル信号","definition":"値を有限個の段階に分け、符号で表す信号。","example":"電圧をHighとLowの2値で扱う。","chapter":"第1回","source":"論理回路 ch01"},
+    {"term":"標本化","definition":"連続時間の信号を一定時間ごとに取り出す操作。","example":"音声波形を一定の時間間隔で測る。","chapter":"第1回","source":"論理回路 ch01"},
+    {"term":"量子化","definition":"取り出した値を有限個の段階のいずれかに丸める操作。","example":"電圧を最も近い量子化段階へ対応させる。","chapter":"第1回","source":"論理回路 ch01"},
+    {"term":"符号化","definition":"量子化した段階を2進数などのコードに対応させる操作。","example":"4bitなら16段階をコード化できる。","chapter":"第1回","source":"論理回路 ch01"},
+    {"term":"標本化定理","definition":"最高周波数の2倍以上で標本化すると元の信号を復元できるという条件。","example":"f_sample ≥ 2f_max を満たす必要がある。","chapter":"第1回","source":"論理回路 ch01"},
+    {"term":"量子化誤差","definition":"量子化による、元の値と丸めた値との差。","example":"ビット数を増やすと1段階の幅が小さくなる。","chapter":"第1回","source":"論理回路 ch01"},
+    {"term":"LSB","definition":"Least Significant Bit。最下位ビット1つ分の重み。","example":"4bitでFS=10 Vなら1 LSBは0.625 V。","chapter":"第1回","source":"論理回路 ch01"},
+    {"term":"2の補数","definition":"負の整数を表すための2進数表現。","example":"4bitの2の補数では-8から7を表せる。","chapter":"第1回","source":"論理回路 ch01"},
+    {"term":"オームの法則","definition":"電圧V、電流I、抵抗Rの関係 V = IR。","example":"5 Vと1 kΩなら電流は5 mA。","chapter":"第1回","source":"論理回路 ch01"},
+    {"term":"トランジスタ","definition":"小さなベース電流で大きなコレクタ電流を制御できる半導体素子。","example":"ベースB、コレクタC、エミッタEの3端子を持つ。","chapter":"第2回","source":"論理回路 ch02"},
+    {"term":"電流増幅率 β","definition":"ベース電流に対するコレクタ電流の比。能動領域で I_C = βI_B と表す。","example":"β=100、I_B=10 μAならI_Cは1 mA。","chapter":"第2回","source":"論理回路 ch02"},
+    {"term":"負荷線","definition":"電源電圧と負荷抵抗で決まる I_C と V_CE の関係を表す直線。","example":"I_C = (V_CC - V_CE) / R_C。","chapter":"第2回","source":"論理回路 ch02"},
+    {"term":"飽和","definition":"負荷抵抗による上限のため、ベース電流を増やしてもコレクタ電流が増えない状態。","example":"ON時はV_CEをほぼ0 Vと近似する。","chapter":"第2回","source":"論理回路 ch02"},
+    {"term":"NOT回路","definition":"入力の論理値を反転して出力する回路。インバータともいう。","example":"入力Lowなら出力High、入力Highなら出力Low。","chapter":"第2回","source":"論理回路 ch02"}
+  ],
+  "materials": [
+    {
+      "title":"論理回路 — 第1回 ディジタル電子回路の基礎",
+      "chapter":"第1回",
+      "source":"論理回路 ch01",
+      "summary":"ディジタル回路は、連続的な信号を有限個の値へ対応させ、0と1の符号として扱う。A/D変換と2進数表現を土台に、回路が情報を扱う方法を整理する。",
+      "points":["A/D変換は「標本化 → 量子化 → 符号化」の順で進む。","n bitで表せる段階数は2^nである。","4 bitの2の補数で表せる整数は-8から7である。"],
+      "details":[
+        {"label":"A/D変換","content":["標本化は一定時間ごとに値を取り出す操作、量子化は有限段階への丸め、符号化は2進コードへの対応である。","最高周波数をf_maxとすると、標本化周波数はf_sample ≥ 2f_maxとする。"]},
+        {"label":"ビットと分解能","content":[{"type":"math","content":"n bit の段階数 = 2^n"},"FSを表現範囲全体とすると、4 bitでは1 LSB = FS / 16である。"]},
+        {"label":"基本回路","content":"HighとLowは実際には電圧で表す。電流・電圧・抵抗の関係はオームの法則 V = IR で確認する。"}
+      ]
+    },
+    {
+      "title":"論理回路 — 第2回 トランジスタのスイッチング動作",
+      "chapter":"第2回",
+      "source":"論理回路 ch02",
+      "summary":"トランジスタを電流を流すスイッチとして捉える。負荷線で電流の上限を確認し、コレクタ側の出力が反転するNOT回路へつなげる。",
+      "points":["負荷線は V_CC = I_C R_C + V_CE で決まる。","OFFでは I_C ≈ 0、ONでは V_CE ≈ 0 と近似する。","コレクタ出力では入力Highが出力LowになるためNOT回路となる。"],
+      "details":[
+        {"label":"ON/OFFの判定","content":["OFFではコレクタ電流はほぼ流れず、出力はV_CC付近のHighとなる。","ONではコレクタ電流が流れ、出力は0 V付近のLowとなる。"]},
+        {"label":"電流の上限","content":[{"type":"math","content":"I_C = min(βI_B, V_CC / R_C)"},"βI_Bで見積もった電流が負荷線の上限を超えると、トランジスタは飽和する。"]},
+        {"label":"操作アニメーション","blocks":[{"type":"logic-animation","title":"NOT回路シミュレーター","description":"入力を切り替えて、トランジスタのON/OFF、LED、出力論理値が反転する様子を確認する。"}]}
+      ]
+    }
+  ],
+  "quizzes": [
+    {"question":"A/D変換の正しい順序はどれか。","options":[{"key":"a","text":"符号化 → 量子化 → 標本化"},{"key":"b","text":"標本化 → 量子化 → 符号化"},{"key":"c","text":"量子化 → 標本化 → 符号化"},{"key":"d","text":"標本化 → 符号化 → 量子化"}],"answer_key":"b","answer_text":"標本化 → 量子化 → 符号化","explanation":"連続信号を時間方向に取り出し、値を段階化してからコードへ対応させる。","other_explanations":"順序を入れ替えると、各操作の対象が成立しない。","chapter":"第1回","source":"論理回路 ch01"},
+    {"question":"最高周波数がf_maxの信号を標本化するときの条件はどれか。","options":[{"key":"a","text":"f_sample ≥ f_max / 2"},{"key":"b","text":"f_sample = f_max"},{"key":"c","text":"f_sample ≥ 2f_max"},{"key":"d","text":"f_sample ≤ 2f_max"}],"answer_key":"c","answer_text":"f_sample ≥ 2f_max","explanation":"標本化定理では最高周波数の2倍以上が必要である。","other_explanations":"2倍未満では速い変化を誤って読むおそれがある。","chapter":"第1回","source":"論理回路 ch01"},
+    {"question":"4 bitで表現できる段階数はどれか。","options":[{"key":"a","text":"4"},{"key":"b","text":"8"},{"key":"c","text":"16"},{"key":"d","text":"32"}],"answer_key":"c","answer_text":"16","explanation":"n bitでは2^n通りなので、2^4=16である。","other_explanations":"bit数そのものではなく2の累乗で段階数を求める。","chapter":"第1回","source":"論理回路 ch01"},
+    {"question":"FS=8 Vを4 bitで量子化するとき、1 LSBはいくらか。","options":[{"key":"a","text":"0.25 V"},{"key":"b","text":"0.5 V"},{"key":"c","text":"1 V"},{"key":"d","text":"2 V"}],"answer_key":"b","answer_text":"0.5 V","explanation":"1 LSB = FS / 16 = 8 / 16 = 0.5 Vである。","other_explanations":"4 bitは16段階である。","chapter":"第1回","source":"論理回路 ch01"},
+    {"question":"4 bitの2の補数で表せる範囲はどれか。","options":[{"key":"a","text":"0から15"},{"key":"b","text":"-7から8"},{"key":"c","text":"-8から7"},{"key":"d","text":"-16から15"}],"answer_key":"c","answer_text":"-8から7","explanation":"4 bitの2の補数の範囲は-2^3から2^3-1である。","other_explanations":"0から15は符号なし整数の範囲である。","chapter":"第1回","source":"論理回路 ch01"},
+    {"question":"電圧5 V、抵抗1 kΩのとき、オームの法則から求める電流はどれか。","options":[{"key":"a","text":"0.5 mA"},{"key":"b","text":"5 mA"},{"key":"c","text":"50 mA"},{"key":"d","text":"5 A"}],"answer_key":"b","answer_text":"5 mA","explanation":"I=V/R=5 V/1 kΩ=5 mAである。","other_explanations":"kΩをΩへ換算して計算する。","chapter":"第1回","source":"論理回路 ch01"},
+    {"question":"トランジスタで小さなベース電流により制御する電流はどれか。","options":[{"key":"a","text":"コレクタ電流 I_C"},{"key":"b","text":"電源電圧 V_CC"},{"key":"c","text":"抵抗値 R_C"},{"key":"d","text":"量子化誤差"}],"answer_key":"a","answer_text":"コレクタ電流 I_C","explanation":"ベース電流I_Bがコレクタ電流I_Cを制御する。","other_explanations":"V_CCとR_Cは外部回路の条件である。","chapter":"第2回","source":"論理回路 ch02"},
+    {"question":"負荷線を表す式はどれか。","options":[{"key":"a","text":"V_CC = I_C R_C + V_CE"},{"key":"b","text":"V_CC = βI_B"},{"key":"c","text":"V_CC = f_sample / 2"},{"key":"d","text":"V_CC = 2^n"}],"answer_key":"a","answer_text":"V_CC = I_C R_C + V_CE","explanation":"電源電圧は抵抗の電圧降下とトランジスタのV_CEに分かれる。","other_explanations":"βI_Bは能動領域でのI_Cの見積もりである。","chapter":"第2回","source":"論理回路 ch02"},
+    {"question":"トランジスタをスイッチとして使うとき、OFF状態の近似として正しいものはどれか。","options":[{"key":"a","text":"I_C ≈ 0"},{"key":"b","text":"V_CE ≈ 0"},{"key":"c","text":"I_C ≈ V_CC/R_C"},{"key":"d","text":"出力は必ずLow"}],"answer_key":"a","answer_text":"I_C ≈ 0","explanation":"OFFではコレクタ電流をほぼ流さない。","other_explanations":"V_CE≈0はON時の飽和近似である。","chapter":"第2回","source":"論理回路 ch02"},
+    {"question":"V_CC=5 V、R_C=1 kΩのとき、負荷線が決めるコレクタ電流の最大値はどれか。","options":[{"key":"a","text":"0.5 mA"},{"key":"b","text":"5 mA"},{"key":"c","text":"50 mA"},{"key":"d","text":"500 mA"}],"answer_key":"b","answer_text":"5 mA","explanation":"最大電流はV_CC/R_C=5 V/1 kΩ=5 mAである。","other_explanations":"βI_Bで大きく見積もれても、この上限を超えて流れない。","chapter":"第2回","source":"論理回路 ch02"},
+    {"question":"コレクタ側を出力とするNOT回路で、入力がLowのときの出力はどれか。","options":[{"key":"a","text":"High"},{"key":"b","text":"Low"},{"key":"c","text":"不定"},{"key":"d","text":"常に0 V"}],"answer_key":"a","answer_text":"High","explanation":"入力LowではトランジスタがOFFとなり、出力はV_CC付近のHighとなる。","other_explanations":"NOT回路は入力を反転して出力する。","chapter":"第2回","source":"論理回路 ch02"},
+    {"question":"コレクタ側を出力とするNOT回路で、入力がHighのときの出力はどれか。","options":[{"key":"a","text":"High"},{"key":"b","text":"Low"},{"key":"c","text":"V_CCより高い"},{"key":"d","text":"量子化値"}],"answer_key":"b","answer_text":"Low","explanation":"入力HighではトランジスタがONとなり、出力は0 V付近のLowとなる。","other_explanations":"入力と反対の論理値が出力される。","chapter":"第2回","source":"論理回路 ch02"}
+  ]
+}
